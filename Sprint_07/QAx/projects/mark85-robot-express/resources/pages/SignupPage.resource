@@ -2,7 +2,7 @@
 Documentation        Elementos e ações da página de cadastro
 
 Library        Browser
-Resource        ../env.robot
+Resource        ../env.resource
 
 
 *** Keywords ***
@@ -33,3 +33,10 @@ Notice should be
     Wait For Elements State        ${element}      visible        5
     #Validação da mensagens de boas vindas pra garantir que foi cadastrado: Ex. Boas vindas ao Mark85
     Get Text                       ${element}      equal      ${expected_texto}
+
+# O alerta deve ser
+Alert should be
+    [Arguments]        ${expected_text}
+
+    Wait For Elements State    css=.alert-error >> text=${expected_text}
+    ...    visible    5
