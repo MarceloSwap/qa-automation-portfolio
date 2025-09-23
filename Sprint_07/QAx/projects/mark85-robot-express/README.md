@@ -47,6 +47,7 @@ pip install robotframework
 pip install robotframework-browser
 pip install robotframework-faker
 pip install pymongo
+pip install bcrypt
 ```
 
 ### Comandos de Execução

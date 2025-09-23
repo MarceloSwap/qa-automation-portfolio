@@ -1,5 +1,5 @@
 *** Settings ***
-Documentation        Elementos e ações da página de login
+Documentation        Ações e elementos do componente de noticifações
 
 Library        String
 Library        Browser
@@ -26,3 +26,4 @@ User should be logger in
     Wait For Elements State     ${element}    visible    5
     #Valida o texto que aparece no elemento - pega o valor que está na primeira posição da lista splite_name, ou seja o primeiro nome
     Get Text                    ${element}    equal    Olá, ${splite_name}[0]
+
