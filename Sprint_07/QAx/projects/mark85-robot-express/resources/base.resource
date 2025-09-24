@@ -5,6 +5,8 @@ Library        Browser
 
 Resource       env.resource
 
+Resource       pages/components/Header.resource
+Resource       pages/components/Alert.resource
 Resource       pages/components/Notice.resource
 
 Resource       pages/SignupPage.resource

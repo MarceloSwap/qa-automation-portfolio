@@ -18,11 +18,11 @@ CT006 Deve poder logar com um usário pré-cadastrado
     ...    password=pwd123
     
     # Exclui o user de teste e garante que ele terá os dados iniciais corretos para os testes
-    Remove user from database    ${user}[email]
-    # Garante que vou ter um user pra logar
-    Insert user from database    ${user}
+    Remove user from database    ${user}[email]        
     
-    Submit login form CT006        ${user}
+    Insert user from database    ${user}        # Garante que vou ter um user pra logar
+    
+    Submit login form        ${user}
     User should be logger in       ${user}[name]
 
 CT007 Não deve logar com senha inválida
@@ -38,8 +38,8 @@ CT007 Não deve logar com senha inválida
     Insert user from database    ${user}
     
     # Usando a lib Collections para setar um valor diferente na senha
-    Set To Dictionary        ${user}    password=abc123
+    Set To Dictionary        ${user}        password=abc123
 
-    Submit login form CT006        ${user}
+    Submit login form        ${user}
     # Aviso deve ter
-    Notice should be               Ocorreu um erro ao fazer login, verifique suas credenciais.
+    Notice should be         Ocorreu um erro ao fazer login, verifique suas credenciais.
