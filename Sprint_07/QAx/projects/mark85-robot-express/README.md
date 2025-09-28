@@ -16,28 +16,34 @@ O arquivo `resources/libs/database.py` contém a string de conexão MongoDB. **A
 client = MongoClient('mongodb+srv://SEU_USUARIO:SUA_SENHA@cluster0.d8iw87s.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0')
 ```
 
-#### 2. URL da Aplicação
-O arquivo `resources/base.robot` define a URL base. **Verifique se a aplicação está rodando:**
+#### 2. Variáveis de Ambiente
+O arquivo `resources/env.resource` define as configurações do ambiente:
 
 ```robot
-# Em resources/base.robot:
-New Page        http://localhost:3000
+# Em resources/env.resource:
+${BASE_URL}     http://localhost:3000
+${BROWSER}      chromium
 ```
 
-#### 3. Variáveis de Ambiente (Opcional)
-Crie um arquivo `.env` na raiz do projeto se necessário:
+#### 3. Dados de Teste
+Os dados de teste ficam em `resources/fixtures/` no formato JSON:
 
-```env
-# .env (exemplo)
-MONGO_URI=mongodb+srv://usuario:senha@cluster.mongodb.net/markdb
-APP_URL=http://localhost:3000
-BROWSER=chromium
+```json
+{
+  "signup": {
+    "name": "Teste User",
+    "email": "teste@example.com",
+    "password": "123456"
+  }
+}
 ```
 
 ### ⚠️ Importante
-- Certifique-se que a **API Mark85** está rodando em `http://localhost:3000`
+- Certifique-se que a **API Mark85** está rodando em `http://localhost:3333`
+- Certifique-se que a **Web Mark85** está rodando em `http://localhost:3000`
 - Verifique as **credenciais do MongoDB** no arquivo `database.py`
 - Confirme que o **cluster MongoDB** está ativo e acessível
+- Execute `rfbrowser init` após instalar robotframework-browser
 
 ## 🚀 Executar Testes
 
@@ -45,9 +51,13 @@ BROWSER=chromium
 ```bash
 pip install robotframework
 pip install robotframework-browser
+pip install robotframework-jsonlibrary
 pip install robotframework-faker
 pip install pymongo
 pip install bcrypt
+
+# Inicializar Playwright
+rfbrowser init
 ```
 
 ### Comandos de Execução
@@ -88,10 +98,22 @@ robot -d ./logs --loglevel DEBUG tests/
 
 ```
 mark85-robot-express/
-├── tests/              # Casos de teste
-├── resources/          # Keywords e variáveis
-├── logs/              # Relatórios de execução
-└── README.md          # Este arquivo
+├── tests/                    # Casos de teste
+│   ├── signup.robot         # Testes de cadastro
+│   └── online.robot         # Testes de funcionalidades
+├── resources/               # Keywords e configurações
+│   ├── base.resource        # Configurações base
+│   ├── env.resource         # Variáveis de ambiente
+│   ├── libs/                # Bibliotecas Python
+│   │   └── database.py      # Conexão MongoDB
+│   ├── pages/               # Page Objects
+│   │   ├── components/      # Componentes reutilizáveis
+│   │   ├── SignupPage.resource
+│   │   ├── LoginPage.resource
+│   │   └── TasksPage.resource
+│   └── fixtures/            # Dados de teste
+├── logs/                    # Relatórios de execução
+└── README.md                # Este arquivo
 ```
 
 ## 📊 Relatórios

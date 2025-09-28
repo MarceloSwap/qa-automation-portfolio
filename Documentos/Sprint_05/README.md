@@ -1,9 +1,55 @@
-### Testes da API Reqres.in
+# Sprint 05 - Automação de Testes API
 
-Este é um repositório de testes da API pública Reqres.in. Ele foi criado para demonstrar a utilização do Robot Framework para automação de testes de API.
+## 📋 Descrição
 
-Como rodar os testes
-Para executar todos os testes, basta usar o seguinte comando:
+Testes automatizados de APIs utilizando Robot Framework, cobrindo as APIs Reqres e ServeRest com diferentes cenários e validações.
 
-robot Reqres/
+## 🗂️ Projetos
+
+### API Reqres
+- **URL**: https://reqres.in/
+- **Testes**: CRUD de usuários, login, recursos
+- **Localização**: `Reqres/`
+
+### API ServeRest
+- **URL**: https://serverest.dev/
+- **Testes**: Usuários, produtos, carrinho, login
+- **Localização**: `ServeRest/`
+
+### Exemplos e Estruturas
+- **Tutoriais**: Exemplos básicos do Robot Framework
+- **Variáveis**: Demonstração de escopos e argumentos
+- **Localização**: `ExemplosEstruturas/`
+
+## 🚀 Como Executar
+
+### Pré-requisitos
+```bash
+pip install robotframework
+pip install robotframework-requests
+pip install robotframework-faker
+```
+
+### Executar Testes
+```bash
+# Todos os testes Reqres
+robot -d reports Reqres/
+
+# Todos os testes ServeRest
+robot -d reports ServeRest/
+
+# Teste específico
+robot -d reports ServeRest/usuarios_tests.robot
+```
+
+## 📊 Relatórios
+
+Os relatórios são gerados na pasta `reports/`:
+- `report.html` - Relatório visual
+- `log.html` - Log detalhado
+- `output.xml` - Dados estruturados
+
+---
+
+**Sprint 05 - Programa PB Compass** 🧭
 

@@ -7,8 +7,8 @@ Library        Browser
 Submit login form
     [Arguments]    ${user}
 
-    Fill Text        css=input[placeholder$=mail]    ${user}[email]
-    Fill Text        css=input[placeholder=Senha]    ${user}[password]
+    Fill Text        css=input[placeholder="E-mail"]    ${user}[email]
+    Fill Text        css=input[placeholder="Senha"]    ${user}[password]
 
     Click            css=button >> text=Entrar
     # Click            id=buttonLogin

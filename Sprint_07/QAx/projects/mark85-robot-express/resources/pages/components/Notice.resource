@@ -1,7 +1,8 @@
 *** Settings ***
 Documentation        Ações e elementos do componente de noticifações
 
-Library    Browser
+Resource        ../../../resources/base.resource
+
 
 *** Keywords ***
 Notice should be

@@ -1,8 +1,7 @@
 *** Settings ***
 Documentation        Ações e lementos do componente de mensagens de alertas
 
-Library        Browser
-
+Resource        ../../../resources/base.resource
 
 *** Keywords ***
 
@@ -10,4 +9,4 @@ Alert should be
     [Arguments]        ${expected_text}
 
     Wait For Elements State    css=.alert-error >> text=${expected_text}
-    ...    visible    5
+    ...    visible    6

@@ -1,506 +1,561 @@
-{"level":30,"time":"2025-09-24T13:52:33.857Z","pid":25456,"hostname":"MarceloNote","msg":"Listening on 127.0.0.1:44273"}
-(node:25456) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+{"level":30,"time":"2025-09-28T20:27:28.140Z","pid":21304,"hostname":"MarceloNote","msg":"Listening on 127.0.0.1:1450"}
+(node:21304) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
 (Use `node --trace-deprecation ...` to show where the warning was created)
-{"level":30,"time":"2025-09-24T13:52:33.995Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method newBrowser"}
-{"level":30,"time":"2025-09-24T13:52:34.864Z","pid":25456,"hostname":"MarceloNote","msg":"Adding browser to stack: chromium, version: 140.0.7339.16"}
-{"level":30,"time":"2025-09-24T13:52:34.866Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method newBrowser"}
-{"level":30,"time":"2025-09-24T13:52:34.866Z","pid":25456,"hostname":"MarceloNote","msg":"Adding 0 contexts to browser"}
-{"level":30,"time":"2025-09-24T13:52:34.880Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method newPage"}
-{"level":30,"time":"2025-09-24T13:52:34.881Z","pid":25456,"hostname":"MarceloNote","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@4b1c8d5e9650bdac1c7bc374989b13c6\"},\"headless\":false,\"_contextStack\":[],\"id\":\"browser=33353279-6e42-45f5-963a-c7462164ba22\"}"}
-{"level":30,"time":"2025-09-24T13:52:34.914Z","pid":25456,"hostname":"MarceloNote","msg":"Setting default timeout for context context=5ccd3a25-d252-440e-95ea-02c3142933f3 to 10000"}
-{"level":30,"time":"2025-09-24T13:52:34.915Z","pid":25456,"hostname":"MarceloNote","msg":"Changed active context: context=5ccd3a25-d252-440e-95ea-02c3142933f3"}
-{"level":30,"time":"2025-09-24T13:52:35.182Z","pid":25456,"hostname":"MarceloNote","msg":"Video path: undefined"}
-{"level":30,"time":"2025-09-24T13:52:35.183Z","pid":25456,"hostname":"MarceloNote","msg":"Changed active page"}
-{"level":30,"time":"2025-09-24T13:52:36.805Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method newPage"}
-{"level":30,"time":"2025-09-24T13:52:38.023Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method fillText"}
-{"level":30,"time":"2025-09-24T13:52:38.023Z","pid":25456,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=input[placeholder$=mail] in page."}
-{"level":30,"time":"2025-09-24T13:52:38.130Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method fillText"}
-{"level":30,"time":"2025-09-24T13:52:38.144Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method fillText"}
-{"level":30,"time":"2025-09-24T13:52:38.144Z","pid":25456,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=input[placeholder=Senha] in page."}
-{"level":30,"time":"2025-09-24T13:52:38.179Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method fillText"}
-{"level":30,"time":"2025-09-24T13:52:38.188Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method click"}
-{"level":30,"time":"2025-09-24T13:52:38.189Z","pid":25456,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=button >> text=Entrar in page."}
-{"level":30,"time":"2025-09-24T13:52:38.268Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method click"}
-{"level":30,"time":"2025-09-24T13:52:38.292Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2025-09-24T13:52:38.293Z","pid":25456,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=header .right small in page."}
-{"level":30,"time":"2025-09-24T13:52:38.646Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2025-09-24T13:52:38.655Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method getText"}
-{"level":30,"time":"2025-09-24T13:52:38.655Z","pid":25456,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=header .right small in page."}
-{"level":30,"time":"2025-09-24T13:52:38.713Z","pid":25456,"hostname":"MarceloNote","msg":"Retrieved text for element css=header .right small containing Olá, TestCT006"}
-{"level":30,"time":"2025-09-24T13:52:38.713Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method getText"}
-{"level":30,"time":"2025-09-24T13:52:38.726Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method takeScreenshot"}
-{"level":30,"time":"2025-09-24T13:52:38.727Z","pid":25456,"hostname":"MarceloNote","Take screenshot with options: ":{"path":"C:\\Users\\marce\\OneDrive\\Documentos\\PROJETOS\\pb-compass\\Sprint_07\\QAx\\projects\\mark85-robot-express\\logs\\browser\\screenshot\\robotframework-browser-screenshot-1.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
-{"level":30,"time":"2025-09-24T13:52:39.087Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method takeScreenshot"}
-{"level":30,"time":"2025-09-24T13:52:39.101Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-09-24T13:52:39.107Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-09-24T13:52:39.113Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-09-24T13:52:39.117Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-09-24T13:52:39.122Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-09-24T13:52:39.127Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-09-24T13:52:39.133Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-09-24T13:52:39.137Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-09-24T13:52:39.142Z","pid":25456,"hostname":"MarceloNote","msg":"Changed active context: context=5ccd3a25-d252-440e-95ea-02c3142933f3"}
-{"level":30,"time":"2025-09-24T13:52:39.142Z","pid":25456,"hostname":"MarceloNote","msg":"Changing current active page: page=c93ba3ed-1ed6-48ca-9b1a-2692b273e107"}
-{"level":30,"time":"2025-09-24T13:52:39.143Z","pid":25456,"hostname":"MarceloNote","msg":"Changed active page"}
-{"level":30,"time":"2025-09-24T13:52:39.149Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method closeContext"}
-{"level":30,"time":"2025-09-24T13:52:39.189Z","pid":25456,"hostname":"MarceloNote","msg":"Removed page=c6859dec-a199-4377-a5c2-cb59c44d9a0c from context=5ccd3a25-d252-440e-95ea-02c3142933f3 page stack"}
-{"level":30,"time":"2025-09-24T13:52:39.231Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method closeContext"}
-{"level":30,"time":"2025-09-24T13:52:39.245Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-09-24T13:52:39.245Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-09-24T13:52:39.257Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method switchBrowser"}
-{"level":30,"time":"2025-09-24T13:52:39.257Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method switchBrowser"}
-{"level":30,"time":"2025-09-24T13:52:39.267Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method newPage"}
-{"level":30,"time":"2025-09-24T13:52:39.268Z","pid":25456,"hostname":"MarceloNote","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@4b1c8d5e9650bdac1c7bc374989b13c6\"},\"headless\":false,\"_contextStack\":[],\"id\":\"browser=33353279-6e42-45f5-963a-c7462164ba22\"}"}
-{"level":30,"time":"2025-09-24T13:52:39.281Z","pid":25456,"hostname":"MarceloNote","msg":"Setting default timeout for context context=ae60a251-4b93-4cd3-9837-06765d758d5f to 10000"}
-{"level":30,"time":"2025-09-24T13:52:39.281Z","pid":25456,"hostname":"MarceloNote","msg":"Changed active context: context=ae60a251-4b93-4cd3-9837-06765d758d5f"}
-{"level":30,"time":"2025-09-24T13:52:39.489Z","pid":25456,"hostname":"MarceloNote","msg":"Video path: undefined"}
-{"level":30,"time":"2025-09-24T13:52:39.489Z","pid":25456,"hostname":"MarceloNote","msg":"Changed active page"}
-{"level":30,"time":"2025-09-24T13:52:40.996Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method newPage"}
-{"level":30,"time":"2025-09-24T13:52:41.350Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method fillText"}
-{"level":30,"time":"2025-09-24T13:52:41.350Z","pid":25456,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=input[placeholder$=mail] in page."}
-{"level":30,"time":"2025-09-24T13:52:41.419Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method fillText"}
-{"level":30,"time":"2025-09-24T13:52:41.428Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method fillText"}
-{"level":30,"time":"2025-09-24T13:52:41.428Z","pid":25456,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=input[placeholder=Senha] in page."}
-{"level":30,"time":"2025-09-24T13:52:41.452Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method fillText"}
-{"level":30,"time":"2025-09-24T13:52:41.460Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method click"}
-{"level":30,"time":"2025-09-24T13:52:41.460Z","pid":25456,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=button >> text=Entrar in page."}
-{"level":30,"time":"2025-09-24T13:52:41.537Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method click"}
-{"level":30,"time":"2025-09-24T13:52:41.548Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2025-09-24T13:52:41.548Z","pid":25456,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=.notice p in page."}
-{"level":30,"time":"2025-09-24T13:52:41.780Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2025-09-24T13:52:41.786Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method getText"}
-{"level":30,"time":"2025-09-24T13:52:41.786Z","pid":25456,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=.notice p in page."}
-{"level":30,"time":"2025-09-24T13:52:41.832Z","pid":25456,"hostname":"MarceloNote","msg":"Retrieved text for element css=.notice p containing Ocorreu um erro ao fazer login, verifique suas credenciais."}
-{"level":30,"time":"2025-09-24T13:52:41.832Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method getText"}
-{"level":30,"time":"2025-09-24T13:52:41.841Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method takeScreenshot"}
-{"level":30,"time":"2025-09-24T13:52:41.842Z","pid":25456,"hostname":"MarceloNote","Take screenshot with options: ":{"path":"C:\\Users\\marce\\OneDrive\\Documentos\\PROJETOS\\pb-compass\\Sprint_07\\QAx\\projects\\mark85-robot-express\\logs\\browser\\screenshot\\robotframework-browser-screenshot-2.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
-{"level":30,"time":"2025-09-24T13:52:42.192Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method takeScreenshot"}
-{"level":30,"time":"2025-09-24T13:52:42.203Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-09-24T13:52:42.208Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-09-24T13:52:42.211Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-09-24T13:52:42.215Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-09-24T13:52:42.218Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-09-24T13:52:42.222Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-09-24T13:52:42.227Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-09-24T13:52:42.231Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-09-24T13:52:42.235Z","pid":25456,"hostname":"MarceloNote","msg":"Changed active context: context=ae60a251-4b93-4cd3-9837-06765d758d5f"}
-{"level":30,"time":"2025-09-24T13:52:42.235Z","pid":25456,"hostname":"MarceloNote","msg":"Changing current active page: page=00219197-6b28-4876-b551-3f637dbcc2c0"}
-{"level":30,"time":"2025-09-24T13:52:42.235Z","pid":25456,"hostname":"MarceloNote","msg":"Changed active page"}
-{"level":30,"time":"2025-09-24T13:52:42.242Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method closeContext"}
-{"level":30,"time":"2025-09-24T13:52:42.265Z","pid":25456,"hostname":"MarceloNote","msg":"Removed page=afaab56f-3690-4d13-a169-2b629612b19b from context=ae60a251-4b93-4cd3-9837-06765d758d5f page stack"}
-{"level":30,"time":"2025-09-24T13:52:42.310Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method closeContext"}
-{"level":30,"time":"2025-09-24T13:52:42.329Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-09-24T13:52:42.329Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-09-24T13:52:42.363Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-09-24T13:52:42.363Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-09-24T13:52:42.368Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-09-24T13:52:42.369Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-09-24T13:52:42.375Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method switchBrowser"}
-{"level":30,"time":"2025-09-24T13:52:42.376Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method switchBrowser"}
-{"level":30,"time":"2025-09-24T13:52:42.383Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method newPage"}
-{"level":30,"time":"2025-09-24T13:52:42.383Z","pid":25456,"hostname":"MarceloNote","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@4b1c8d5e9650bdac1c7bc374989b13c6\"},\"headless\":false,\"_contextStack\":[],\"id\":\"browser=33353279-6e42-45f5-963a-c7462164ba22\"}"}
-{"level":30,"time":"2025-09-24T13:52:42.394Z","pid":25456,"hostname":"MarceloNote","msg":"Setting default timeout for context context=ece79e14-bd57-441d-a1d1-fa38625193e6 to 10000"}
-{"level":30,"time":"2025-09-24T13:52:42.394Z","pid":25456,"hostname":"MarceloNote","msg":"Changed active context: context=ece79e14-bd57-441d-a1d1-fa38625193e6"}
-{"level":30,"time":"2025-09-24T13:52:42.589Z","pid":25456,"hostname":"MarceloNote","msg":"Video path: undefined"}
-{"level":30,"time":"2025-09-24T13:52:42.590Z","pid":25456,"hostname":"MarceloNote","msg":"Changed active page"}
-{"level":30,"time":"2025-09-24T13:52:43.962Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method newPage"}
-{"level":30,"time":"2025-09-24T13:52:44.002Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-09-24T13:52:44.008Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-09-24T13:52:44.012Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-09-24T13:52:44.016Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-09-24T13:52:44.020Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-09-24T13:52:44.024Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-09-24T13:52:44.031Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-09-24T13:52:44.034Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-09-24T13:52:44.038Z","pid":25456,"hostname":"MarceloNote","msg":"Changed active context: context=ece79e14-bd57-441d-a1d1-fa38625193e6"}
-{"level":30,"time":"2025-09-24T13:52:44.038Z","pid":25456,"hostname":"MarceloNote","msg":"Changing current active page: page=395da339-8ea6-4116-af3f-9dac942d9ef8"}
-{"level":30,"time":"2025-09-24T13:52:44.038Z","pid":25456,"hostname":"MarceloNote","msg":"Changed active page"}
-{"level":30,"time":"2025-09-24T13:52:44.045Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method closeContext"}
-{"level":30,"time":"2025-09-24T13:52:44.074Z","pid":25456,"hostname":"MarceloNote","msg":"Removed page=66ea8130-4201-47ea-8eaa-2bfb67b320cc from context=ece79e14-bd57-441d-a1d1-fa38625193e6 page stack"}
-{"level":30,"time":"2025-09-24T13:52:44.115Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method closeContext"}
-{"level":30,"time":"2025-09-24T13:52:44.129Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-09-24T13:52:44.130Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-09-24T13:52:44.182Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-09-24T13:52:44.183Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-09-24T13:52:44.188Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-09-24T13:52:44.188Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-09-24T13:52:44.196Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method switchBrowser"}
-{"level":30,"time":"2025-09-24T13:52:44.196Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method switchBrowser"}
-{"level":30,"time":"2025-09-24T13:52:44.202Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method newPage"}
-{"level":30,"time":"2025-09-24T13:52:44.203Z","pid":25456,"hostname":"MarceloNote","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@4b1c8d5e9650bdac1c7bc374989b13c6\"},\"headless\":false,\"_contextStack\":[],\"id\":\"browser=33353279-6e42-45f5-963a-c7462164ba22\"}"}
-{"level":30,"time":"2025-09-24T13:52:44.216Z","pid":25456,"hostname":"MarceloNote","msg":"Setting default timeout for context context=0bf83a75-93bb-44f0-a55c-75313974743c to 10000"}
-{"level":30,"time":"2025-09-24T13:52:44.216Z","pid":25456,"hostname":"MarceloNote","msg":"Changed active context: context=0bf83a75-93bb-44f0-a55c-75313974743c"}
-{"level":30,"time":"2025-09-24T13:52:44.415Z","pid":25456,"hostname":"MarceloNote","msg":"Video path: undefined"}
-{"level":30,"time":"2025-09-24T13:52:44.415Z","pid":25456,"hostname":"MarceloNote","msg":"Changed active page"}
-{"level":30,"time":"2025-09-24T13:52:45.661Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method newPage"}
-{"level":30,"time":"2025-09-24T13:52:45.793Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method goTo"}
-{"level":30,"time":"2025-09-24T13:52:45.879Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method goTo"}
-{"level":30,"time":"2025-09-24T13:52:45.889Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2025-09-24T13:52:45.889Z","pid":25456,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with xpath=//h1 in page."}
-{"level":30,"time":"2025-09-24T13:52:45.941Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2025-09-24T13:52:45.948Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method getText"}
-{"level":30,"time":"2025-09-24T13:52:45.948Z","pid":25456,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with xpath=//h1 in page."}
-{"level":30,"time":"2025-09-24T13:52:45.995Z","pid":25456,"hostname":"MarceloNote","msg":"Retrieved text for element xpath=//h1 containing Faça seu cadastro"}
-{"level":30,"time":"2025-09-24T13:52:45.995Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method getText"}
-{"level":30,"time":"2025-09-24T13:52:46.004Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method fillText"}
-{"level":30,"time":"2025-09-24T13:52:46.004Z","pid":25456,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=input[name=name] in page."}
-{"level":30,"time":"2025-09-24T13:52:46.036Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method fillText"}
-{"level":30,"time":"2025-09-24T13:52:46.046Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method fillText"}
-{"level":30,"time":"2025-09-24T13:52:46.047Z","pid":25456,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=input[name=email] in page."}
-{"level":30,"time":"2025-09-24T13:52:46.076Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method fillText"}
-{"level":30,"time":"2025-09-24T13:52:46.084Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method fillText"}
-{"level":30,"time":"2025-09-24T13:52:46.084Z","pid":25456,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=input[name=password] in page."}
-{"level":30,"time":"2025-09-24T13:52:46.111Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method fillText"}
-{"level":30,"time":"2025-09-24T13:52:46.117Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method click"}
-{"level":30,"time":"2025-09-24T13:52:46.118Z","pid":25456,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=button[type=submit] >> text=Cadastrar in page."}
-{"level":30,"time":"2025-09-24T13:52:46.200Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method click"}
-{"level":30,"time":"2025-09-24T13:52:46.211Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2025-09-24T13:52:46.211Z","pid":25456,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=.notice p in page."}
-{"level":30,"time":"2025-09-24T13:52:47.071Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2025-09-24T13:52:47.077Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method getText"}
-{"level":30,"time":"2025-09-24T13:52:47.077Z","pid":25456,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=.notice p in page."}
-{"level":30,"time":"2025-09-24T13:52:47.104Z","pid":25456,"hostname":"MarceloNote","msg":"Retrieved text for element css=.notice p containing Boas vindas ao Mark85, o seu gerenciador de tarefas."}
-{"level":30,"time":"2025-09-24T13:52:47.104Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method getText"}
-{"level":30,"time":"2025-09-24T13:52:47.115Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method takeScreenshot"}
-{"level":30,"time":"2025-09-24T13:52:47.115Z","pid":25456,"hostname":"MarceloNote","Take screenshot with options: ":{"path":"C:\\Users\\marce\\OneDrive\\Documentos\\PROJETOS\\pb-compass\\Sprint_07\\QAx\\projects\\mark85-robot-express\\logs\\browser\\screenshot\\robotframework-browser-screenshot-3.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
-{"level":30,"time":"2025-09-24T13:52:47.438Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method takeScreenshot"}
-{"level":30,"time":"2025-09-24T13:52:47.448Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-09-24T13:52:47.452Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-09-24T13:52:47.456Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-09-24T13:52:47.459Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-09-24T13:52:47.463Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-09-24T13:52:47.466Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-09-24T13:52:47.471Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-09-24T13:52:47.475Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-09-24T13:52:47.479Z","pid":25456,"hostname":"MarceloNote","msg":"Changed active context: context=0bf83a75-93bb-44f0-a55c-75313974743c"}
-{"level":30,"time":"2025-09-24T13:52:47.479Z","pid":25456,"hostname":"MarceloNote","msg":"Changing current active page: page=5c157aa0-844a-4a42-84c5-9b1b121bbd32"}
-{"level":30,"time":"2025-09-24T13:52:47.479Z","pid":25456,"hostname":"MarceloNote","msg":"Changed active page"}
-{"level":30,"time":"2025-09-24T13:52:47.485Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method closeContext"}
-{"level":30,"time":"2025-09-24T13:52:47.516Z","pid":25456,"hostname":"MarceloNote","msg":"Removed page=9bac91c1-1e08-4110-ab5d-47cb4dc60389 from context=0bf83a75-93bb-44f0-a55c-75313974743c page stack"}
-{"level":30,"time":"2025-09-24T13:52:47.558Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method closeContext"}
-{"level":30,"time":"2025-09-24T13:52:47.568Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-09-24T13:52:47.568Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-09-24T13:52:47.580Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method switchBrowser"}
-{"level":30,"time":"2025-09-24T13:52:47.580Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method switchBrowser"}
-{"level":30,"time":"2025-09-24T13:52:47.587Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method newPage"}
-{"level":30,"time":"2025-09-24T13:52:47.588Z","pid":25456,"hostname":"MarceloNote","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@4b1c8d5e9650bdac1c7bc374989b13c6\"},\"headless\":false,\"_contextStack\":[],\"id\":\"browser=33353279-6e42-45f5-963a-c7462164ba22\"}"}
-{"level":30,"time":"2025-09-24T13:52:47.603Z","pid":25456,"hostname":"MarceloNote","msg":"Setting default timeout for context context=fe01fdb3-c564-4737-8f75-409ca4b80f39 to 10000"}
-{"level":30,"time":"2025-09-24T13:52:47.604Z","pid":25456,"hostname":"MarceloNote","msg":"Changed active context: context=fe01fdb3-c564-4737-8f75-409ca4b80f39"}
-{"level":30,"time":"2025-09-24T13:52:47.812Z","pid":25456,"hostname":"MarceloNote","msg":"Video path: undefined"}
-{"level":30,"time":"2025-09-24T13:52:47.812Z","pid":25456,"hostname":"MarceloNote","msg":"Changed active page"}
-{"level":30,"time":"2025-09-24T13:52:49.302Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method newPage"}
-{"level":30,"time":"2025-09-24T13:52:49.657Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method goTo"}
-{"level":30,"time":"2025-09-24T13:52:49.745Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method goTo"}
-{"level":30,"time":"2025-09-24T13:52:49.755Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2025-09-24T13:52:49.755Z","pid":25456,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with xpath=//h1 in page."}
-{"level":30,"time":"2025-09-24T13:52:49.800Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2025-09-24T13:52:49.807Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method getText"}
-{"level":30,"time":"2025-09-24T13:52:49.807Z","pid":25456,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with xpath=//h1 in page."}
-{"level":30,"time":"2025-09-24T13:52:49.855Z","pid":25456,"hostname":"MarceloNote","msg":"Retrieved text for element xpath=//h1 containing Faça seu cadastro"}
-{"level":30,"time":"2025-09-24T13:52:49.855Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method getText"}
-{"level":30,"time":"2025-09-24T13:52:49.863Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method fillText"}
-{"level":30,"time":"2025-09-24T13:52:49.863Z","pid":25456,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=input[name=name] in page."}
-{"level":30,"time":"2025-09-24T13:52:49.895Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method fillText"}
-{"level":30,"time":"2025-09-24T13:52:49.905Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method fillText"}
-{"level":30,"time":"2025-09-24T13:52:49.905Z","pid":25456,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=input[name=email] in page."}
-{"level":30,"time":"2025-09-24T13:52:49.930Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method fillText"}
-{"level":30,"time":"2025-09-24T13:52:49.940Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method fillText"}
-{"level":30,"time":"2025-09-24T13:52:49.940Z","pid":25456,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=input[name=password] in page."}
-{"level":30,"time":"2025-09-24T13:52:49.964Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method fillText"}
-{"level":30,"time":"2025-09-24T13:52:49.971Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method click"}
-{"level":30,"time":"2025-09-24T13:52:49.971Z","pid":25456,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=button[type=submit] >> text=Cadastrar in page."}
-{"level":30,"time":"2025-09-24T13:52:50.047Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method click"}
-{"level":30,"time":"2025-09-24T13:52:50.058Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2025-09-24T13:52:50.058Z","pid":25456,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=.notice p in page."}
-{"level":30,"time":"2025-09-24T13:52:50.291Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2025-09-24T13:52:50.296Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method getText"}
-{"level":30,"time":"2025-09-24T13:52:50.297Z","pid":25456,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=.notice p in page."}
-{"level":30,"time":"2025-09-24T13:52:50.326Z","pid":25456,"hostname":"MarceloNote","msg":"Retrieved text for element css=.notice p containing Oops! Já existe uma conta com o e-mail informado."}
-{"level":30,"time":"2025-09-24T13:52:50.326Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method getText"}
-{"level":30,"time":"2025-09-24T13:52:50.336Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method takeScreenshot"}
-{"level":30,"time":"2025-09-24T13:52:50.336Z","pid":25456,"hostname":"MarceloNote","Take screenshot with options: ":{"path":"C:\\Users\\marce\\OneDrive\\Documentos\\PROJETOS\\pb-compass\\Sprint_07\\QAx\\projects\\mark85-robot-express\\logs\\browser\\screenshot\\robotframework-browser-screenshot-4.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
-{"level":30,"time":"2025-09-24T13:52:50.670Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method takeScreenshot"}
-{"level":30,"time":"2025-09-24T13:52:50.679Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-09-24T13:52:50.684Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-09-24T13:52:50.688Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-09-24T13:52:50.691Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-09-24T13:52:50.696Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-09-24T13:52:50.700Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-09-24T13:52:50.705Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-09-24T13:52:50.708Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-09-24T13:52:50.712Z","pid":25456,"hostname":"MarceloNote","msg":"Changed active context: context=fe01fdb3-c564-4737-8f75-409ca4b80f39"}
-{"level":30,"time":"2025-09-24T13:52:50.712Z","pid":25456,"hostname":"MarceloNote","msg":"Changing current active page: page=f7e94ac0-3e97-4a4a-850a-9089189470bd"}
-{"level":30,"time":"2025-09-24T13:52:50.712Z","pid":25456,"hostname":"MarceloNote","msg":"Changed active page"}
-{"level":30,"time":"2025-09-24T13:52:50.718Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method closeContext"}
-{"level":30,"time":"2025-09-24T13:52:50.743Z","pid":25456,"hostname":"MarceloNote","msg":"Removed page=884507c3-872d-4f85-a57d-2a48608b1db4 from context=fe01fdb3-c564-4737-8f75-409ca4b80f39 page stack"}
-{"level":30,"time":"2025-09-24T13:52:50.789Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method closeContext"}
-{"level":30,"time":"2025-09-24T13:52:50.800Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-09-24T13:52:50.801Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-09-24T13:52:50.812Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method switchBrowser"}
-{"level":30,"time":"2025-09-24T13:52:50.812Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method switchBrowser"}
-{"level":30,"time":"2025-09-24T13:52:50.823Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method newPage"}
-{"level":30,"time":"2025-09-24T13:52:50.824Z","pid":25456,"hostname":"MarceloNote","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@4b1c8d5e9650bdac1c7bc374989b13c6\"},\"headless\":false,\"_contextStack\":[],\"id\":\"browser=33353279-6e42-45f5-963a-c7462164ba22\"}"}
-{"level":30,"time":"2025-09-24T13:52:50.838Z","pid":25456,"hostname":"MarceloNote","msg":"Setting default timeout for context context=d4dbdba0-ea31-4980-9b86-d2b2b013106d to 10000"}
-{"level":30,"time":"2025-09-24T13:52:50.838Z","pid":25456,"hostname":"MarceloNote","msg":"Changed active context: context=d4dbdba0-ea31-4980-9b86-d2b2b013106d"}
-{"level":30,"time":"2025-09-24T13:52:51.041Z","pid":25456,"hostname":"MarceloNote","msg":"Video path: undefined"}
-{"level":30,"time":"2025-09-24T13:52:51.041Z","pid":25456,"hostname":"MarceloNote","msg":"Changed active page"}
-{"level":30,"time":"2025-09-24T13:52:52.723Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method newPage"}
-{"level":30,"time":"2025-09-24T13:52:52.742Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method goTo"}
-{"level":30,"time":"2025-09-24T13:52:52.831Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method goTo"}
-{"level":30,"time":"2025-09-24T13:52:52.840Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2025-09-24T13:52:52.840Z","pid":25456,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with xpath=//h1 in page."}
-{"level":30,"time":"2025-09-24T13:52:52.892Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2025-09-24T13:52:52.899Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method getText"}
-{"level":30,"time":"2025-09-24T13:52:52.899Z","pid":25456,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with xpath=//h1 in page."}
-{"level":30,"time":"2025-09-24T13:52:52.944Z","pid":25456,"hostname":"MarceloNote","msg":"Retrieved text for element xpath=//h1 containing Faça seu cadastro"}
-{"level":30,"time":"2025-09-24T13:52:52.944Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method getText"}
-{"level":30,"time":"2025-09-24T13:52:52.952Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method fillText"}
-{"level":30,"time":"2025-09-24T13:52:52.953Z","pid":25456,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=input[name=name] in page."}
-{"level":30,"time":"2025-09-24T13:52:52.991Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method fillText"}
-{"level":30,"time":"2025-09-24T13:52:52.998Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method fillText"}
-{"level":30,"time":"2025-09-24T13:52:52.998Z","pid":25456,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=input[name=email] in page."}
-{"level":30,"time":"2025-09-24T13:52:53.026Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method fillText"}
-{"level":30,"time":"2025-09-24T13:52:53.032Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method fillText"}
-{"level":30,"time":"2025-09-24T13:52:53.033Z","pid":25456,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=input[name=password] in page."}
-{"level":30,"time":"2025-09-24T13:52:53.056Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method fillText"}
-{"level":30,"time":"2025-09-24T13:52:53.062Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method click"}
-{"level":30,"time":"2025-09-24T13:52:53.062Z","pid":25456,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=button[type=submit] >> text=Cadastrar in page."}
-{"level":30,"time":"2025-09-24T13:52:53.140Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method click"}
-{"level":30,"time":"2025-09-24T13:52:53.148Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2025-09-24T13:52:53.148Z","pid":25456,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=.alert-error >> text=Informe seu nome completo in page."}
-{"level":30,"time":"2025-09-24T13:52:53.156Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2025-09-24T13:52:53.164Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2025-09-24T13:52:53.164Z","pid":25456,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=.alert-error >> text=Informe seu e-email in page."}
-{"level":30,"time":"2025-09-24T13:52:53.172Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2025-09-24T13:52:53.179Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2025-09-24T13:52:53.179Z","pid":25456,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=.alert-error >> text=Informe uma senha com pelo menos 6 digitos in page."}
-{"level":30,"time":"2025-09-24T13:52:53.187Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2025-09-24T13:52:53.196Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method takeScreenshot"}
-{"level":30,"time":"2025-09-24T13:52:53.196Z","pid":25456,"hostname":"MarceloNote","Take screenshot with options: ":{"path":"C:\\Users\\marce\\OneDrive\\Documentos\\PROJETOS\\pb-compass\\Sprint_07\\QAx\\projects\\mark85-robot-express\\logs\\browser\\screenshot\\robotframework-browser-screenshot-5.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
-{"level":30,"time":"2025-09-24T13:52:53.520Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method takeScreenshot"}
-{"level":30,"time":"2025-09-24T13:52:53.529Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-09-24T13:52:53.533Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-09-24T13:52:53.537Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-09-24T13:52:53.540Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-09-24T13:52:53.544Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-09-24T13:52:53.547Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-09-24T13:52:53.552Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-09-24T13:52:53.556Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-09-24T13:52:53.560Z","pid":25456,"hostname":"MarceloNote","msg":"Changed active context: context=d4dbdba0-ea31-4980-9b86-d2b2b013106d"}
-{"level":30,"time":"2025-09-24T13:52:53.560Z","pid":25456,"hostname":"MarceloNote","msg":"Changing current active page: page=99b210cb-79c6-4bad-b3f6-1b94444e3199"}
-{"level":30,"time":"2025-09-24T13:52:53.560Z","pid":25456,"hostname":"MarceloNote","msg":"Changed active page"}
-{"level":30,"time":"2025-09-24T13:52:53.566Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method closeContext"}
-{"level":30,"time":"2025-09-24T13:52:53.588Z","pid":25456,"hostname":"MarceloNote","msg":"Removed page=a46dbdfe-2ebc-467c-9b9b-cd1a107d39dd from context=d4dbdba0-ea31-4980-9b86-d2b2b013106d page stack"}
-{"level":30,"time":"2025-09-24T13:52:53.643Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method closeContext"}
-{"level":30,"time":"2025-09-24T13:52:53.653Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-09-24T13:52:53.654Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-09-24T13:52:53.664Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method switchBrowser"}
-{"level":30,"time":"2025-09-24T13:52:53.664Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method switchBrowser"}
-{"level":30,"time":"2025-09-24T13:52:53.672Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method newPage"}
-{"level":30,"time":"2025-09-24T13:52:53.673Z","pid":25456,"hostname":"MarceloNote","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@4b1c8d5e9650bdac1c7bc374989b13c6\"},\"headless\":false,\"_contextStack\":[],\"id\":\"browser=33353279-6e42-45f5-963a-c7462164ba22\"}"}
-{"level":30,"time":"2025-09-24T13:52:53.689Z","pid":25456,"hostname":"MarceloNote","msg":"Setting default timeout for context context=78a336f4-5146-4c7a-b6bb-5d7c911b2885 to 10000"}
-{"level":30,"time":"2025-09-24T13:52:53.689Z","pid":25456,"hostname":"MarceloNote","msg":"Changed active context: context=78a336f4-5146-4c7a-b6bb-5d7c911b2885"}
-{"level":30,"time":"2025-09-24T13:52:53.889Z","pid":25456,"hostname":"MarceloNote","msg":"Video path: undefined"}
-{"level":30,"time":"2025-09-24T13:52:53.889Z","pid":25456,"hostname":"MarceloNote","msg":"Changed active page"}
-{"level":30,"time":"2025-09-24T13:52:55.095Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method newPage"}
-{"level":30,"time":"2025-09-24T13:52:55.108Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method goTo"}
-{"level":30,"time":"2025-09-24T13:52:55.192Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method goTo"}
-{"level":30,"time":"2025-09-24T13:52:55.200Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2025-09-24T13:52:55.200Z","pid":25456,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with xpath=//h1 in page."}
-{"level":30,"time":"2025-09-24T13:52:55.252Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2025-09-24T13:52:55.258Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method getText"}
-{"level":30,"time":"2025-09-24T13:52:55.258Z","pid":25456,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with xpath=//h1 in page."}
-{"level":30,"time":"2025-09-24T13:52:55.299Z","pid":25456,"hostname":"MarceloNote","msg":"Retrieved text for element xpath=//h1 containing Faça seu cadastro"}
-{"level":30,"time":"2025-09-24T13:52:55.299Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method getText"}
-{"level":30,"time":"2025-09-24T13:52:55.307Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method fillText"}
-{"level":30,"time":"2025-09-24T13:52:55.307Z","pid":25456,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=input[name=name] in page."}
-{"level":30,"time":"2025-09-24T13:52:55.339Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method fillText"}
-{"level":30,"time":"2025-09-24T13:52:55.347Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method fillText"}
-{"level":30,"time":"2025-09-24T13:52:55.347Z","pid":25456,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=input[name=email] in page."}
-{"level":30,"time":"2025-09-24T13:52:55.379Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method fillText"}
-{"level":30,"time":"2025-09-24T13:52:55.387Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method fillText"}
-{"level":30,"time":"2025-09-24T13:52:55.387Z","pid":25456,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=input[name=password] in page."}
-{"level":30,"time":"2025-09-24T13:52:55.409Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method fillText"}
-{"level":30,"time":"2025-09-24T13:52:55.417Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method click"}
-{"level":30,"time":"2025-09-24T13:52:55.418Z","pid":25456,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=button[type=submit] >> text=Cadastrar in page."}
-{"level":30,"time":"2025-09-24T13:52:55.488Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method click"}
-{"level":30,"time":"2025-09-24T13:52:55.497Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2025-09-24T13:52:55.497Z","pid":25456,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=.alert-error >> text=Digite um e-mail válido in page."}
-{"level":30,"time":"2025-09-24T13:52:55.505Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2025-09-24T13:52:55.514Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method takeScreenshot"}
-{"level":30,"time":"2025-09-24T13:52:55.514Z","pid":25456,"hostname":"MarceloNote","Take screenshot with options: ":{"path":"C:\\Users\\marce\\OneDrive\\Documentos\\PROJETOS\\pb-compass\\Sprint_07\\QAx\\projects\\mark85-robot-express\\logs\\browser\\screenshot\\robotframework-browser-screenshot-6.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
-{"level":30,"time":"2025-09-24T13:52:55.844Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method takeScreenshot"}
-{"level":30,"time":"2025-09-24T13:52:55.855Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-09-24T13:52:55.859Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-09-24T13:52:55.863Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-09-24T13:52:55.867Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-09-24T13:52:55.871Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-09-24T13:52:55.875Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-09-24T13:52:55.882Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-09-24T13:52:55.885Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-09-24T13:52:55.888Z","pid":25456,"hostname":"MarceloNote","msg":"Changed active context: context=78a336f4-5146-4c7a-b6bb-5d7c911b2885"}
-{"level":30,"time":"2025-09-24T13:52:55.888Z","pid":25456,"hostname":"MarceloNote","msg":"Changing current active page: page=bc195e12-9556-4fb1-b182-b9ca95664a80"}
-{"level":30,"time":"2025-09-24T13:52:55.888Z","pid":25456,"hostname":"MarceloNote","msg":"Changed active page"}
-{"level":30,"time":"2025-09-24T13:52:55.894Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method closeContext"}
-{"level":30,"time":"2025-09-24T13:52:55.920Z","pid":25456,"hostname":"MarceloNote","msg":"Removed page=53c2040f-2c42-430a-b5c3-4df100cd1b1f from context=78a336f4-5146-4c7a-b6bb-5d7c911b2885 page stack"}
-{"level":30,"time":"2025-09-24T13:52:55.969Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method closeContext"}
-{"level":30,"time":"2025-09-24T13:52:55.987Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-09-24T13:52:55.987Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-09-24T13:52:55.996Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method switchBrowser"}
-{"level":30,"time":"2025-09-24T13:52:55.997Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method switchBrowser"}
-{"level":30,"time":"2025-09-24T13:52:56.004Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method newPage"}
-{"level":30,"time":"2025-09-24T13:52:56.004Z","pid":25456,"hostname":"MarceloNote","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@4b1c8d5e9650bdac1c7bc374989b13c6\"},\"headless\":false,\"_contextStack\":[],\"id\":\"browser=33353279-6e42-45f5-963a-c7462164ba22\"}"}
-{"level":30,"time":"2025-09-24T13:52:56.019Z","pid":25456,"hostname":"MarceloNote","msg":"Setting default timeout for context context=f3999829-73aa-42c6-b087-4bc9ade7964a to 10000"}
-{"level":30,"time":"2025-09-24T13:52:56.019Z","pid":25456,"hostname":"MarceloNote","msg":"Changed active context: context=f3999829-73aa-42c6-b087-4bc9ade7964a"}
-{"level":30,"time":"2025-09-24T13:52:56.249Z","pid":25456,"hostname":"MarceloNote","msg":"Video path: undefined"}
-{"level":30,"time":"2025-09-24T13:52:56.249Z","pid":25456,"hostname":"MarceloNote","msg":"Changed active page"}
-{"level":30,"time":"2025-09-24T13:52:57.563Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method newPage"}
-{"level":30,"time":"2025-09-24T13:52:57.584Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method goTo"}
-{"level":30,"time":"2025-09-24T13:52:57.671Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method goTo"}
-{"level":30,"time":"2025-09-24T13:52:57.679Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2025-09-24T13:52:57.680Z","pid":25456,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with xpath=//h1 in page."}
-{"level":30,"time":"2025-09-24T13:52:57.729Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2025-09-24T13:52:57.736Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method getText"}
-{"level":30,"time":"2025-09-24T13:52:57.736Z","pid":25456,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with xpath=//h1 in page."}
-{"level":30,"time":"2025-09-24T13:52:57.778Z","pid":25456,"hostname":"MarceloNote","msg":"Retrieved text for element xpath=//h1 containing Faça seu cadastro"}
-{"level":30,"time":"2025-09-24T13:52:57.778Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method getText"}
-{"level":30,"time":"2025-09-24T13:52:57.785Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method fillText"}
-{"level":30,"time":"2025-09-24T13:52:57.785Z","pid":25456,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=input[name=name] in page."}
-{"level":30,"time":"2025-09-24T13:52:57.814Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method fillText"}
-{"level":30,"time":"2025-09-24T13:52:57.821Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method fillText"}
-{"level":30,"time":"2025-09-24T13:52:57.822Z","pid":25456,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=input[name=email] in page."}
-{"level":30,"time":"2025-09-24T13:52:57.849Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method fillText"}
-{"level":30,"time":"2025-09-24T13:52:57.857Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method fillText"}
-{"level":30,"time":"2025-09-24T13:52:57.857Z","pid":25456,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=input[name=password] in page."}
-{"level":30,"time":"2025-09-24T13:52:57.878Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method fillText"}
-{"level":30,"time":"2025-09-24T13:52:57.886Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method click"}
-{"level":30,"time":"2025-09-24T13:52:57.886Z","pid":25456,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=button[type=submit] >> text=Cadastrar in page."}
-{"level":30,"time":"2025-09-24T13:52:57.956Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method click"}
-{"level":30,"time":"2025-09-24T13:52:57.965Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2025-09-24T13:52:57.965Z","pid":25456,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=.alert-error >> text=Informe uma senha com pelo menos 6 digitos in page."}
-{"level":30,"time":"2025-09-24T13:52:57.972Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2025-09-24T13:52:57.982Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method goTo"}
-{"level":30,"time":"2025-09-24T13:52:58.054Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method goTo"}
-{"level":30,"time":"2025-09-24T13:52:58.063Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2025-09-24T13:52:58.063Z","pid":25456,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with xpath=//h1 in page."}
-{"level":30,"time":"2025-09-24T13:52:58.099Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2025-09-24T13:52:58.105Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method getText"}
-{"level":30,"time":"2025-09-24T13:52:58.105Z","pid":25456,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with xpath=//h1 in page."}
-{"level":30,"time":"2025-09-24T13:52:58.148Z","pid":25456,"hostname":"MarceloNote","msg":"Retrieved text for element xpath=//h1 containing Faça seu cadastro"}
-{"level":30,"time":"2025-09-24T13:52:58.148Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method getText"}
-{"level":30,"time":"2025-09-24T13:52:58.154Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method fillText"}
-{"level":30,"time":"2025-09-24T13:52:58.155Z","pid":25456,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=input[name=name] in page."}
-{"level":30,"time":"2025-09-24T13:52:58.180Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method fillText"}
-{"level":30,"time":"2025-09-24T13:52:58.187Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method fillText"}
-{"level":30,"time":"2025-09-24T13:52:58.187Z","pid":25456,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=input[name=email] in page."}
-{"level":30,"time":"2025-09-24T13:52:58.217Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method fillText"}
-{"level":30,"time":"2025-09-24T13:52:58.224Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method fillText"}
-{"level":30,"time":"2025-09-24T13:52:58.224Z","pid":25456,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=input[name=password] in page."}
-{"level":30,"time":"2025-09-24T13:52:58.250Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method fillText"}
-{"level":30,"time":"2025-09-24T13:52:58.255Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method click"}
-{"level":30,"time":"2025-09-24T13:52:58.256Z","pid":25456,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=button[type=submit] >> text=Cadastrar in page."}
-{"level":30,"time":"2025-09-24T13:52:58.324Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method click"}
-{"level":30,"time":"2025-09-24T13:52:58.332Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2025-09-24T13:52:58.332Z","pid":25456,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=.alert-error >> text=Informe uma senha com pelo menos 6 digitos in page."}
-{"level":30,"time":"2025-09-24T13:52:58.339Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2025-09-24T13:52:58.348Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method goTo"}
-{"level":30,"time":"2025-09-24T13:52:58.416Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method goTo"}
-{"level":30,"time":"2025-09-24T13:52:58.424Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2025-09-24T13:52:58.424Z","pid":25456,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with xpath=//h1 in page."}
-{"level":30,"time":"2025-09-24T13:52:58.461Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2025-09-24T13:52:58.469Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method getText"}
-{"level":30,"time":"2025-09-24T13:52:58.469Z","pid":25456,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with xpath=//h1 in page."}
-{"level":30,"time":"2025-09-24T13:52:58.517Z","pid":25456,"hostname":"MarceloNote","msg":"Retrieved text for element xpath=//h1 containing Faça seu cadastro"}
-{"level":30,"time":"2025-09-24T13:52:58.518Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method getText"}
-{"level":30,"time":"2025-09-24T13:52:58.524Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method fillText"}
-{"level":30,"time":"2025-09-24T13:52:58.525Z","pid":25456,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=input[name=name] in page."}
-{"level":30,"time":"2025-09-24T13:52:58.545Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method fillText"}
-{"level":30,"time":"2025-09-24T13:52:58.553Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method fillText"}
-{"level":30,"time":"2025-09-24T13:52:58.553Z","pid":25456,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=input[name=email] in page."}
-{"level":30,"time":"2025-09-24T13:52:58.581Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method fillText"}
-{"level":30,"time":"2025-09-24T13:52:58.591Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method fillText"}
-{"level":30,"time":"2025-09-24T13:52:58.591Z","pid":25456,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=input[name=password] in page."}
-{"level":30,"time":"2025-09-24T13:52:58.615Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method fillText"}
-{"level":30,"time":"2025-09-24T13:52:58.620Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method click"}
-{"level":30,"time":"2025-09-24T13:52:58.620Z","pid":25456,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=button[type=submit] >> text=Cadastrar in page."}
-{"level":30,"time":"2025-09-24T13:52:58.688Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method click"}
-{"level":30,"time":"2025-09-24T13:52:58.696Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2025-09-24T13:52:58.696Z","pid":25456,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=.alert-error >> text=Informe uma senha com pelo menos 6 digitos in page."}
-{"level":30,"time":"2025-09-24T13:52:58.703Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2025-09-24T13:52:58.711Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method goTo"}
-{"level":30,"time":"2025-09-24T13:52:58.769Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method goTo"}
-{"level":30,"time":"2025-09-24T13:52:58.776Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2025-09-24T13:52:58.776Z","pid":25456,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with xpath=//h1 in page."}
-{"level":30,"time":"2025-09-24T13:52:58.813Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2025-09-24T13:52:58.820Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method getText"}
-{"level":30,"time":"2025-09-24T13:52:58.820Z","pid":25456,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with xpath=//h1 in page."}
-{"level":30,"time":"2025-09-24T13:52:58.864Z","pid":25456,"hostname":"MarceloNote","msg":"Retrieved text for element xpath=//h1 containing Faça seu cadastro"}
-{"level":30,"time":"2025-09-24T13:52:58.864Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method getText"}
-{"level":30,"time":"2025-09-24T13:52:58.871Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method fillText"}
-{"level":30,"time":"2025-09-24T13:52:58.871Z","pid":25456,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=input[name=name] in page."}
-{"level":30,"time":"2025-09-24T13:52:58.893Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method fillText"}
-{"level":30,"time":"2025-09-24T13:52:58.901Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method fillText"}
-{"level":30,"time":"2025-09-24T13:52:58.901Z","pid":25456,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=input[name=email] in page."}
-{"level":30,"time":"2025-09-24T13:52:58.932Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method fillText"}
-{"level":30,"time":"2025-09-24T13:52:58.939Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method fillText"}
-{"level":30,"time":"2025-09-24T13:52:58.939Z","pid":25456,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=input[name=password] in page."}
-{"level":30,"time":"2025-09-24T13:52:58.962Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method fillText"}
-{"level":30,"time":"2025-09-24T13:52:58.968Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method click"}
-{"level":30,"time":"2025-09-24T13:52:58.969Z","pid":25456,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=button[type=submit] >> text=Cadastrar in page."}
-{"level":30,"time":"2025-09-24T13:52:59.039Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method click"}
-{"level":30,"time":"2025-09-24T13:52:59.047Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2025-09-24T13:52:59.047Z","pid":25456,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=.alert-error >> text=Informe uma senha com pelo menos 6 digitos in page."}
-{"level":30,"time":"2025-09-24T13:52:59.054Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2025-09-24T13:52:59.062Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method goTo"}
-{"level":30,"time":"2025-09-24T13:52:59.126Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method goTo"}
-{"level":30,"time":"2025-09-24T13:52:59.135Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2025-09-24T13:52:59.135Z","pid":25456,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with xpath=//h1 in page."}
-{"level":30,"time":"2025-09-24T13:52:59.170Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2025-09-24T13:52:59.176Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method getText"}
-{"level":30,"time":"2025-09-24T13:52:59.176Z","pid":25456,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with xpath=//h1 in page."}
-{"level":30,"time":"2025-09-24T13:52:59.216Z","pid":25456,"hostname":"MarceloNote","msg":"Retrieved text for element xpath=//h1 containing Faça seu cadastro"}
-{"level":30,"time":"2025-09-24T13:52:59.217Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method getText"}
-{"level":30,"time":"2025-09-24T13:52:59.223Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method fillText"}
-{"level":30,"time":"2025-09-24T13:52:59.223Z","pid":25456,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=input[name=name] in page."}
-{"level":30,"time":"2025-09-24T13:52:59.245Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method fillText"}
-{"level":30,"time":"2025-09-24T13:52:59.250Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method fillText"}
-{"level":30,"time":"2025-09-24T13:52:59.251Z","pid":25456,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=input[name=email] in page."}
-{"level":30,"time":"2025-09-24T13:52:59.280Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method fillText"}
-{"level":30,"time":"2025-09-24T13:52:59.286Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method fillText"}
-{"level":30,"time":"2025-09-24T13:52:59.286Z","pid":25456,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=input[name=password] in page."}
-{"level":30,"time":"2025-09-24T13:52:59.309Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method fillText"}
-{"level":30,"time":"2025-09-24T13:52:59.315Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method click"}
-{"level":30,"time":"2025-09-24T13:52:59.316Z","pid":25456,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=button[type=submit] >> text=Cadastrar in page."}
-{"level":30,"time":"2025-09-24T13:52:59.385Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method click"}
-{"level":30,"time":"2025-09-24T13:52:59.392Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2025-09-24T13:52:59.392Z","pid":25456,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=.alert-error >> text=Informe uma senha com pelo menos 6 digitos in page."}
-{"level":30,"time":"2025-09-24T13:52:59.399Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2025-09-24T13:52:59.408Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method takeScreenshot"}
-{"level":30,"time":"2025-09-24T13:52:59.408Z","pid":25456,"hostname":"MarceloNote","Take screenshot with options: ":{"path":"C:\\Users\\marce\\OneDrive\\Documentos\\PROJETOS\\pb-compass\\Sprint_07\\QAx\\projects\\mark85-robot-express\\logs\\browser\\screenshot\\robotframework-browser-screenshot-7.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
-{"level":30,"time":"2025-09-24T13:52:59.754Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method takeScreenshot"}
-{"level":30,"time":"2025-09-24T13:52:59.774Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-09-24T13:52:59.780Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-09-24T13:52:59.784Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-09-24T13:52:59.786Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-09-24T13:52:59.790Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-09-24T13:52:59.793Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-09-24T13:52:59.798Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-09-24T13:52:59.801Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-09-24T13:52:59.805Z","pid":25456,"hostname":"MarceloNote","msg":"Changed active context: context=f3999829-73aa-42c6-b087-4bc9ade7964a"}
-{"level":30,"time":"2025-09-24T13:52:59.805Z","pid":25456,"hostname":"MarceloNote","msg":"Changing current active page: page=6d9e3ceb-62db-45f7-8394-4dc6caa3bb94"}
-{"level":30,"time":"2025-09-24T13:52:59.805Z","pid":25456,"hostname":"MarceloNote","msg":"Changed active page"}
-{"level":30,"time":"2025-09-24T13:52:59.811Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method closeContext"}
-{"level":30,"time":"2025-09-24T13:52:59.838Z","pid":25456,"hostname":"MarceloNote","msg":"Removed page=eecc3e2b-acf2-4638-886b-5b22910f2afd from context=f3999829-73aa-42c6-b087-4bc9ade7964a page stack"}
-{"level":30,"time":"2025-09-24T13:52:59.894Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method closeContext"}
-{"level":30,"time":"2025-09-24T13:52:59.909Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-09-24T13:52:59.909Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-09-24T13:53:03.070Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-09-24T13:53:03.071Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-09-24T13:53:03.077Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-09-24T13:53:03.078Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-09-24T13:53:03.087Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-09-24T13:53:03.087Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-09-24T13:53:03.096Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-09-24T13:53:03.096Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-09-24T13:53:03.253Z","pid":25456,"hostname":"MarceloNote","msg":"Start of node method closeAllBrowsers"}
-{"level":30,"time":"2025-09-24T13:53:03.663Z","pid":25456,"hostname":"MarceloNote","msg":"End of node method closeAllBrowsers"}
+{"level":30,"time":"2025-09-28T20:27:28.484Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2025-09-28T20:27:28.729Z","pid":21304,"hostname":"MarceloNote","msg":"Adding browser to stack: chromium, version: 140.0.7339.16"}
+{"level":30,"time":"2025-09-28T20:27:28.730Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method newBrowser"}
+{"level":30,"time":"2025-09-28T20:27:28.730Z","pid":21304,"hostname":"MarceloNote","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2025-09-28T20:27:28.743Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-09-28T20:27:28.743Z","pid":21304,"hostname":"MarceloNote","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@1b24c647c1c4c2b439fe95efbd7f0786\"},\"headless\":false,\"_contextStack\":[],\"id\":\"browser=d3245989-f9bb-4d61-b7bd-dc868daaec31\"}"}
+{"level":30,"time":"2025-09-28T20:27:28.762Z","pid":21304,"hostname":"MarceloNote","msg":"Setting default timeout for context context=949a14c4-fa5a-4035-9705-437b907cae56 to 10000"}
+{"level":30,"time":"2025-09-28T20:27:28.762Z","pid":21304,"hostname":"MarceloNote","msg":"Changed active context: context=949a14c4-fa5a-4035-9705-437b907cae56"}
+{"level":30,"time":"2025-09-28T20:27:28.935Z","pid":21304,"hostname":"MarceloNote","msg":"Video path: undefined"}
+{"level":30,"time":"2025-09-28T20:27:28.935Z","pid":21304,"hostname":"MarceloNote","msg":"Changed active page"}
+{"level":30,"time":"2025-09-28T20:27:29.627Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method newPage"}
+{"level":30,"time":"2025-09-28T20:27:30.351Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-09-28T20:27:30.352Z","pid":21304,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=input[placeholder=\"E-mail\"] in page."}
+{"level":30,"time":"2025-09-28T20:27:30.400Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method fillText"}
+{"level":30,"time":"2025-09-28T20:27:30.404Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-09-28T20:27:30.404Z","pid":21304,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=input[placeholder=\"Senha\"] in page."}
+{"level":30,"time":"2025-09-28T20:27:30.420Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method fillText"}
+{"level":30,"time":"2025-09-28T20:27:30.424Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method click"}
+{"level":30,"time":"2025-09-28T20:27:30.424Z","pid":21304,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=button >> text=Entrar in page."}
+{"level":30,"time":"2025-09-28T20:27:30.491Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method click"}
+{"level":30,"time":"2025-09-28T20:27:30.498Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-09-28T20:27:30.498Z","pid":21304,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=header .right small in page."}
+{"level":30,"time":"2025-09-28T20:27:30.618Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-09-28T20:27:30.622Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method getText"}
+{"level":30,"time":"2025-09-28T20:27:30.622Z","pid":21304,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=header .right small in page."}
+{"level":30,"time":"2025-09-28T20:27:30.654Z","pid":21304,"hostname":"MarceloNote","msg":"Retrieved text for element css=header .right small containing Olá, TestCT006"}
+{"level":30,"time":"2025-09-28T20:27:30.654Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method getText"}
+{"level":30,"time":"2025-09-28T20:27:30.664Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2025-09-28T20:27:30.664Z","pid":21304,"hostname":"MarceloNote","Take screenshot with options: ":{"path":"C:\\Users\\marce\\OneDrive\\Documentos\\PROJETOS\\pb-compass\\Sprint_07\\QAx\\projects\\mark85-robot-express\\logs\\browser\\screenshot\\robotframework-browser-screenshot-1.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2025-09-28T20:27:30.847Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2025-09-28T20:27:30.855Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-28T20:27:30.860Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-28T20:27:30.862Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-28T20:27:30.864Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-28T20:27:30.866Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-28T20:27:30.868Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-28T20:27:30.875Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-28T20:27:30.877Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-28T20:27:30.882Z","pid":21304,"hostname":"MarceloNote","msg":"Changed active context: context=949a14c4-fa5a-4035-9705-437b907cae56"}
+{"level":30,"time":"2025-09-28T20:27:30.882Z","pid":21304,"hostname":"MarceloNote","msg":"Changing current active page: page=4884aca7-4ce3-4704-8086-5eb2c7e155d7"}
+{"level":30,"time":"2025-09-28T20:27:30.883Z","pid":21304,"hostname":"MarceloNote","msg":"Changed active page"}
+{"level":30,"time":"2025-09-28T20:27:30.888Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method closeContext"}
+{"level":30,"time":"2025-09-28T20:27:30.906Z","pid":21304,"hostname":"MarceloNote","msg":"Removed page=7856ecbf-cc56-4c59-90af-f2aa5b7848d7 from context=949a14c4-fa5a-4035-9705-437b907cae56 page stack"}
+{"level":30,"time":"2025-09-28T20:27:30.939Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method closeContext"}
+{"level":30,"time":"2025-09-28T20:27:30.946Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-28T20:27:30.947Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-28T20:27:30.956Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2025-09-28T20:27:30.956Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2025-09-28T20:27:30.964Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-09-28T20:27:30.964Z","pid":21304,"hostname":"MarceloNote","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@1b24c647c1c4c2b439fe95efbd7f0786\"},\"headless\":false,\"_contextStack\":[],\"id\":\"browser=d3245989-f9bb-4d61-b7bd-dc868daaec31\"}"}
+{"level":30,"time":"2025-09-28T20:27:30.973Z","pid":21304,"hostname":"MarceloNote","msg":"Setting default timeout for context context=2113c454-0d4c-46da-a6c4-0cadf9a4389b to 10000"}
+{"level":30,"time":"2025-09-28T20:27:30.973Z","pid":21304,"hostname":"MarceloNote","msg":"Changed active context: context=2113c454-0d4c-46da-a6c4-0cadf9a4389b"}
+{"level":30,"time":"2025-09-28T20:27:31.124Z","pid":21304,"hostname":"MarceloNote","msg":"Video path: undefined"}
+{"level":30,"time":"2025-09-28T20:27:31.124Z","pid":21304,"hostname":"MarceloNote","msg":"Changed active page"}
+{"level":30,"time":"2025-09-28T20:27:31.815Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method newPage"}
+{"level":30,"time":"2025-09-28T20:27:32.022Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-09-28T20:27:32.022Z","pid":21304,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=input[placeholder=\"E-mail\"] in page."}
+{"level":30,"time":"2025-09-28T20:27:32.057Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method fillText"}
+{"level":30,"time":"2025-09-28T20:27:32.060Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-09-28T20:27:32.060Z","pid":21304,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=input[placeholder=\"Senha\"] in page."}
+{"level":30,"time":"2025-09-28T20:27:32.074Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method fillText"}
+{"level":30,"time":"2025-09-28T20:27:32.077Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method click"}
+{"level":30,"time":"2025-09-28T20:27:32.077Z","pid":21304,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=button >> text=Entrar in page."}
+{"level":30,"time":"2025-09-28T20:27:32.137Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method click"}
+{"level":30,"time":"2025-09-28T20:27:32.141Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-09-28T20:27:32.142Z","pid":21304,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=.notice p in page."}
+{"level":30,"time":"2025-09-28T20:27:32.249Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-09-28T20:27:32.253Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method getText"}
+{"level":30,"time":"2025-09-28T20:27:32.253Z","pid":21304,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=.notice p in page."}
+{"level":30,"time":"2025-09-28T20:27:32.278Z","pid":21304,"hostname":"MarceloNote","msg":"Retrieved text for element css=.notice p containing Ocorreu um erro ao fazer login, verifique suas credenciais."}
+{"level":30,"time":"2025-09-28T20:27:32.279Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method getText"}
+{"level":30,"time":"2025-09-28T20:27:32.283Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2025-09-28T20:27:32.283Z","pid":21304,"hostname":"MarceloNote","Take screenshot with options: ":{"path":"C:\\Users\\marce\\OneDrive\\Documentos\\PROJETOS\\pb-compass\\Sprint_07\\QAx\\projects\\mark85-robot-express\\logs\\browser\\screenshot\\robotframework-browser-screenshot-2.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2025-09-28T20:27:32.465Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2025-09-28T20:27:32.470Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-28T20:27:32.472Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-28T20:27:32.475Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-28T20:27:32.478Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-28T20:27:32.481Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-28T20:27:32.484Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-28T20:27:32.487Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-28T20:27:32.489Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-28T20:27:32.492Z","pid":21304,"hostname":"MarceloNote","msg":"Changed active context: context=2113c454-0d4c-46da-a6c4-0cadf9a4389b"}
+{"level":30,"time":"2025-09-28T20:27:32.492Z","pid":21304,"hostname":"MarceloNote","msg":"Changing current active page: page=7a25077b-2615-492d-872a-fd4aa7935524"}
+{"level":30,"time":"2025-09-28T20:27:32.492Z","pid":21304,"hostname":"MarceloNote","msg":"Changed active page"}
+{"level":30,"time":"2025-09-28T20:27:32.496Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method closeContext"}
+{"level":30,"time":"2025-09-28T20:27:32.514Z","pid":21304,"hostname":"MarceloNote","msg":"Removed page=37fc189a-d28d-4f5c-a72d-f9adb02955bf from context=2113c454-0d4c-46da-a6c4-0cadf9a4389b page stack"}
+{"level":30,"time":"2025-09-28T20:27:32.535Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method closeContext"}
+{"level":30,"time":"2025-09-28T20:27:32.543Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-28T20:27:32.543Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-28T20:27:32.559Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-28T20:27:32.559Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-28T20:27:32.563Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-28T20:27:32.563Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-28T20:27:32.566Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2025-09-28T20:27:32.567Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2025-09-28T20:27:32.570Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-09-28T20:27:32.570Z","pid":21304,"hostname":"MarceloNote","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@1b24c647c1c4c2b439fe95efbd7f0786\"},\"headless\":false,\"_contextStack\":[],\"id\":\"browser=d3245989-f9bb-4d61-b7bd-dc868daaec31\"}"}
+{"level":30,"time":"2025-09-28T20:27:32.576Z","pid":21304,"hostname":"MarceloNote","msg":"Setting default timeout for context context=734c98fe-4d2b-4f61-9311-bba400f11176 to 10000"}
+{"level":30,"time":"2025-09-28T20:27:32.576Z","pid":21304,"hostname":"MarceloNote","msg":"Changed active context: context=734c98fe-4d2b-4f61-9311-bba400f11176"}
+{"level":30,"time":"2025-09-28T20:27:32.705Z","pid":21304,"hostname":"MarceloNote","msg":"Video path: undefined"}
+{"level":30,"time":"2025-09-28T20:27:32.705Z","pid":21304,"hostname":"MarceloNote","msg":"Changed active page"}
+{"level":30,"time":"2025-09-28T20:27:33.467Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method newPage"}
+{"level":30,"time":"2025-09-28T20:27:33.484Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-28T20:27:33.487Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-28T20:27:33.488Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-28T20:27:33.491Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-28T20:27:33.493Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-28T20:27:33.496Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-28T20:27:33.498Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-28T20:27:33.501Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-28T20:27:33.504Z","pid":21304,"hostname":"MarceloNote","msg":"Changed active context: context=734c98fe-4d2b-4f61-9311-bba400f11176"}
+{"level":30,"time":"2025-09-28T20:27:33.504Z","pid":21304,"hostname":"MarceloNote","msg":"Changing current active page: page=5486435e-11a9-4232-87d2-b873927e7da5"}
+{"level":30,"time":"2025-09-28T20:27:33.504Z","pid":21304,"hostname":"MarceloNote","msg":"Changed active page"}
+{"level":30,"time":"2025-09-28T20:27:33.509Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method closeContext"}
+{"level":30,"time":"2025-09-28T20:27:33.524Z","pid":21304,"hostname":"MarceloNote","msg":"Removed page=6f18edcf-1bd1-492b-993c-e32a799dcf1b from context=734c98fe-4d2b-4f61-9311-bba400f11176 page stack"}
+{"level":30,"time":"2025-09-28T20:27:33.550Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method closeContext"}
+{"level":30,"time":"2025-09-28T20:27:33.556Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-28T20:27:33.556Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-28T20:27:33.579Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-28T20:27:33.579Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-28T20:27:33.583Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-28T20:27:33.583Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-28T20:27:33.586Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2025-09-28T20:27:33.586Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2025-09-28T20:27:33.590Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-09-28T20:27:33.590Z","pid":21304,"hostname":"MarceloNote","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@1b24c647c1c4c2b439fe95efbd7f0786\"},\"headless\":false,\"_contextStack\":[],\"id\":\"browser=d3245989-f9bb-4d61-b7bd-dc868daaec31\"}"}
+{"level":30,"time":"2025-09-28T20:27:33.598Z","pid":21304,"hostname":"MarceloNote","msg":"Setting default timeout for context context=033bb006-ef01-48a6-8f71-a74a0577b5cb to 10000"}
+{"level":30,"time":"2025-09-28T20:27:33.598Z","pid":21304,"hostname":"MarceloNote","msg":"Changed active context: context=033bb006-ef01-48a6-8f71-a74a0577b5cb"}
+{"level":30,"time":"2025-09-28T20:27:33.712Z","pid":21304,"hostname":"MarceloNote","msg":"Video path: undefined"}
+{"level":30,"time":"2025-09-28T20:27:33.712Z","pid":21304,"hostname":"MarceloNote","msg":"Changed active page"}
+{"level":30,"time":"2025-09-28T20:27:34.485Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method newPage"}
+{"level":30,"time":"2025-09-28T20:27:34.580Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method goTo"}
+{"level":30,"time":"2025-09-28T20:27:34.617Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method goTo"}
+{"level":30,"time":"2025-09-28T20:27:34.621Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-09-28T20:27:34.621Z","pid":21304,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=h1 in page."}
+{"level":30,"time":"2025-09-28T20:27:34.645Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-09-28T20:27:34.649Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method getText"}
+{"level":30,"time":"2025-09-28T20:27:34.649Z","pid":21304,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=h1 in page."}
+{"level":30,"time":"2025-09-28T20:27:34.674Z","pid":21304,"hostname":"MarceloNote","msg":"Retrieved text for element css=h1 containing Faça seu cadastro"}
+{"level":30,"time":"2025-09-28T20:27:34.674Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method getText"}
+{"level":30,"time":"2025-09-28T20:27:34.679Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-09-28T20:27:34.679Z","pid":21304,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=input[name=name] in page."}
+{"level":30,"time":"2025-09-28T20:27:34.694Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method fillText"}
+{"level":30,"time":"2025-09-28T20:27:34.698Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-09-28T20:27:34.698Z","pid":21304,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=input[name=email] in page."}
+{"level":30,"time":"2025-09-28T20:27:34.714Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method fillText"}
+{"level":30,"time":"2025-09-28T20:27:34.717Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-09-28T20:27:34.717Z","pid":21304,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=input[name=password] in page."}
+{"level":30,"time":"2025-09-28T20:27:34.729Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method fillText"}
+{"level":30,"time":"2025-09-28T20:27:34.732Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method click"}
+{"level":30,"time":"2025-09-28T20:27:34.732Z","pid":21304,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=button[type=submit] >> text=Cadastrar in page."}
+{"level":30,"time":"2025-09-28T20:27:34.783Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method click"}
+{"level":30,"time":"2025-09-28T20:27:34.787Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-09-28T20:27:34.788Z","pid":21304,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=.notice p in page."}
+{"level":30,"time":"2025-09-28T20:27:34.993Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-09-28T20:27:34.997Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method getText"}
+{"level":30,"time":"2025-09-28T20:27:34.997Z","pid":21304,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=.notice p in page."}
+{"level":30,"time":"2025-09-28T20:27:35.013Z","pid":21304,"hostname":"MarceloNote","msg":"Retrieved text for element css=.notice p containing Boas vindas ao Mark85, o seu gerenciador de tarefas."}
+{"level":30,"time":"2025-09-28T20:27:35.013Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method getText"}
+{"level":30,"time":"2025-09-28T20:27:35.019Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2025-09-28T20:27:35.019Z","pid":21304,"hostname":"MarceloNote","Take screenshot with options: ":{"path":"C:\\Users\\marce\\OneDrive\\Documentos\\PROJETOS\\pb-compass\\Sprint_07\\QAx\\projects\\mark85-robot-express\\logs\\browser\\screenshot\\robotframework-browser-screenshot-3.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2025-09-28T20:27:35.220Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2025-09-28T20:27:35.226Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-28T20:27:35.228Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-28T20:27:35.230Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-28T20:27:35.231Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-28T20:27:35.234Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-28T20:27:35.236Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-28T20:27:35.239Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-28T20:27:35.241Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-28T20:27:35.244Z","pid":21304,"hostname":"MarceloNote","msg":"Changed active context: context=033bb006-ef01-48a6-8f71-a74a0577b5cb"}
+{"level":30,"time":"2025-09-28T20:27:35.244Z","pid":21304,"hostname":"MarceloNote","msg":"Changing current active page: page=06e18f28-1571-4e1a-89b7-5adabc3b2d84"}
+{"level":30,"time":"2025-09-28T20:27:35.244Z","pid":21304,"hostname":"MarceloNote","msg":"Changed active page"}
+{"level":30,"time":"2025-09-28T20:27:35.248Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method closeContext"}
+{"level":30,"time":"2025-09-28T20:27:35.262Z","pid":21304,"hostname":"MarceloNote","msg":"Removed page=45f4e718-64a0-43c6-86fc-e9fab214507d from context=033bb006-ef01-48a6-8f71-a74a0577b5cb page stack"}
+{"level":30,"time":"2025-09-28T20:27:35.286Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method closeContext"}
+{"level":30,"time":"2025-09-28T20:27:35.290Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-28T20:27:35.290Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-28T20:27:35.296Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2025-09-28T20:27:35.296Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2025-09-28T20:27:35.299Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-09-28T20:27:35.299Z","pid":21304,"hostname":"MarceloNote","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@1b24c647c1c4c2b439fe95efbd7f0786\"},\"headless\":false,\"_contextStack\":[],\"id\":\"browser=d3245989-f9bb-4d61-b7bd-dc868daaec31\"}"}
+{"level":30,"time":"2025-09-28T20:27:35.306Z","pid":21304,"hostname":"MarceloNote","msg":"Setting default timeout for context context=ad5d154b-4446-45bb-9b13-a95f8d0581f6 to 10000"}
+{"level":30,"time":"2025-09-28T20:27:35.306Z","pid":21304,"hostname":"MarceloNote","msg":"Changed active context: context=ad5d154b-4446-45bb-9b13-a95f8d0581f6"}
+{"level":30,"time":"2025-09-28T20:27:35.420Z","pid":21304,"hostname":"MarceloNote","msg":"Video path: undefined"}
+{"level":30,"time":"2025-09-28T20:27:35.420Z","pid":21304,"hostname":"MarceloNote","msg":"Changed active page"}
+{"level":30,"time":"2025-09-28T20:27:36.096Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method newPage"}
+{"level":30,"time":"2025-09-28T20:27:36.302Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method goTo"}
+{"level":30,"time":"2025-09-28T20:27:36.338Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method goTo"}
+{"level":30,"time":"2025-09-28T20:27:36.342Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-09-28T20:27:36.342Z","pid":21304,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=h1 in page."}
+{"level":30,"time":"2025-09-28T20:27:36.366Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-09-28T20:27:36.369Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method getText"}
+{"level":30,"time":"2025-09-28T20:27:36.369Z","pid":21304,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=h1 in page."}
+{"level":30,"time":"2025-09-28T20:27:36.399Z","pid":21304,"hostname":"MarceloNote","msg":"Retrieved text for element css=h1 containing Faça seu cadastro"}
+{"level":30,"time":"2025-09-28T20:27:36.400Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method getText"}
+{"level":30,"time":"2025-09-28T20:27:36.404Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-09-28T20:27:36.404Z","pid":21304,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=input[name=name] in page."}
+{"level":30,"time":"2025-09-28T20:27:36.420Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method fillText"}
+{"level":30,"time":"2025-09-28T20:27:36.423Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-09-28T20:27:36.423Z","pid":21304,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=input[name=email] in page."}
+{"level":30,"time":"2025-09-28T20:27:36.445Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method fillText"}
+{"level":30,"time":"2025-09-28T20:27:36.449Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-09-28T20:27:36.449Z","pid":21304,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=input[name=password] in page."}
+{"level":30,"time":"2025-09-28T20:27:36.461Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method fillText"}
+{"level":30,"time":"2025-09-28T20:27:36.465Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method click"}
+{"level":30,"time":"2025-09-28T20:27:36.465Z","pid":21304,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=button[type=submit] >> text=Cadastrar in page."}
+{"level":30,"time":"2025-09-28T20:27:36.513Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method click"}
+{"level":30,"time":"2025-09-28T20:27:36.518Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-09-28T20:27:36.518Z","pid":21304,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=.notice p in page."}
+{"level":30,"time":"2025-09-28T20:27:36.613Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-09-28T20:27:36.617Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method getText"}
+{"level":30,"time":"2025-09-28T20:27:36.617Z","pid":21304,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=.notice p in page."}
+{"level":30,"time":"2025-09-28T20:27:36.634Z","pid":21304,"hostname":"MarceloNote","msg":"Retrieved text for element css=.notice p containing Oops! Já existe uma conta com o e-mail informado."}
+{"level":30,"time":"2025-09-28T20:27:36.634Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method getText"}
+{"level":30,"time":"2025-09-28T20:27:36.638Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2025-09-28T20:27:36.638Z","pid":21304,"hostname":"MarceloNote","Take screenshot with options: ":{"path":"C:\\Users\\marce\\OneDrive\\Documentos\\PROJETOS\\pb-compass\\Sprint_07\\QAx\\projects\\mark85-robot-express\\logs\\browser\\screenshot\\robotframework-browser-screenshot-4.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2025-09-28T20:27:36.827Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2025-09-28T20:27:36.833Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-28T20:27:36.835Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-28T20:27:36.838Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-28T20:27:36.840Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-28T20:27:36.842Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-28T20:27:36.844Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-28T20:27:36.846Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-28T20:27:36.850Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-28T20:27:36.852Z","pid":21304,"hostname":"MarceloNote","msg":"Changed active context: context=ad5d154b-4446-45bb-9b13-a95f8d0581f6"}
+{"level":30,"time":"2025-09-28T20:27:36.852Z","pid":21304,"hostname":"MarceloNote","msg":"Changing current active page: page=6e4a2e98-c649-46d3-a50e-610e14faab18"}
+{"level":30,"time":"2025-09-28T20:27:36.852Z","pid":21304,"hostname":"MarceloNote","msg":"Changed active page"}
+{"level":30,"time":"2025-09-28T20:27:36.856Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method closeContext"}
+{"level":30,"time":"2025-09-28T20:27:36.879Z","pid":21304,"hostname":"MarceloNote","msg":"Removed page=687cd218-889c-4083-9c66-d7506ab98bd7 from context=ad5d154b-4446-45bb-9b13-a95f8d0581f6 page stack"}
+{"level":30,"time":"2025-09-28T20:27:36.904Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method closeContext"}
+{"level":30,"time":"2025-09-28T20:27:36.910Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-28T20:27:36.910Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-28T20:27:36.915Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2025-09-28T20:27:36.915Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2025-09-28T20:27:36.919Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-09-28T20:27:36.919Z","pid":21304,"hostname":"MarceloNote","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@1b24c647c1c4c2b439fe95efbd7f0786\"},\"headless\":false,\"_contextStack\":[],\"id\":\"browser=d3245989-f9bb-4d61-b7bd-dc868daaec31\"}"}
+{"level":30,"time":"2025-09-28T20:27:36.926Z","pid":21304,"hostname":"MarceloNote","msg":"Setting default timeout for context context=e2415a46-574c-45b4-a376-ab8fd6f5dec2 to 10000"}
+{"level":30,"time":"2025-09-28T20:27:36.926Z","pid":21304,"hostname":"MarceloNote","msg":"Changed active context: context=e2415a46-574c-45b4-a376-ab8fd6f5dec2"}
+{"level":30,"time":"2025-09-28T20:27:37.049Z","pid":21304,"hostname":"MarceloNote","msg":"Video path: undefined"}
+{"level":30,"time":"2025-09-28T20:27:37.049Z","pid":21304,"hostname":"MarceloNote","msg":"Changed active page"}
+{"level":30,"time":"2025-09-28T20:27:37.805Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method newPage"}
+{"level":30,"time":"2025-09-28T20:27:37.812Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method goTo"}
+{"level":30,"time":"2025-09-28T20:27:37.848Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method goTo"}
+{"level":30,"time":"2025-09-28T20:27:37.852Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-09-28T20:27:37.852Z","pid":21304,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=h1 in page."}
+{"level":30,"time":"2025-09-28T20:27:37.876Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-09-28T20:27:37.880Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method getText"}
+{"level":30,"time":"2025-09-28T20:27:37.880Z","pid":21304,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=h1 in page."}
+{"level":30,"time":"2025-09-28T20:27:37.904Z","pid":21304,"hostname":"MarceloNote","msg":"Retrieved text for element css=h1 containing Faça seu cadastro"}
+{"level":30,"time":"2025-09-28T20:27:37.905Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method getText"}
+{"level":30,"time":"2025-09-28T20:27:37.911Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-09-28T20:27:37.911Z","pid":21304,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=input[name=name] in page."}
+{"level":30,"time":"2025-09-28T20:27:37.929Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method fillText"}
+{"level":30,"time":"2025-09-28T20:27:37.932Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-09-28T20:27:37.933Z","pid":21304,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=input[name=email] in page."}
+{"level":30,"time":"2025-09-28T20:27:37.950Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method fillText"}
+{"level":30,"time":"2025-09-28T20:27:37.953Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-09-28T20:27:37.953Z","pid":21304,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=input[name=password] in page."}
+{"level":30,"time":"2025-09-28T20:27:37.966Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method fillText"}
+{"level":30,"time":"2025-09-28T20:27:37.969Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method click"}
+{"level":30,"time":"2025-09-28T20:27:37.969Z","pid":21304,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=button[type=submit] >> text=Cadastrar in page."}
+{"level":30,"time":"2025-09-28T20:27:38.028Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method click"}
+{"level":30,"time":"2025-09-28T20:27:38.033Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-09-28T20:27:38.033Z","pid":21304,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=.alert-error >> text=Informe seu nome completo in page."}
+{"level":30,"time":"2025-09-28T20:27:38.037Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-09-28T20:27:38.043Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-09-28T20:27:38.043Z","pid":21304,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=.alert-error >> text=Informe seu e-email in page."}
+{"level":30,"time":"2025-09-28T20:27:38.048Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-09-28T20:27:38.052Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-09-28T20:27:38.052Z","pid":21304,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=.alert-error >> text=Informe uma senha com pelo menos 6 digitos in page."}
+{"level":30,"time":"2025-09-28T20:27:38.057Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-09-28T20:27:38.063Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2025-09-28T20:27:38.064Z","pid":21304,"hostname":"MarceloNote","Take screenshot with options: ":{"path":"C:\\Users\\marce\\OneDrive\\Documentos\\PROJETOS\\pb-compass\\Sprint_07\\QAx\\projects\\mark85-robot-express\\logs\\browser\\screenshot\\robotframework-browser-screenshot-5.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2025-09-28T20:27:38.235Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2025-09-28T20:27:38.241Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-28T20:27:38.243Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-28T20:27:38.245Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-28T20:27:38.247Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-28T20:27:38.249Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-28T20:27:38.251Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-28T20:27:38.254Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-28T20:27:38.256Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-28T20:27:38.259Z","pid":21304,"hostname":"MarceloNote","msg":"Changed active context: context=e2415a46-574c-45b4-a376-ab8fd6f5dec2"}
+{"level":30,"time":"2025-09-28T20:27:38.259Z","pid":21304,"hostname":"MarceloNote","msg":"Changing current active page: page=993a1daf-f0d1-4801-a582-265907cc63bc"}
+{"level":30,"time":"2025-09-28T20:27:38.259Z","pid":21304,"hostname":"MarceloNote","msg":"Changed active page"}
+{"level":30,"time":"2025-09-28T20:27:38.262Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method closeContext"}
+{"level":30,"time":"2025-09-28T20:27:38.278Z","pid":21304,"hostname":"MarceloNote","msg":"Removed page=c0458da5-ea29-44f4-a543-6fc5d23da77c from context=e2415a46-574c-45b4-a376-ab8fd6f5dec2 page stack"}
+{"level":30,"time":"2025-09-28T20:27:38.302Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method closeContext"}
+{"level":30,"time":"2025-09-28T20:27:38.306Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-28T20:27:38.307Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-28T20:27:38.311Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2025-09-28T20:27:38.311Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2025-09-28T20:27:38.316Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-09-28T20:27:38.316Z","pid":21304,"hostname":"MarceloNote","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@1b24c647c1c4c2b439fe95efbd7f0786\"},\"headless\":false,\"_contextStack\":[],\"id\":\"browser=d3245989-f9bb-4d61-b7bd-dc868daaec31\"}"}
+{"level":30,"time":"2025-09-28T20:27:38.321Z","pid":21304,"hostname":"MarceloNote","msg":"Setting default timeout for context context=d01426c9-8090-4509-b68d-806062a322df to 10000"}
+{"level":30,"time":"2025-09-28T20:27:38.321Z","pid":21304,"hostname":"MarceloNote","msg":"Changed active context: context=d01426c9-8090-4509-b68d-806062a322df"}
+{"level":30,"time":"2025-09-28T20:27:38.446Z","pid":21304,"hostname":"MarceloNote","msg":"Video path: undefined"}
+{"level":30,"time":"2025-09-28T20:27:38.446Z","pid":21304,"hostname":"MarceloNote","msg":"Changed active page"}
+{"level":30,"time":"2025-09-28T20:27:39.198Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method newPage"}
+{"level":30,"time":"2025-09-28T20:27:39.204Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method goTo"}
+{"level":30,"time":"2025-09-28T20:27:39.242Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method goTo"}
+{"level":30,"time":"2025-09-28T20:27:39.246Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-09-28T20:27:39.246Z","pid":21304,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=h1 in page."}
+{"level":30,"time":"2025-09-28T20:27:39.269Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-09-28T20:27:39.272Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method getText"}
+{"level":30,"time":"2025-09-28T20:27:39.272Z","pid":21304,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=h1 in page."}
+{"level":30,"time":"2025-09-28T20:27:39.296Z","pid":21304,"hostname":"MarceloNote","msg":"Retrieved text for element css=h1 containing Faça seu cadastro"}
+{"level":30,"time":"2025-09-28T20:27:39.296Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method getText"}
+{"level":30,"time":"2025-09-28T20:27:39.300Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-09-28T20:27:39.300Z","pid":21304,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=input[name=name] in page."}
+{"level":30,"time":"2025-09-28T20:27:39.315Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method fillText"}
+{"level":30,"time":"2025-09-28T20:27:39.318Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-09-28T20:27:39.318Z","pid":21304,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=input[name=email] in page."}
+{"level":30,"time":"2025-09-28T20:27:39.341Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method fillText"}
+{"level":30,"time":"2025-09-28T20:27:39.345Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-09-28T20:27:39.345Z","pid":21304,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=input[name=password] in page."}
+{"level":30,"time":"2025-09-28T20:27:39.356Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method fillText"}
+{"level":30,"time":"2025-09-28T20:27:39.360Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method click"}
+{"level":30,"time":"2025-09-28T20:27:39.360Z","pid":21304,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=button[type=submit] >> text=Cadastrar in page."}
+{"level":30,"time":"2025-09-28T20:27:39.413Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method click"}
+{"level":30,"time":"2025-09-28T20:27:39.417Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-09-28T20:27:39.418Z","pid":21304,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=.alert-error >> text=Digite um e-mail válido in page."}
+{"level":30,"time":"2025-09-28T20:27:39.423Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-09-28T20:27:39.428Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2025-09-28T20:27:39.429Z","pid":21304,"hostname":"MarceloNote","Take screenshot with options: ":{"path":"C:\\Users\\marce\\OneDrive\\Documentos\\PROJETOS\\pb-compass\\Sprint_07\\QAx\\projects\\mark85-robot-express\\logs\\browser\\screenshot\\robotframework-browser-screenshot-6.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2025-09-28T20:27:39.609Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2025-09-28T20:27:39.614Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-28T20:27:39.617Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-28T20:27:39.618Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-28T20:27:39.621Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-28T20:27:39.624Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-28T20:27:39.625Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-28T20:27:39.628Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-28T20:27:39.631Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-28T20:27:39.633Z","pid":21304,"hostname":"MarceloNote","msg":"Changed active context: context=d01426c9-8090-4509-b68d-806062a322df"}
+{"level":30,"time":"2025-09-28T20:27:39.633Z","pid":21304,"hostname":"MarceloNote","msg":"Changing current active page: page=ec09034d-58ef-4c2c-9e29-704f171d92a1"}
+{"level":30,"time":"2025-09-28T20:27:39.633Z","pid":21304,"hostname":"MarceloNote","msg":"Changed active page"}
+{"level":30,"time":"2025-09-28T20:27:39.637Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method closeContext"}
+{"level":30,"time":"2025-09-28T20:27:39.650Z","pid":21304,"hostname":"MarceloNote","msg":"Removed page=ba26caf6-8c16-499a-a25a-ec8514a62f60 from context=d01426c9-8090-4509-b68d-806062a322df page stack"}
+{"level":30,"time":"2025-09-28T20:27:39.676Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method closeContext"}
+{"level":30,"time":"2025-09-28T20:27:39.680Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-28T20:27:39.680Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-28T20:27:39.685Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2025-09-28T20:27:39.685Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2025-09-28T20:27:39.690Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-09-28T20:27:39.690Z","pid":21304,"hostname":"MarceloNote","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@1b24c647c1c4c2b439fe95efbd7f0786\"},\"headless\":false,\"_contextStack\":[],\"id\":\"browser=d3245989-f9bb-4d61-b7bd-dc868daaec31\"}"}
+{"level":30,"time":"2025-09-28T20:27:39.697Z","pid":21304,"hostname":"MarceloNote","msg":"Setting default timeout for context context=b6bca044-4045-41c1-aa83-d65882b22a7a to 10000"}
+{"level":30,"time":"2025-09-28T20:27:39.697Z","pid":21304,"hostname":"MarceloNote","msg":"Changed active context: context=b6bca044-4045-41c1-aa83-d65882b22a7a"}
+{"level":30,"time":"2025-09-28T20:27:39.832Z","pid":21304,"hostname":"MarceloNote","msg":"Video path: undefined"}
+{"level":30,"time":"2025-09-28T20:27:39.832Z","pid":21304,"hostname":"MarceloNote","msg":"Changed active page"}
+{"level":30,"time":"2025-09-28T20:27:40.507Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method newPage"}
+{"level":30,"time":"2025-09-28T20:27:40.514Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method goTo"}
+{"level":30,"time":"2025-09-28T20:27:40.552Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method goTo"}
+{"level":30,"time":"2025-09-28T20:27:40.556Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-09-28T20:27:40.556Z","pid":21304,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=h1 in page."}
+{"level":30,"time":"2025-09-28T20:27:40.579Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-09-28T20:27:40.582Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method getText"}
+{"level":30,"time":"2025-09-28T20:27:40.582Z","pid":21304,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=h1 in page."}
+{"level":30,"time":"2025-09-28T20:27:40.612Z","pid":21304,"hostname":"MarceloNote","msg":"Retrieved text for element css=h1 containing Faça seu cadastro"}
+{"level":30,"time":"2025-09-28T20:27:40.612Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method getText"}
+{"level":30,"time":"2025-09-28T20:27:40.615Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-09-28T20:27:40.615Z","pid":21304,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=input[name=name] in page."}
+{"level":30,"time":"2025-09-28T20:27:40.630Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method fillText"}
+{"level":30,"time":"2025-09-28T20:27:40.633Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-09-28T20:27:40.633Z","pid":21304,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=input[name=email] in page."}
+{"level":30,"time":"2025-09-28T20:27:40.650Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method fillText"}
+{"level":30,"time":"2025-09-28T20:27:40.653Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-09-28T20:27:40.653Z","pid":21304,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=input[name=password] in page."}
+{"level":30,"time":"2025-09-28T20:27:40.664Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method fillText"}
+{"level":30,"time":"2025-09-28T20:27:40.667Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method click"}
+{"level":30,"time":"2025-09-28T20:27:40.667Z","pid":21304,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=button[type=submit] >> text=Cadastrar in page."}
+{"level":30,"time":"2025-09-28T20:27:40.727Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method click"}
+{"level":30,"time":"2025-09-28T20:27:40.731Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-09-28T20:27:40.731Z","pid":21304,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=.alert-error >> text=Informe uma senha com pelo menos 6 digitos in page."}
+{"level":30,"time":"2025-09-28T20:27:40.737Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-09-28T20:27:40.742Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method goTo"}
+{"level":30,"time":"2025-09-28T20:27:40.773Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method goTo"}
+{"level":30,"time":"2025-09-28T20:27:40.777Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-09-28T20:27:40.777Z","pid":21304,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=h1 in page."}
+{"level":30,"time":"2025-09-28T20:27:40.795Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-09-28T20:27:40.798Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method getText"}
+{"level":30,"time":"2025-09-28T20:27:40.798Z","pid":21304,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=h1 in page."}
+{"level":30,"time":"2025-09-28T20:27:40.822Z","pid":21304,"hostname":"MarceloNote","msg":"Retrieved text for element css=h1 containing Faça seu cadastro"}
+{"level":30,"time":"2025-09-28T20:27:40.822Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method getText"}
+{"level":30,"time":"2025-09-28T20:27:40.828Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-09-28T20:27:40.828Z","pid":21304,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=input[name=name] in page."}
+{"level":30,"time":"2025-09-28T20:27:40.839Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method fillText"}
+{"level":30,"time":"2025-09-28T20:27:40.843Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-09-28T20:27:40.843Z","pid":21304,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=input[name=email] in page."}
+{"level":30,"time":"2025-09-28T20:27:40.857Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method fillText"}
+{"level":30,"time":"2025-09-28T20:27:40.861Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-09-28T20:27:40.861Z","pid":21304,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=input[name=password] in page."}
+{"level":30,"time":"2025-09-28T20:27:40.872Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method fillText"}
+{"level":30,"time":"2025-09-28T20:27:40.876Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method click"}
+{"level":30,"time":"2025-09-28T20:27:40.876Z","pid":21304,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=button[type=submit] >> text=Cadastrar in page."}
+{"level":30,"time":"2025-09-28T20:27:40.919Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method click"}
+{"level":30,"time":"2025-09-28T20:27:40.923Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-09-28T20:27:40.923Z","pid":21304,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=.alert-error >> text=Informe uma senha com pelo menos 6 digitos in page."}
+{"level":30,"time":"2025-09-28T20:27:40.927Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-09-28T20:27:40.931Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method goTo"}
+{"level":30,"time":"2025-09-28T20:27:40.961Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method goTo"}
+{"level":30,"time":"2025-09-28T20:27:40.965Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-09-28T20:27:40.965Z","pid":21304,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=h1 in page."}
+{"level":30,"time":"2025-09-28T20:27:40.980Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-09-28T20:27:40.983Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method getText"}
+{"level":30,"time":"2025-09-28T20:27:40.983Z","pid":21304,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=h1 in page."}
+{"level":30,"time":"2025-09-28T20:27:41.010Z","pid":21304,"hostname":"MarceloNote","msg":"Retrieved text for element css=h1 containing Faça seu cadastro"}
+{"level":30,"time":"2025-09-28T20:27:41.010Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method getText"}
+{"level":30,"time":"2025-09-28T20:27:41.014Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-09-28T20:27:41.014Z","pid":21304,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=input[name=name] in page."}
+{"level":30,"time":"2025-09-28T20:27:41.028Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method fillText"}
+{"level":30,"time":"2025-09-28T20:27:41.032Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-09-28T20:27:41.032Z","pid":21304,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=input[name=email] in page."}
+{"level":30,"time":"2025-09-28T20:27:41.051Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method fillText"}
+{"level":30,"time":"2025-09-28T20:27:41.054Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-09-28T20:27:41.054Z","pid":21304,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=input[name=password] in page."}
+{"level":30,"time":"2025-09-28T20:27:41.066Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method fillText"}
+{"level":30,"time":"2025-09-28T20:27:41.069Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method click"}
+{"level":30,"time":"2025-09-28T20:27:41.069Z","pid":21304,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=button[type=submit] >> text=Cadastrar in page."}
+{"level":30,"time":"2025-09-28T20:27:41.119Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method click"}
+{"level":30,"time":"2025-09-28T20:27:41.123Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-09-28T20:27:41.123Z","pid":21304,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=.alert-error >> text=Informe uma senha com pelo menos 6 digitos in page."}
+{"level":30,"time":"2025-09-28T20:27:41.128Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-09-28T20:27:41.132Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method goTo"}
+{"level":30,"time":"2025-09-28T20:27:41.162Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method goTo"}
+{"level":30,"time":"2025-09-28T20:27:41.165Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-09-28T20:27:41.165Z","pid":21304,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=h1 in page."}
+{"level":30,"time":"2025-09-28T20:27:41.181Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-09-28T20:27:41.184Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method getText"}
+{"level":30,"time":"2025-09-28T20:27:41.185Z","pid":21304,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=h1 in page."}
+{"level":30,"time":"2025-09-28T20:27:41.207Z","pid":21304,"hostname":"MarceloNote","msg":"Retrieved text for element css=h1 containing Faça seu cadastro"}
+{"level":30,"time":"2025-09-28T20:27:41.207Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method getText"}
+{"level":30,"time":"2025-09-28T20:27:41.212Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-09-28T20:27:41.212Z","pid":21304,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=input[name=name] in page."}
+{"level":30,"time":"2025-09-28T20:27:41.224Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method fillText"}
+{"level":30,"time":"2025-09-28T20:27:41.227Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-09-28T20:27:41.228Z","pid":21304,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=input[name=email] in page."}
+{"level":30,"time":"2025-09-28T20:27:41.241Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method fillText"}
+{"level":30,"time":"2025-09-28T20:27:41.245Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-09-28T20:27:41.245Z","pid":21304,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=input[name=password] in page."}
+{"level":30,"time":"2025-09-28T20:27:41.256Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method fillText"}
+{"level":30,"time":"2025-09-28T20:27:41.260Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method click"}
+{"level":30,"time":"2025-09-28T20:27:41.260Z","pid":21304,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=button[type=submit] >> text=Cadastrar in page."}
+{"level":30,"time":"2025-09-28T20:27:41.304Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method click"}
+{"level":30,"time":"2025-09-28T20:27:41.308Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-09-28T20:27:41.308Z","pid":21304,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=.alert-error >> text=Informe uma senha com pelo menos 6 digitos in page."}
+{"level":30,"time":"2025-09-28T20:27:41.313Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-09-28T20:27:41.317Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method goTo"}
+{"level":30,"time":"2025-09-28T20:27:41.346Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method goTo"}
+{"level":30,"time":"2025-09-28T20:27:41.350Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-09-28T20:27:41.350Z","pid":21304,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=h1 in page."}
+{"level":30,"time":"2025-09-28T20:27:41.365Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-09-28T20:27:41.369Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method getText"}
+{"level":30,"time":"2025-09-28T20:27:41.369Z","pid":21304,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=h1 in page."}
+{"level":30,"time":"2025-09-28T20:27:41.394Z","pid":21304,"hostname":"MarceloNote","msg":"Retrieved text for element css=h1 containing Faça seu cadastro"}
+{"level":30,"time":"2025-09-28T20:27:41.394Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method getText"}
+{"level":30,"time":"2025-09-28T20:27:41.398Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-09-28T20:27:41.399Z","pid":21304,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=input[name=name] in page."}
+{"level":30,"time":"2025-09-28T20:27:41.411Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method fillText"}
+{"level":30,"time":"2025-09-28T20:27:41.414Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-09-28T20:27:41.414Z","pid":21304,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=input[name=email] in page."}
+{"level":30,"time":"2025-09-28T20:27:41.430Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method fillText"}
+{"level":30,"time":"2025-09-28T20:27:41.433Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-09-28T20:27:41.434Z","pid":21304,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=input[name=password] in page."}
+{"level":30,"time":"2025-09-28T20:27:41.445Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method fillText"}
+{"level":30,"time":"2025-09-28T20:27:41.448Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method click"}
+{"level":30,"time":"2025-09-28T20:27:41.448Z","pid":21304,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=button[type=submit] >> text=Cadastrar in page."}
+{"level":30,"time":"2025-09-28T20:27:41.503Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method click"}
+{"level":30,"time":"2025-09-28T20:27:41.507Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-09-28T20:27:41.507Z","pid":21304,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=.alert-error >> text=Informe uma senha com pelo menos 6 digitos in page."}
+{"level":30,"time":"2025-09-28T20:27:41.511Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-09-28T20:27:41.516Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2025-09-28T20:27:41.517Z","pid":21304,"hostname":"MarceloNote","Take screenshot with options: ":{"path":"C:\\Users\\marce\\OneDrive\\Documentos\\PROJETOS\\pb-compass\\Sprint_07\\QAx\\projects\\mark85-robot-express\\logs\\browser\\screenshot\\robotframework-browser-screenshot-7.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2025-09-28T20:27:41.700Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2025-09-28T20:27:41.705Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-28T20:27:41.707Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-28T20:27:41.710Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-28T20:27:41.712Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-28T20:27:41.714Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-28T20:27:41.716Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-28T20:27:41.719Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-28T20:27:41.722Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-28T20:27:41.723Z","pid":21304,"hostname":"MarceloNote","msg":"Changed active context: context=b6bca044-4045-41c1-aa83-d65882b22a7a"}
+{"level":30,"time":"2025-09-28T20:27:41.723Z","pid":21304,"hostname":"MarceloNote","msg":"Changing current active page: page=4ca4016e-2f4c-4ad1-9e5f-8cb543fb5199"}
+{"level":30,"time":"2025-09-28T20:27:41.723Z","pid":21304,"hostname":"MarceloNote","msg":"Changed active page"}
+{"level":30,"time":"2025-09-28T20:27:41.727Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method closeContext"}
+{"level":30,"time":"2025-09-28T20:27:41.744Z","pid":21304,"hostname":"MarceloNote","msg":"Removed page=8b46d959-8d42-4920-95c8-ff576b0fe849 from context=b6bca044-4045-41c1-aa83-d65882b22a7a page stack"}
+{"level":30,"time":"2025-09-28T20:27:41.766Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method closeContext"}
+{"level":30,"time":"2025-09-28T20:27:41.772Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-28T20:27:41.772Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-28T20:27:41.788Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-28T20:27:41.789Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-28T20:27:41.791Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-28T20:27:41.791Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-28T20:27:41.795Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2025-09-28T20:27:41.796Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2025-09-28T20:27:41.798Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-09-28T20:27:41.799Z","pid":21304,"hostname":"MarceloNote","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@1b24c647c1c4c2b439fe95efbd7f0786\"},\"headless\":false,\"_contextStack\":[],\"id\":\"browser=d3245989-f9bb-4d61-b7bd-dc868daaec31\"}"}
+{"level":30,"time":"2025-09-28T20:27:41.807Z","pid":21304,"hostname":"MarceloNote","msg":"Setting default timeout for context context=21a197c4-1e31-405c-bd75-349cc9875325 to 10000"}
+{"level":30,"time":"2025-09-28T20:27:41.808Z","pid":21304,"hostname":"MarceloNote","msg":"Changed active context: context=21a197c4-1e31-405c-bd75-349cc9875325"}
+{"level":30,"time":"2025-09-28T20:27:41.932Z","pid":21304,"hostname":"MarceloNote","msg":"Video path: undefined"}
+{"level":30,"time":"2025-09-28T20:27:41.932Z","pid":21304,"hostname":"MarceloNote","msg":"Changed active page"}
+{"level":30,"time":"2025-09-28T20:27:42.691Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method newPage"}
+{"level":30,"time":"2025-09-28T20:27:42.894Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-09-28T20:27:42.894Z","pid":21304,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=input[placeholder=\"E-mail\"] in page."}
+{"level":30,"time":"2025-09-28T20:27:42.932Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method fillText"}
+{"level":30,"time":"2025-09-28T20:27:42.935Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-09-28T20:27:42.935Z","pid":21304,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=input[placeholder=\"Senha\"] in page."}
+{"level":30,"time":"2025-09-28T20:27:42.948Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method fillText"}
+{"level":30,"time":"2025-09-28T20:27:42.951Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method click"}
+{"level":30,"time":"2025-09-28T20:27:42.951Z","pid":21304,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=button >> text=Entrar in page."}
+{"level":30,"time":"2025-09-28T20:27:43.008Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method click"}
+{"level":30,"time":"2025-09-28T20:27:43.012Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-09-28T20:27:43.013Z","pid":21304,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=header .right small in page."}
+{"level":30,"time":"2025-09-28T20:27:43.223Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-09-28T20:27:43.227Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method getText"}
+{"level":30,"time":"2025-09-28T20:27:43.227Z","pid":21304,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=header .right small in page."}
+{"level":30,"time":"2025-09-28T20:27:43.252Z","pid":21304,"hostname":"MarceloNote","msg":"Retrieved text for element css=header .right small containing Olá, TestCT008Json"}
+{"level":30,"time":"2025-09-28T20:27:43.252Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method getText"}
+{"level":30,"time":"2025-09-28T20:27:43.258Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method click"}
+{"level":30,"time":"2025-09-28T20:27:43.258Z","pid":21304,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=.button-add in page."}
+{"level":30,"time":"2025-09-28T20:27:43.294Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method click"}
+{"level":30,"time":"2025-09-28T20:27:43.299Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-09-28T20:27:43.299Z","pid":21304,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=input[placeholder$=\"tarefa\"] in page."}
+{"level":30,"time":"2025-09-28T20:27:43.309Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method fillText"}
+{"level":30,"time":"2025-09-28T20:27:43.312Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-09-28T20:27:43.312Z","pid":21304,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=input[placeholder=\"Informe até 3 tags\"] in page."}
+{"level":30,"time":"2025-09-28T20:27:43.325Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method fillText"}
+{"level":30,"time":"2025-09-28T20:27:43.328Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method click"}
+{"level":30,"time":"2025-09-28T20:27:43.328Z","pid":21304,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=button >> text=Cadastrar in page."}
+{"level":30,"time":"2025-09-28T20:27:43.366Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method click"}
+{"level":30,"time":"2025-09-28T20:27:43.370Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-09-28T20:27:43.371Z","pid":21304,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=.task-todo >> text=Criar uma nova versão do Ipod (CT008) in page."}
+{"level":30,"time":"2025-09-28T20:27:43.690Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-09-28T20:27:43.697Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2025-09-28T20:27:43.697Z","pid":21304,"hostname":"MarceloNote","Take screenshot with options: ":{"path":"C:\\Users\\marce\\OneDrive\\Documentos\\PROJETOS\\pb-compass\\Sprint_07\\QAx\\projects\\mark85-robot-express\\logs\\browser\\screenshot\\robotframework-browser-screenshot-8.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2025-09-28T20:27:43.892Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2025-09-28T20:27:43.898Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-28T20:27:43.900Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-28T20:27:43.903Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-28T20:27:43.905Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-28T20:27:43.906Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-28T20:27:43.908Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-28T20:27:43.911Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-28T20:27:43.913Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-28T20:27:43.915Z","pid":21304,"hostname":"MarceloNote","msg":"Changed active context: context=21a197c4-1e31-405c-bd75-349cc9875325"}
+{"level":30,"time":"2025-09-28T20:27:43.916Z","pid":21304,"hostname":"MarceloNote","msg":"Changing current active page: page=c3998934-0536-479e-8720-964f14a7bf56"}
+{"level":30,"time":"2025-09-28T20:27:43.916Z","pid":21304,"hostname":"MarceloNote","msg":"Changed active page"}
+{"level":30,"time":"2025-09-28T20:27:43.921Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method closeContext"}
+{"level":30,"time":"2025-09-28T20:27:43.940Z","pid":21304,"hostname":"MarceloNote","msg":"Removed page=ec1adb18-c029-4a77-8ace-5e64ff7f01c7 from context=21a197c4-1e31-405c-bd75-349cc9875325 page stack"}
+{"level":30,"time":"2025-09-28T20:27:43.965Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method closeContext"}
+{"level":30,"time":"2025-09-28T20:27:43.972Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-28T20:27:43.972Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-28T20:27:44.038Z","pid":21304,"hostname":"MarceloNote","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2025-09-28T20:27:44.236Z","pid":21304,"hostname":"MarceloNote","msg":"End of node method closeAllBrowsers"}

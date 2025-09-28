@@ -11,7 +11,7 @@ Test Teardown     Take Screenshot
 
 *** Test Cases ***
 CT006 Deve poder logar com um usário pré-cadastrado
-    [Tags]    CT006
+    [Tags]    login
     ${user}    Create Dictionary
     ...    name=TestCT006
     ...    email=ct006@mail.com
@@ -26,7 +26,7 @@ CT006 Deve poder logar com um usário pré-cadastrado
     User should be logger in       ${user}[name]
 
 CT007 Não deve logar com senha inválida
-    [Tags]    CT007
+    [Tags]    login
     ${user}    Create Dictionary
     ...    name=TestCT007
     ...    email=ct007@mail.com

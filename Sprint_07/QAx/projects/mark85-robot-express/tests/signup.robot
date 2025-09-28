@@ -13,7 +13,7 @@ Library           OperatingSystem
 
 *** Test Cases ***
 CT001 Deve poder cadastrar um novo usuário
-    [Tags]        CT001
+    [Tags]        signup
     ${user}    Create Dictionary
     ...    name=TestCT001
     ...    email=ct001@mail.com
@@ -28,7 +28,7 @@ CT001 Deve poder cadastrar um novo usuário
     Notice should be          Boas vindas ao Mark85, o seu gerenciador de tarefas.
 
 CT002 Não deve permitir o cadastro com email duplicado
-    [Tags]        CT002
+    [Tags]        signup
     ${user}    Create Dictionary
     ...    name=Teste CT002
     ...    email=ct002@mail.com
@@ -44,7 +44,7 @@ CT002 Não deve permitir o cadastro com email duplicado
 
 
 CT003 Campos obrigatórios
-    [Tags]        CT003
+    [Tags]        signup
     ${user}        Create Dictionary
     ...            name=${EMPTY}
     ...            email=${EMPTY}
@@ -58,7 +58,7 @@ CT003 Campos obrigatórios
     Alert should be    Informe uma senha com pelo menos 6 digitos
 
 CT004 Não deve cadastrar com email incorreto
-    [Tags]        CT004
+    [Tags]        signup
     ${user}            Create Dictionary
     ...                name=TestCT004
     ...                email=ct004.mail.com
@@ -69,7 +69,7 @@ CT004 Não deve cadastrar com email incorreto
     Alert should be           Digite um e-mail válido
 
 CT005 Não deve cadastrar com senha muito curta
-    [Tags]    CT005
+    [Tags]    signup
 
     @{password_list}    Create List    1    12    123    1234    12345
 

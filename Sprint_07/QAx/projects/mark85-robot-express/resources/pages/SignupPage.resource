@@ -10,8 +10,8 @@ Go to signup page
     Go To    ${BASE_URL}/signup
 
     # Tecnica Chekpoint (End-to-end)
-    Wait For Elements State     xpath=//h1      visible     5
-    Get Text                    xpath=//h1      equal       Faça seu cadastro
+    Wait For Elements State     css=h1      visible     5
+    Get Text                    css=h1      equal       Faça seu cadastro
 
 Submit signup form
     [Arguments]        ${user}

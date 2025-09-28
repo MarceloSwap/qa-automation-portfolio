@@ -2,28 +2,36 @@ from robot.api.deco import keyword
 from pymongo import MongoClient
 import bcrypt
 
-client = MongoClient('mongodb+srv://qa:xperience@cluster0.d8iw87s.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0')
+client = MongoClient('mongodb+srv://qa:xperience@cluster0.d8iw87s.mongodb.net/markdb?retryWrites=true&w=majority&appName=Cluster0')
 
 db = client['markdb']
+
+@keyword('Clean user form database')
+def clean_user(user_email):
+    users = db["users"]
+    tasks = db["tasks"]
+    u = users.find_one({"email": user_email})
+    if(u):
+        tasks.delete_many({"user": u["_id"]})
+        users.delete_many({"email": user_email})
+
 
 @keyword('Remove user from database')
 def remove_user(email):
     users = db['users']
-    users.delete_one({'email': email})
+    users.delete_many({'email': email})
     print(f"REMOVE USER BY {email} REMOVIDO COM SUCESSO!!.")
 
 @keyword('Insert user from database')
 def insert_user(user):
-
-    #Cripitografando a senha e salvando na variavel has_pass --- essa informação deve ser coletada com o dev (foi usado bcrypt )
-    hash_pass = bcrypt.hashpw(user['password'].encode('utf-8'), bcrypt.gensalt(8))
+    hash_pass = bcrypt.hashpw(user["password"].encode('utf-8'), bcrypt.gensalt(8))
     doc = {
-        'name': user['name'],
-        'email': user['email'],
+        'name': user["name"],
+        'email': user["email"],
         'password': hash_pass
     }
-
     users = db['users']
     users.insert_one(doc)
-    print(f"USER {user} INSERIDO COM SUCESSO!!.")   
+    print(doc)
+
 
