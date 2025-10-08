@@ -6,6 +6,6 @@ Resource    ../resources/base.resource
 
 *** Test Cases ***
 CT000 Webapp deve estar online
-    [Tags]    CT000
+    [Tags]    online
     Start Session
     Get Text                    css=.home-container h1      equal       Welcome to Cinema App

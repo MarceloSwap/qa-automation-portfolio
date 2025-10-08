@@ -125,13 +125,19 @@ cd "Challenge-final/cinema-robot-express"
 robot -d ./logs tests/
 
 # Teste específico
-robot -d ./logs tests/login.robot
+robot -d ./logs tests/online.robot
 robot -d ./logs tests/register.robot
+robot -d ./logs tests/login.robot
+robot -d ./logs tests/logout.robot
 robot -d ./logs tests/profile.robot
 
 # Executar por tags
-robot -d ./logs -i smoke tests/
-robot -d ./logs -i regression tests/
+robot -d ./logs -i online tests/                # Verifica se o site testado está online
+robot -d ./logs -i registerUser tests/          # Cria usuário, verifica se o email já foi utilizado
+robot -d ./logs -i login tests/                 # Login com user pré cadastrado 
+robot -d ./logs -i logout tests/                # Logout de Usuário, 
+robot -d ./logs -i profile tests/               # Visualizar perfil do usuário após o login, Editar perfil do usuário
+robot -d ./logs -i xxx tests/
 ```
 
 ### Sprint 05 - Testes de API

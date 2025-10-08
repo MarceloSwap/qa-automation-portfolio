@@ -14,7 +14,7 @@ Library    Dialogs
 
 *** Test Cases ***
 CT001 Registro de Usuário
-    [Tags]        create
+    [Tags]        registerUser
     ${user}    Create Dictionary
     ...    name=TestCT001
     ...    email=ct001@mail.com
@@ -29,7 +29,7 @@ CT001 Registro de Usuário
     Notice should be        Conta criada com sucesso!
 
 CT002 Não deve permitir o cadastro com email duplicado
-    [Tags]        create
+    [Tags]        registerUser
     ${user}    Create Dictionary
     ...    name=Teste CT002
     ...    email=ct002@mail.com
@@ -45,7 +45,7 @@ CT002 Não deve permitir o cadastro com email duplicado
     Alert should be          User already exists
 
 CT003 Não deve cadastrar com email incorreto
-    [Tags]        create
+    [Tags]        registerUser
     ${user}            Create Dictionary
     ...                name=TestCT004
     ...                email=ct004.mail.com
@@ -57,7 +57,7 @@ CT003 Não deve cadastrar com email incorreto
     Alert should be           Inclua um "@" no endereço de email.
 
 CT004 Não deve cadastrar com senha muito curta
-    [Tags]        create
+    [Tags]        registerUser
 
     @{password_list}    Create List    1    12    123    1234    12345
 
