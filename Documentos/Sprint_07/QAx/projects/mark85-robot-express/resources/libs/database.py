@@ -20,7 +20,6 @@ def clean_user(user_email):
 def remove_user(email):
     users = db['users']
     users.delete_many({'email': email})
-    print(f"REMOVE USER BY {email} REMOVIDO COM SUCESSO!!.")
 
 @keyword('Insert user from database')
 def insert_user(user):

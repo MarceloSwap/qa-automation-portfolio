@@ -8,6 +8,10 @@ Este repositório centraliza todos os arquivos importantes produzidos ao longo d
 
 ```
 pb-compass/
+├── Challenge-final/                # Desafio Final - Sistema de Cinema
+│   ├── cinema-challenge-back/      # API Backend do Cinema
+│   ├── cinema-challenge-front/     # Frontend React do Cinema
+│   └── cinema-robot-express/       # Testes Robot Framework
 ├── Documentos/
 │   ├── AtividadesDiversas/          # Apresentações e documentos gerais
 │   ├── MapasMentaisServeRest/       # Mapas mentais dos testes
@@ -18,17 +22,17 @@ pb-compass/
 │   │   ├── Reqres/                 # Testes API Reqres
 │   │   ├── ServeRest/              # Testes API ServeRest
 │   │   └── ExemplosEstruturas/     # Exemplos e tutoriais
-│   └── Sprint_06/                  # Testes Avançados
-│       ├── Semana 01/              # Continuação API ServeRest
-│       └── Semana 02/              # Testes com EC2
-├── Sprint_07/
-│   ├── QAx/
-│   │   ├── apps/
-│   │   │   └── mark85/             # Aplicação Mark85 (API + Web)
-│   │   └── projects/
-│   │       └── mark85-robot-express/ # Testes E2E Robot Framework
-│   └── Semana_01/
-│       └── Atividade-01/           # Mapeamento de Elementos HTML
+│   ├── Sprint_06/                  # Testes Avançados
+│   │   ├── Semana 01/              # Continuação API ServeRest
+│   │   └── Semana 02/              # Testes com EC2
+│   └── Sprint_07/                  # Aplicação Mark85
+│       ├── QAx/
+│       │   ├── apps/
+│       │   │   └── mark85/         # Aplicação Mark85 (API + Web)
+│       │   └── projects/
+│       │       └── mark85-robot-express/ # Testes E2E Robot Framework
+│       └── Semana_01/
+│           └── Atividade-01/       # Mapeamento de Elementos HTML
 ├── .gitignore
 └── README.md
 ```
@@ -39,7 +43,6 @@ pb-compass/
 - **Robot Framework** - Automação de testes API e Web
 - **RequestsLibrary** - Testes de API REST
 - **Browser Library** - Automação web com Playwright
-- **SeleniumLibrary** - Automação web tradicional
 
 ### Desenvolvimento
 - **Node.js + Express** - API REST
@@ -59,6 +62,12 @@ pb-compass/
 
 ### 🧪 Testes Automatizados
 
+#### Challenge Final - Sistema de Cinema
+- **Cinema API**: Backend completo para sistema de cinema
+- **Cinema Web**: Interface React para gerenciamento de filmes e sessões
+- **Testes Cinema**: Automação com Robot Framework + Browser Library
+- **Funcionalidades**: Login, Logout, Cadastro, Perfil, Navegação
+
 #### Sprint 05 - Testes de API
 - **API Reqres**: Testes automatizados da API https://reqres.in/
 - **API ServeRest**: Testes automatizados da API https://serverest.dev/
@@ -68,10 +77,10 @@ pb-compass/
 - **ServeRest EC2**: Testes em ambiente AWS
 - **Keywords Customizadas**: Carrinho, Login, Produtos, Usuários
 
-#### Sprint 07 - Aplicação Completa
+#### Sprint 07 - Aplicação Mark85
 - **Mark85 API**: API REST completa com autenticação
 - **Mark85 Web**: Interface React para gerenciamento de tarefas
-- **Testes E2E**: Automação completa com Robot Framework + Browser Library
+- **Testes E2E**: Automação com Robot Framework + Browser Library
 - **Mapeamento HTML**: Estratégias de localização de elementos
 
 ### 📊 Documentação
@@ -88,7 +97,41 @@ pb-compass/
 pip install robotframework
 pip install robotframework-requests
 pip install robotframework-browser
+pip install robotframework-jsonlibrary
+pip install robotframework-faker
 pip install pymongo
+pip install bcrypt
+
+# Inicializar Playwright (necessário para Browser Library)
+rfbrowser init
+```
+
+### Challenge Final - Sistema de Cinema
+```bash
+# Iniciar API do Cinema
+cd "Challenge-final/cinema-challenge-back"
+npm install
+npm run dev
+
+# Iniciar Frontend do Cinema (novo terminal)
+cd "Challenge-final/cinema-challenge-front"
+npm install
+npm run dev
+
+# Executar Testes do Cinema (novo terminal)
+cd "Challenge-final/cinema-robot-express"
+
+# Todos os testes
+robot -d ./logs tests/
+
+# Teste específico
+robot -d ./logs tests/login.robot
+robot -d ./logs tests/register.robot
+robot -d ./logs tests/profile.robot
+
+# Executar por tags
+robot -d ./logs -i smoke tests/
+robot -d ./logs -i regression tests/
 ```
 
 ### Sprint 05 - Testes de API
@@ -112,17 +155,17 @@ robot -d reports tests/
 ### Sprint 07 - Aplicação Mark85
 ```bash
 # Iniciar API
-cd "Sprint_07/QAx/apps/mark85/api"
+cd "Documentos/Sprint_07/QAx/apps/mark85/api"
 npm install
 npm run dev
 
 # Iniciar Web (novo terminal)
-cd "Sprint_07/QAx/apps/mark85/web"
+cd "Documentos/Sprint_07/QAx/apps/mark85/web"
 npm install
 npm start
 
 # Executar Testes E2E (novo terminal)
-cd "Sprint_07/QAx/projects/mark85-robot-express"
+cd "Documentos/Sprint_07/QAx/projects/mark85-robot-express"
 robot -d ./logs tests/
 ```
 
@@ -137,9 +180,10 @@ robot -d ./logs tests/
 
 ### Cobertura de Testes
 - ✅ **API Testing** - Reqres e ServeRest
-- ✅ **E2E Testing** - Aplicação Mark85 completa
+- ✅ **E2E Testing** - Mark85 e Sistema de Cinema
 - ✅ **Cross-browser** - Chromium, Firefox, Safari
 - ✅ **Ambientes** - Local, EC2, MongoDB Atlas
+- ✅ **Funcionalidades** - Login, Cadastro, CRUD, Navegação
 
 ### Automação
 - ✅ **Robot Framework** - API e Web
