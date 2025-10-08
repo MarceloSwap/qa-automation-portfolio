@@ -23,9 +23,15 @@ Update perfil form
 
     # Usando o seletor de ID (css=#) que é mais específico e confiável
     Fill Text    css=#name               ${user}[name]
-    Fill Text    css=#email              ${user}[email]
-    Fill Text    css=#password           ${user}[password]
-    Fill Text    css=#confirmPassword    ${user}[password]  # Supondo que a senha é a mesma
-
+    Sleep    0.5
+    Fill Text    id=currentPassword           ${user}[password]
+    Sleep    0.5
+    Fill Text    id=newPassword    ${user}[newPassword]
+    Sleep    0.5
+    Fill Text    id=confirmNewPassword    ${user}[newPassword]
+    Sleep    0.5
     # Seu seletor para o botão já estava ótimo!
-    Click        css=button[type=submit] >> text=Cadastrar
+    Click        css=button[title="Salvar alterações"]
+    Sleep    3
+
+    
