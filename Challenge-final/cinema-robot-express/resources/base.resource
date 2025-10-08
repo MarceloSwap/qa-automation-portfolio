@@ -1,6 +1,6 @@
 *** Settings ***
 
-Library        ../libs/database.py
+Library        libs/database.py
 Library        Browser
 Library        JSONLibrary
 Library        String
@@ -11,10 +11,11 @@ Resource       pages/components/Header.resource
 Resource       pages/components/Alert.resource
 Resource       pages/components/Notice.resource
 
-Resource       pages/SignupPage.resource
+Resource       pages/RegisterPage.resource
 Resource       pages/LoginPage.resource
-Resource       pages/TaskCreatePage.resource
-Resource       pages/TasksPage.resource
+Resource       pages/ProfilePage.resource
+Resource       pages/LogoutPage.resource
+
 
 *** Keywords ***
 Start Session
