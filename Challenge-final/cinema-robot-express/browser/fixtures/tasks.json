@@ -1,0 +1,15 @@
+{
+    "create":{
+        "user":{
+            "name": "TestCT008Json",
+            "email": "ct008@mail.com",
+            "password": "pwd123"
+        },
+        "task":{
+           "name": "Criar uma nova versão do Ipod (CT008)",
+           "tags": ["ios", "music", "ipod"]
+        }
+    }
+}
+
+
