@@ -1,9 +1,7 @@
 *** Settings ***
 Documentation       Keywords e elementos da página de Perfil do Usuário
 
-Resource            ../env.resource
-
-Library    Browser
+Resource            ../base.resource
 
 *** Keywords ***
 Profile page should be visible

@@ -1,8 +1,8 @@
 *** Settings ***
 Documentation        Elementos e ações da página de login
 
-Library        Browser
-Resource       ../env.resource
+Resource       ../base.resource
+Library    Dialogs
 
 *** Keywords ***
 Go to login page

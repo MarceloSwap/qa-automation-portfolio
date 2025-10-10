@@ -1,0 +1,175 @@
+{
+  "users": {
+    "valid_user": {
+      "name": "Usuário Valido",
+      "email": "valid.user@mail.com",
+      "password": "pwd123"
+    },
+    "admin_user": {
+      "name": "Admin Cinema",
+      "email": "admin@mail.com",
+      "password": "pwd123"
+    },
+    "duplicate_user": {
+      "name": "Usuário Email Duplicado",
+      "email": "valid.user@mail.com",
+      "password": "123456"
+    },
+    "invalid_email": {
+      "name": "Email Inválido",
+      "email": "email-invalido",
+      "password": "123456"
+    },
+    "short_password": {
+      "name": "Senha Curta",
+      "email": "senha.curta@mail.com",
+      "password": "123"
+    }
+  },
+  "movies": {
+    "action_movie": {
+      "title": "Vingadores: Ultimato",
+      "synopsis": "Os heróis mais poderosos da Terra enfrentam Thanos em uma batalha épica pelo destino do universo.",
+      "director": "Anthony Russo",
+      "genres": ["Ação", "Aventura", "Ficção Científica"],
+      "duration": 181,
+      "classification": "12",
+      "poster": "https://img.elo7.com.br/product/zoom/259A7AA/big-poster-filme-vingadores-ultimato-lo001-tamanho-90x60-cm-poster-marvel.jpg",
+      "releaseDate": "2019-04-25"
+    },
+    "drama_movie": {
+      "title": "Parasita",
+      "synopsis": "Uma família pobre se infiltra na vida de uma família rica com consequências inesperadas.",
+      "director": "Bong Joon-ho",
+      "genres": ["Drama", "Thriller"],
+      "duration": 132,
+      "classification": "16",
+      "poster": "https://www.pandorafilmes.com.br/wp-content/uploads/2019/09/cartaz-com-premicao-oscar_peq.jpg",
+      "releaseDate": "2019-05-30"
+    },
+    "invalid_movie": {
+      "title": "",
+      "synopsis": "Sinopse inválida",
+      "director": "",
+      "genres": [],
+      "duration": -10,
+      "classification": "Inválida"
+    }
+  },
+  "reservations": {
+    "valid_reservation": {
+      "seats": [
+        {
+          "row": "A",
+          "number": 1,
+          "type": "full"
+        },
+        {
+          "row": "A",
+          "number": 2,
+          "type": "full"
+        }
+      ],
+      "paymentMethod": "credit_card"
+    },
+    "half_price_reservation": {
+      "seats": [
+        {
+          "row": "B",
+          "number": 5,
+          "type": "half"
+        }
+      ],
+      "paymentMethod": "pix"
+    },
+    "multiple_seats": {
+      "seats": [
+        {
+          "row": "C",
+          "number": 1,
+          "type": "full"
+        },
+        {
+          "row": "C",
+          "number": 2,
+          "type": "full"
+        },
+        {
+          "row": "C",
+          "number": 3,
+          "type": "half"
+        },
+        {
+          "row": "C",
+          "number": 4,
+          "type": "full"
+        }
+      ],
+      "paymentMethod": "debit_card"
+    }
+  },
+  "sessions": {
+    "morning_session": {
+      "movie": "movie_id_placeholder",
+      "theater": "theater_id_placeholder",
+      "startTime": "2024-12-20T10:00:00.000Z",
+      "price": {
+        "full": 25.00,
+        "half": 12.50
+      }
+    },
+    "afternoon_session": {
+      "movie": "movie_id_placeholder",
+      "theater": "theater_id_placeholder",
+      "startTime": "2024-12-20T15:30:00.000Z",
+      "price": {
+        "full": 30.00,
+        "half": 15.00
+      }
+    },
+    "evening_session": {
+      "movie": "movie_id_placeholder",
+      "theater": "theater_id_placeholder",
+      "startTime": "2024-12-20T20:00:00.000Z",
+      "price": {
+        "full": 35.00,
+        "half": 17.50
+      }
+    }
+  },
+  "login_credentials": {
+    "valid_login": {
+      "email": "valid.user@mail.com",
+      "password": "pwd123"
+    },
+    "admin_login": {
+      "email": "admin@mail.com",
+      "password": "pwd123"
+    },
+    "invalid_email": {
+      "email": "inexistente@mail.com",
+      "password": "123456"
+    },
+    "invalid_password": {
+      "email": "valid.user@mail.com",
+      "password": "senha_errada"
+    },
+    "empty_credentials": {
+      "email": "",
+      "password": ""
+    }
+  },
+  "profile_updates": {
+    "name_update": {
+      "name": "Usuário Valido Editado"
+    },
+    "password_update": {
+      "currentPassword": "pwd123",
+      "newPassword": "pwd123"
+    },
+    "invalid_current_password": {
+      "currentPassword": "senha_errada",
+      "newPassword": "nova_senha_123"
+    }
+  }
+}

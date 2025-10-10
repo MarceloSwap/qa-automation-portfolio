@@ -1,9 +1,7 @@
 *** Settings ***
 Documentation        Elementos e ações da página de cadastro
 
-Library        Browser
-Resource       ../env.resource
-
+Resource       ../base.resource
 
 *** Keywords ***
 Go to signup page
@@ -16,13 +14,30 @@ Go to signup page
 
 
 Submit signup form
-    [Arguments]    ${user}
+    [Arguments]     ${user}
 
-    # Usando o seletor de ID (css=#) que é mais específico e confiável
-    Fill Text    css=#name               ${user}[name]
-    Fill Text    css=#email              ${user}[email]
-    Fill Text    css=#password           ${user}[password]
-    Fill Text    css=#confirmPassword    ${user}[password]  # Supondo que a senha é a mesma
+    Fill Text       css=#name               ${user}[name]
+    Fill Text       css=#email              ${user}[email]
+    Fill Text       css=#password           ${user}[password]
+    Fill Text       css=#confirmPassword    ${user}[password]
 
-    # Seu seletor para o botão já estava ótimo!
+    Click           css=button[type=submit] >> text=Cadastrar
+
+Fill signup form without submission
+    [Arguments]     ${user}
+
+    Fill Text       css=#name               ${user}[name]
+    Fill Text       css=#email              ${user}[email]
+    Fill Text       css=#password           ${user}[password]
+    Fill Text       css=#confirmPassword    ${user}[password]
     Click        css=button[type=submit] >> text=Cadastrar
+
+
+Fill signup fields
+    [Arguments]     ${user}
+    [Documentation]     Preenche os campos de cadastro sem submeter o formulário.
+
+    Fill Text       css=#name               ${user}[name]
+    Fill Text       css=#email              ${user}[email]
+    Fill Text       css=#password           ${user}[password]
+    Fill Text       css=#confirmPassword    ${user}[password] 

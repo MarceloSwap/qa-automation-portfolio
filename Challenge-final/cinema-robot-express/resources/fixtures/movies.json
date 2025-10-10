@@ -1,0 +1,40 @@
+{
+  "sample_movies": [
+    {
+      "title": "Vingadores: Ultimato",
+      "classification": "12",
+      "genres": ["Ação", "Aventura", "Ficção Científica"],
+      "duration": "181 min",
+      "releaseDate": "25/04/2019",
+      "director": "Anthony Russo, Joe Russo",
+      "synopsis": "Os heróis mais poderosos da Terra enfrentam Thanos em uma batalha épica pelo destino do universo.",
+      "cast": ["Robert Downey Jr.", "Chris Evans", "Mark Ruffalo", "Chris Hemsworth"],
+      "poster": "https://example.com/vingadores-ultimato.jpg"
+    },
+    {
+      "title": "Parasita",
+      "classification": "16",
+      "genres": ["Drama", "Thriller"],
+      "duration": "132 min",
+      "releaseDate": "30/05/2019",
+      "director": "Bong Joon-ho",
+      "synopsis": "Uma família pobre se infiltra na vida de uma família rica com consequências inesperadas.",
+      "cast": ["Song Kang-ho", "Lee Sun-kyun", "Cho Yeo-jeong"],
+      "poster": "https://example.com/parasita.jpg"
+    }
+  ],
+  "sample_sessions": [
+    {
+      "time": "14:30",
+      "date": "20/12/2024",
+      "theater": "Sala 1",
+      "price": "R$ 25,00"
+    },
+    {
+      "time": "17:00",
+      "date": "20/12/2024",
+      "theater": "Sala 2",
+      "price": "R$ 30,00"
+    }
+  ]
+}
