@@ -11,7 +11,8 @@ pb-compass/
 ├── Challenge-final/                # Desafio Final - Sistema de Cinema
 │   ├── cinema-challenge-back/      # API Backend do Cinema
 │   ├── cinema-challenge-front/     # Frontend React do Cinema
-│   └── cinema-robot-express/       # Testes Robot Framework
+│   ├── cinema-robot-express/       # Testes E2E Robot Framework
+│   └── cinema-robot-api/           # Testes API Robot Framework
 ├── Documentos/
 │   ├── AtividadesDiversas/          # Apresentações e documentos gerais
 │   ├── MapasMentaisServeRest/       # Mapas mentais dos testes
@@ -65,8 +66,9 @@ pb-compass/
 #### Challenge Final - Sistema de Cinema
 - **Cinema API**: Backend completo para sistema de cinema
 - **Cinema Web**: Interface React para gerenciamento de filmes e sessões
-- **Testes Cinema**: Automação com Robot Framework + Browser Library
-- **Funcionalidades**: Login, Logout, Cadastro, Perfil, Navegação
+- **Testes API Cinema**: Automação de API com Robot Framework + RequestsLibrary
+- **Testes E2E Cinema**: Automação web com Robot Framework + Browser Library
+- **Funcionalidades**: Autenticação, Filmes, Usuários, Reservas, Navegação
 
 #### Sprint 05 - Testes de API
 - **API Reqres**: Testes automatizados da API https://reqres.in/
@@ -118,26 +120,48 @@ cd "Challenge-final/cinema-challenge-front"
 npm install
 npm run dev
 
-# Executar Testes do Cinema (novo terminal)
-cd "Challenge-final/cinema-robot-express"
+# Executar Testes de API (novo terminal)
+cd "Challenge-final/cinema-robot-api"
 
-# Todos os testes
+# Todos os testes de API
 robot -d ./logs tests/
 
-# Teste específico
+# Testes específicos de API
+robot -d ./logs tests/auth_tests.robot          # Autenticação
+robot -d ./logs tests/movie_tests.robot         # Filmes
+robot -d ./logs tests/user_management_tests.robot # Usuários
+robot -d ./logs tests/reservation_tests.robot   # Reservas
+robot -d ./logs tests/api_integration_tests.robot # Integração
+
+# Executar por tags de API
+robot -d ./logs -i auth tests/                  # Testes de autenticação
+robot -d ./logs -i movies tests/                # Testes de filmes
+robot -d ./logs -i admin tests/                 # Testes administrativos
+robot -d ./logs -i positive tests/              # Testes positivos
+robot -d ./logs -i negative tests/              # Testes negativos
+
+# Script facilitador (Windows)
+run_tests.bat
+
+# Executar Testes E2E Web (novo terminal)
+cd "Challenge-final/cinema-robot-express"
+
+# Todos os testes E2E
+robot -d ./logs tests/
+
+# Teste específico E2E
 robot -d ./logs tests/online.robot
 robot -d ./logs tests/register.robot
 robot -d ./logs tests/login.robot
 robot -d ./logs tests/logout.robot
 robot -d ./logs tests/profile.robot
 
-# Executar por tags
+# Executar por tags E2E
 robot -d ./logs -i online tests/                # Verifica se o site testado está online
 robot -d ./logs -i registerUser tests/          # Cria usuário, verifica se o email já foi utilizado
 robot -d ./logs -i login tests/                 # Login com user pré cadastrado 
-robot -d ./logs -i logout tests/                # Logout de Usuário, 
+robot -d ./logs -i logout tests/                # Logout de Usuário
 robot -d ./logs -i profile tests/               # Visualizar perfil do usuário após o login, Editar perfil do usuário
-robot -d ./logs -i xxx tests/
 ```
 
 ### Sprint 05 - Testes de API
@@ -185,11 +209,12 @@ robot -d ./logs tests/
 ## 📈 Métricas de Qualidade
 
 ### Cobertura de Testes
-- ✅ **API Testing** - Reqres e ServeRest
+- ✅ **API Testing** - Reqres, ServeRest e Cinema API
 - ✅ **E2E Testing** - Mark85 e Sistema de Cinema
 - ✅ **Cross-browser** - Chromium, Firefox, Safari
 - ✅ **Ambientes** - Local, EC2, MongoDB Atlas
-- ✅ **Funcionalidades** - Login, Cadastro, CRUD, Navegação
+- ✅ **Funcionalidades** - Autenticação, Filmes, Usuários, Reservas, CRUD, Navegação
+- ✅ **Papéis de Usuário** - Visitante, Usuário, Administrador
 
 ### Automação
 - ✅ **Robot Framework** - API e Web

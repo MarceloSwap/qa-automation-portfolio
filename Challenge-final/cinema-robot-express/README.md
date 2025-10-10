@@ -1,8 +1,8 @@
-# Mark85 Robot Framework - Testes Automatizados
+# Cinema App Robot Framework - Testes E2E
 
 ## 📋 Descrição
 
-Testes automatizados para a aplicação Mark85 utilizando Robot Framework com Selenium para automação de interface web.
+Testes automatizados E2E para o Sistema de Cinema utilizando Robot Framework com Browser Library (Playwright) para automação de interface web.
 
 ## ⚙️ Configuração Inicial
 
@@ -39,9 +39,9 @@ Os dados de teste ficam em `resources/fixtures/` no formato JSON:
 ```
 
 ### ⚠️ Importante
-- Certifique-se que a **API Mark85** está rodando em `http://localhost:3333`
-- Certifique-se que a **Web Mark85** está rodando em `http://localhost:3000`
-- Verifique as **credenciais do MongoDB** no arquivo `database.py`
+- Certifique-se que a **API Cinema** está rodando em `http://localhost:3000`
+- Certifique-se que o **Frontend Cinema** está rodando em `http://localhost:5173`
+- Verifique as **credenciais do MongoDB** no arquivo `database.py` (se necessário)
 - Confirme que o **cluster MongoDB** está ativo e acessível
 - Execute `rfbrowser init` após instalar robotframework-browser
 
@@ -67,19 +67,44 @@ rfbrowser init
 robot -d ./logs tests/
 ```
 
-#### Executar um teste específico
+#### Executar testes específicos
 ```bash
-robot -d ./logs tests/signup.robot
+# Testes de autenticação
+robot -d ./logs tests/login.robot
+robot -d ./logs tests/register.robot
+robot -d ./logs tests/profile.robot
+
+# Testes de filmes
+robot -d ./logs tests/movies.robot
+
+# Testes de sessões e reservas
+robot -d ./logs tests/sessions.robot
+robot -d ./logs tests/reservations.robot
+
+# Testes de navegação
+robot -d ./logs tests/navigation.robot
+
+# Scripts facilitadores
+run_movies_tests.bat
+run_reservations_tests.bat
+run_navigation_tests.bat
 ```
 
 #### Executar testes por tag
 ```bash
-# Executar todos os testes com uma tag específica
-robot -d ./logs -i <tag> tests/
+# Testes de filmes
+robot -d ./logs -i movies tests/
+robot -d ./logs -i movie-list tests/
+robot -d ./logs -i movie-details tests/
 
-# Exemplos práticos:
-robot -d ./logs -i dup tests/
-robot -d ./logs -i dup tests/signup.robot
+# Testes de autenticação
+robot -d ./logs -i login tests/
+robot -d ./logs -i register tests/
+
+# Testes por tipo
+robot -d ./logs -i positive tests/
+robot -d ./logs -i negative tests/
+robot -d ./logs -i responsive tests/
 ```
 
 #### Outros comandos úteis
@@ -97,10 +122,13 @@ robot -d ./logs --loglevel DEBUG tests/
 ## 📁 Estrutura do Projeto
 
 ```
-mark85-robot-express/
+cinema-robot-express/
 ├── tests/                    # Casos de teste
-│   ├── signup.robot         # Testes de cadastro
-│   └── online.robot         # Testes de funcionalidades
+│   ├── login.robot          # Testes de login
+│   ├── register.robot       # Testes de cadastro
+│   ├── profile.robot        # Testes de perfil
+│   ├── movies.robot         # Testes de filmes
+│   └── online.robot         # Testes de conectividade
 ├── resources/               # Keywords e configurações
 │   ├── base.resource        # Configurações base
 │   ├── env.resource         # Variáveis de ambiente
@@ -108,11 +136,15 @@ mark85-robot-express/
 │   │   └── database.py      # Conexão MongoDB
 │   ├── pages/               # Page Objects
 │   │   ├── components/      # Componentes reutilizáveis
-│   │   ├── SignupPage.resource
 │   │   ├── LoginPage.resource
-│   │   └── TasksPage.resource
+│   │   ├── RegisterPage.resource
+│   │   ├── ProfilePage.resource
+│   │   ├── MoviesPage.resource
+│   │   └── MovieDetailsPage.resource
 │   └── fixtures/            # Dados de teste
+│       └── movies.json      # Dados de filmes
 ├── logs/                    # Relatórios de execução
+├── run_movies_tests.bat     # Script para testes de filmes
 └── README.md                # Este arquivo
 ```
 
@@ -125,10 +157,66 @@ Após a execução, os relatórios são gerados em `./logs/`:
 
 ## 🏷️ Tags Disponíveis
 
-- `dup` - Testes de duplicação/validação
-- `smoke` - Testes de fumaça
-- `regression` - Testes de regressão
+### Por Funcionalidade
+- `movies` - Testes de filmes
+- `movie-list` - Testes de lista de filmes
+- `movie-details` - Testes de detalhes do filme
+- `login` - Testes de login
+- `register` - Testes de cadastro
+- `profile` - Testes de perfil
+
+### Por Tipo
+- `positive` - Testes de casos de sucesso
+- `negative` - Testes de casos de erro
+- `responsive` - Testes de responsividade
+- `performance` - Testes de performance
+
+### Histórias de Usuário
+- `US-MOVIE-001` - Navegar na Lista de Filmes
+- `US-MOVIE-002` - Visualizar Detalhes do Filme
+- `US-SESSION-001` - Visualizar Horários de Sessões
+- `US-RESERVE-001` - Selecionar Assentos para Reserva
+- `US-RESERVE-002` - Processo de Checkout
+- `US-RESERVE-003` - Visualizar Minhas Reservas
+- `US-NAV-001` - Navegação Intuitiva
+
+## 🎯 Cobertura de Testes
+
+### US-MOVIE-001: Navegar na Lista de Filmes
+- ✅ Layout em grid responsivo
+- ✅ Pôsteres de alta qualidade
+- ✅ Informações nos cards (título, classificação, gêneros, duração, data)
+- ✅ Adaptação para diferentes tamanhos de tela
+- ✅ Navegação para detalhes do filme
+
+### US-MOVIE-002: Visualizar Detalhes do Filme
+- ✅ Informações detalhadas (sinopse, diretor, elenco, duração)
+- ✅ Pôster do filme
+- ✅ Horários de sessões disponíveis
+- ✅ Navegação para reserva
+- ✅ Volta para lista de filmes
+
+### US-SESSION-001: Visualizar Horários de Sessões
+- ✅ Horários disponíveis para filme selecionado
+- ✅ Data, hora, teatro e disponibilidade
+- ✅ Navegação para seleção de assentos
+
+### US-RESERVE-001/002/003: Processo de Reservas
+- ✅ Layout de assentos do teatro
+- ✅ Codificação por cores (disponível/ocupado)
+- ✅ Seleção de múltiplos assentos
+- ✅ Processo de checkout completo
+- ✅ Métodos de pagamento
+- ✅ Visualização de minhas reservas
+
+### US-NAV-001: Navegação Intuitiva
+- ✅ Cabeçalho presente em todas as páginas
+- ✅ Menu responsivo (desktop/mobile)
+- ✅ Seções personalizadas para usuário logado
+- ✅ Breadcrumbs e elementos de navegação
+- ✅ Feedback visual da página atual
+- ✅ Acessibilidade via teclado
 
 ---
 
-**Sprint 07 - Programa PB Compass** 🧭
+**Challenge Final - Programa PB Compass** 🧭
