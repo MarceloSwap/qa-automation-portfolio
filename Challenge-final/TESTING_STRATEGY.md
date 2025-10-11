@@ -7,14 +7,14 @@ Garantir a qualidade e confiabilidade do Sistema de Cinema através de uma abord
 
 ### 🏗️ **Pirâmide de Testes**
 ```
-                    🔺 E2E Tests (Poucos)
+                    🔺E2E Tests (Poucos)
                    /                    \
                   /   Integration Tests  \
                  /     (Moderados)        \
-                /________________________\
-               /        Unit Tests         \
-              /        (Muitos)            \
-             /____________________________\
+                /__________________________\
+               /        Unit Tests          \
+              /        (Muitos)              \
+             /________________________________\
 ```
 
 ---
