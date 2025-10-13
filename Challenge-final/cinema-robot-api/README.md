@@ -1,5 +1,10 @@
 # Cinema API - Testes Automatizados com Robot Framework
 
+Backend
+https://marcelofs.atlassian.net/wiki/external/ZTUwN2UxYmUwMWJhNDUwNTlkZmYxNGIwNGJmMGU3MTI
+
+
+
 ## 📋 Descrição
 
 Testes automatizados para a API do Sistema de Cinema utilizando Robot Framework com RequestsLibrary. Os testes cobrem todas as histórias de usuário e funcionalidades da API, incluindo autenticação, gerenciamento de filmes, usuários e reservas.

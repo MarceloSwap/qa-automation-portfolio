@@ -5,19 +5,6 @@
 ### 🎯 **Objetivo**
 Garantir a qualidade e confiabilidade do Sistema de Cinema através de uma abordagem abrangente de testes que cubra API, Frontend e integração E2E.
 
-### 🏗️ **Pirâmide de Testes**
-```
-                    🔺E2E Tests (Poucos)
-                   /                    \
-                  /   Integration Tests  \
-                 /     (Moderados)        \
-                /__________________________\
-               /        Unit Tests          \
-              /        (Muitos)              \
-             /________________________________\
-```
-
----
 
 ## 🎯 **COBERTURA DE TESTES POR CAMADA**
 

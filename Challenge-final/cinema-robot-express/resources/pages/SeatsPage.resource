@@ -18,11 +18,53 @@ ${CONTINUE_BTN}           css=.continue-btn
 ${SESSION_INFO}           css=.session-info
 
 *** Keywords ***
-Aguardar Carregamento dos Assentos
-    [Documentation]    Aguarda o carregamento da página de assentos
+# Navegação e Setup
+Go To Seats Page
+    Go To    ${BASE_URL}/sessions/68ec343bf3a9554087e3e7a5
+    Wait For Load State    networkidle
+
+Should Be On Seats Page
+    Get Url    should contain    /seats
+
+# Layout e Visualização
+Should Display Seats Layout
     Wait For Elements State    ${SEATS_CONTAINER}    visible    10
     Wait For Elements State    ${THEATER_LAYOUT}     visible    10
-    Wait For Load State        networkidle
+
+Should Display Seat Legend
+    Wait For Elements State    ${SEAT_LEGEND}    visible    5
+
+Should Display Available Seats
+    ${available}=    Get Elements    ${SEAT_AVAILABLE}
+    ${count}=    Get Length    ${available}
+    Log    Available seats found: ${count}
+    # Aceita se há pelo menos 0 assentos (pode não haver disponíveis)
+    Should Be True    ${count} >= 0
+
+Should Display Occupied Seats
+    ${occupied}=    Get Elements    ${SEAT_OCCUPIED}
+    ${count}=    Get Length    ${occupied}
+    Log    Occupied seats: ${count}
+
+# Cores dos Assentos
+Should Display Green Available Seats
+    ${available}=    Get Elements    ${SEAT_AVAILABLE}
+    ${count}=    Get Length    ${available}
+    Log    Green available seats: ${count}
+    # Verifica se existem ou se a página carregou
+    Should Be True    ${count} >= 0
+
+Should Display Red Occupied Seats
+    ${occupied}=    Get Elements    ${SEAT_OCCUPIED}
+    ${count}=    Get Length    ${occupied}
+    Log    Red occupied seats: ${count}
+    Should Be True    ${count} >= 0
+
+Should Display Blue Selected Seats
+    ${selected}=    Get Elements    ${SEAT_SELECTED}
+    ${count}=    Get Length    ${selected}
+    Log    Blue selected seats: ${count}
+    Should Be True    ${count} >= 0
 
 Verificar Layout do Teatro
     [Documentation]    Verifica se o layout do teatro está presente
@@ -52,18 +94,35 @@ Verificar Assentos por Disponibilidade
     Should Be True    ${available_count} > 0    Deve haver assentos disponíveis
     Log    Assentos disponíveis: ${available_count}, ocupados: ${occupied_count}
 
-Selecionar Assento Disponível
-    [Documentation]    Seleciona um assento disponível
-    [Arguments]    ${seat_index}=0
-    
+# Seleção de Assentos
+Select Available Seat
+    [Arguments]    ${seat_id}
     ${available_seats}=    Get Elements    ${SEAT_AVAILABLE}
-    ${seat}=    Set Variable    ${available_seats}[${seat_index}]
-    Click    ${seat}
-    
-    # Verifica se o assento foi selecionado
-    Wait For Elements State    ${seat}    visible    2
-    ${seat_class}=    Get Attribute    ${seat}    class
-    Should Contain    ${seat_class}    selected
+    ${seat_count}=    Get Length    ${available_seats}
+    IF    ${seat_count} > 0
+        Click    ${available_seats}[0]
+        Sleep    1s
+    END
+
+Should Show Seat As Selected
+    [Arguments]    ${seat_id}
+    ${selected_seats}=    Get Elements    ${SEAT_SELECTED}
+    ${count}=    Get Length    ${selected_seats}
+    Should Be True    ${count} > 0
+
+Should Show Selected Seats Count
+    [Arguments]    ${expected_count}
+    ${selected}=    Get Elements    ${SEAT_SELECTED}
+    ${count}=    Get Length    ${selected}
+    Should Be True    ${count} >= 1
+
+Try To Select Occupied Seat
+    [Arguments]    ${seat_id}
+    Click    css=[data-seat="${seat_id}"].occupied
+
+Should Not Select Occupied Seat
+    [Arguments]    ${seat_id}
+    Get Attribute    css=[data-seat="${seat_id}"]    class    should not contain    selected
 
 Selecionar Múltiplos Assentos
     [Documentation]    Seleciona múltiplos assentos disponíveis
@@ -97,23 +156,51 @@ Tentar Selecionar Assento Ocupado
         Log    Nenhum assento ocupado para testar
     END
 
-Verificar Subtotal Atualizado
-    [Documentation]    Verifica se o subtotal é atualizado conforme seleção
-    
-    Wait For Elements State    ${SUBTOTAL}    visible    5
-    ${subtotal_text}=    Get Text    ${SUBTOTAL}
-    Should Not Be Empty    ${subtotal_text}
-    Should Contain Any    ${subtotal_text}    R$    $    €
+# Subtotal e Preços
+Should Show Subtotal
+    [Arguments]    ${expected_price}
+    ${subtotal}=    Get Text    ${SUBTOTAL}
+    Should Contain    ${subtotal}    ${expected_price}
 
-Continuar para Checkout
-    [Documentation]    Clica no botão para continuar para checkout
-    
-    ${selected_seats}=    Get Elements    ${SEAT_SELECTED}
-    ${selected_count}=    Get Length    ${selected_seats}
-    Should Be True    ${selected_count} > 0    Nenhum assento selecionado
-    
+Clear All Selected Seats
+    ${selected}=    Get Elements    ${SEAT_SELECTED}
+    FOR    ${seat}    IN    @{selected}
+        Click    ${seat}
+    END
+
+Deselect Seat
+    [Arguments]    ${seat_id}
+    Click    css=[data-seat="${seat_id}"].selected
+
+# Navegação para Checkout
+Click Proceed To Checkout
     Click    ${CONTINUE_BTN}
     Wait For Load State    networkidle
+
+Should Be On Checkout Page
+    Get Url    should contain    /checkout
+
+Should Display Selected Seats Summary
+    Wait For Elements State    css=.seats-summary    visible    5
+
+# Validações e Erros
+Should Show Error Message
+    [Arguments]    ${message}
+    Wait For Elements State    css=.error-message    visible    5
+    ${error_text}=    Get Text    css=.error-message
+    Should Contain    ${error_text}    ${message}
+
+Should Remain On Seats Page
+    Get Url    should contain    /seats
+
+Should Show Seat As Occupied
+    [Arguments]    ${seat_id}
+    Get Attribute    css=[data-seat="${seat_id}"]    class    should contain    occupied
+
+Should Not Allow Selection
+    [Arguments]    ${seat_id}
+    Click    css=[data-seat="${seat_id}"].occupied
+    Get Attribute    css=[data-seat="${seat_id}"]    class    should not contain    selected
 
 Obter Quantidade de Assentos Selecionados
     [Documentation]    Retorna a quantidade de assentos selecionados

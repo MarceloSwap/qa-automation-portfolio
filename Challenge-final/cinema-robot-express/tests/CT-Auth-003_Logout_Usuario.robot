@@ -10,7 +10,6 @@ Test Teardown     Take Screenshot
 *** Test Cases ***
 CT-Auth-011 Deve permitir logout através do menu
     [Documentation]    Verifica se usuário pode fazer logout através do menu de navegação
-    [Tags]    auth    logout    positive
     
     ${user}    Create Dictionary
     ...    name=CT-Auth-011 Logout Menu
@@ -29,7 +28,6 @@ CT-Auth-011 Deve permitir logout através do menu
 
 CT-Auth-012 Deve tornar rotas protegidas inacessíveis após logout
     [Documentation]    Verifica se rotas protegidas não são acessíveis após logout
-    [Tags]    auth    logout    security    positive
     
     ${user}    Create Dictionary
     ...    name=CT-Auth-012 Rotas Protegidas
@@ -58,7 +56,6 @@ CT-Auth-012 Deve tornar rotas protegidas inacessíveis após logout
 
 CT-Auth-014 Deve encerrar sessão completamente
     [Documentation]    Verifica se sessão é encerrada completamente após logout
-    [Tags]    auth    logout    session    positive
     
     ${user}    Create Dictionary
     ...    name=CT-Auth-014 Sessão Encerrada
@@ -83,9 +80,7 @@ CT-Auth-014 Deve encerrar sessão completamente
     Should Contain Any    ${current_url}    /login    /auth    /home
 
 CT-Auth-015 Deve exibir confirmação visual de logout
-    [Documentation]    Verifica se há feedback visual após logout
-    [Tags]    auth    logout    feedback    positive
-    
+    [Documentation]    Verifica se há feedback visual após logout  
     ${user}    Create Dictionary
     ...    name=CT-Auth-015 Confirmação Visual
     ...    email=ct-auth-015@mail.com

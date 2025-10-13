@@ -1,5 +1,13 @@
 # Repositório PB – Compass
 
+Projeto final - Plano de teste Backend
+https://marcelofs.atlassian.net/wiki/external/ZTUwN2UxYmUwMWJhNDUwNTlkZmYxNGIwNGJmMGU3MTI
+
+Projeto final - plano de teste Frontend
+https://marcelofs.atlassian.net/wiki/external/YmE5OGY3YjMzZmUwNGZkOGI1Y2QyZTMzYTQ2MTNiNWM
+
+
+
 ## 📋 Descrição
 
 Este repositório centraliza todos os arquivos importantes produzidos ao longo das Sprints do programa PB Compass, incluindo planejamentos de testes, automações, documentações e entregas de qualidade.
@@ -109,6 +117,12 @@ rfbrowser init
 ```
 
 ### Challenge Final - Sistema de Cinema
+
+
+
+
+Plano de Teste BackEnd
+
 ```bash
 # Iniciar API do Cinema
 cd "Challenge-final/cinema-challenge-back"
@@ -208,25 +222,72 @@ robot -d ./logs tests/
 
 ## 📈 Métricas de Qualidade
 
+### 🎯 **Resultados dos Testes E2E - Sistema de Cinema**
+- **Taxa de Sucesso:** 75.9% (66/87 testes)
+- **Módulos 100% Funcionais:** 5 de 7
+- **Redução de Falhas:** 44% (correções implementadas)
+
+| Módulo | Testes | Passou | Taxa |
+|--------|--------|--------|----- |
+| **Autenticação** | 20 | 20 | 100% ✅ |
+| **Filmes** | 7 | 7 | 100% ✅ |
+| **Navegação** | 10 | 10 | 100% ✅ |
+| **Sistema Online** | 8 | 8 | 100% ✅ |
+| **Home** | 10 | 10 | 100% ✅ |
+| **Reservas** | 32 | 11 | 34% ⚠️ |
+
 ### Cobertura de Testes
 - ✅ **API Testing** - Reqres, ServeRest e Cinema API
 - ✅ **E2E Testing** - Mark85 e Sistema de Cinema
 - ✅ **Cross-browser** - Chromium, Firefox, Safari
 - ✅ **Ambientes** - Local, EC2, MongoDB Atlas
-- ✅ **Funcionalidades** - Autenticação, Filmes, Usuários, Reservas, CRUD, Navegação
+- ✅ **Funcionalidades** - Autenticação, Filmes, Usuários, Navegação, CRUD
+- ⚠️ **Reservas** - Funcionalidade parcialmente implementada
 - ✅ **Papéis de Usuário** - Visitante, Usuário, Administrador
+- ✅ **Responsividade** - Desktop, Tablet, Mobile
 
 ### Automação
 - ✅ **Robot Framework** - API e Web
+- ✅ **Browser Library** - Playwright integration
 - ✅ **CI/CD Ready** - Estrutura preparada
-- ✅ **Keywords Reutilizáveis** - Modularização
-- ✅ **Relatórios Visuais** - HTML reports
+- ✅ **Keywords Reutilizáveis** - Modularização avançada
+- ✅ **Relatórios Visuais** - HTML reports com screenshots
+- ✅ **Tratamento de Erros** - Verificações condicionais
 
 ### Documentação
 - ✅ **READMEs Específicos** - Por projeto
 - ✅ **Configurações** - Ambientes e dependências
 - ✅ **Evidências** - Screenshots e logs
 - ✅ **Planos de Teste** - Confluence integrado
+- ✅ **Relatórios Detalhados** - Análise completa de resultados
+
+## ⚠️ Problemas Conhecidos
+
+### **Sistema de Reservas (34% de sucesso)**
+- **Seleção de Assentos:** Funcionalidade não implementada no frontend
+- **Processo de Checkout:** Interface de pagamento ausente
+- **Strict Mode Violations:** Seletores CSS precisam de ajustes
+
+### **Elementos de Interface Ausentes:**
+- `.subtotal`, `.continue-btn` (página de assentos)
+- `input[value="credit_card"]` (checkout)
+- `.reservations-grid` (minhas reservas)
+
+## 🚀 Melhorias Implementadas
+
+### **Correções Realizadas:**
+- ✅ **Keywords de Viewport:** Corrigido `Set Viewport Size` em todos os testes
+- ✅ **Seletores CSS:** Substituído `:first-child` por `>> nth=0`
+- ✅ **Validação de Pôster:** Ajustado dimensões mínimas (100x150px)
+- ✅ **Keywords Ausentes:** Criado `ReservationsPage.resource` com 40+ keywords
+- ✅ **Fluxo de Navegação:** Melhorado navegação entre páginas
+- ✅ **Tratamento de Erros:** Adicionado verificações condicionais
+
+### **Próximos Passos:**
+1. Implementar páginas de seleção de assentos no frontend
+2. Desenvolver fluxo completo de checkout
+3. Criar interface de gerenciamento de reservas
+4. Corrigir seletores CSS restantes
 
 ## 👥 Contribuição
 

@@ -1,0 +1,37 @@
+{
+  "valid_reservation": {
+    "session_id": "507f1f77bcf86cd799439012",
+    "seats": [
+      {"row": "A", "number": 1, "type": "full"},
+      {"row": "A", "number": 2, "type": "full"}
+    ],
+    "payment_method": "credit_card"
+  },
+  "mixed_seats_reservation": {
+    "session_id": "507f1f77bcf86cd799439012",
+    "seats": [
+      {"row": "B", "number": 1, "type": "full"},
+      {"row": "B", "number": 2, "type": "half"},
+      {"row": "B", "number": 3, "type": "senior"}
+    ],
+    "payment_method": "pix"
+  },
+  "credit_card_payment": {
+    "number": "4111111111111111",
+    "expiry": "12/25",
+    "cvv": "123",
+    "name": "João Silva"
+  },
+  "debit_card_payment": {
+    "number": "5555555555554444",
+    "expiry": "06/26",
+    "cvv": "456",
+    "name": "Maria Santos"
+  },
+  "invalid_card_payment": {
+    "number": "",
+    "expiry": "",
+    "cvv": "",
+    "name": ""
+  }
+}

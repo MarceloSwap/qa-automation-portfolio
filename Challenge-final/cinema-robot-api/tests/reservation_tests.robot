@@ -5,7 +5,7 @@ Resource         ../resources/keywords/auth_keywords.resource
 Resource         ../resources/keywords/reservation_keywords.resource
 Suite Setup      Setup Reservation Tests
 Suite Teardown   Teardown Test Session
-Test Tags        reservations    booking
+Test Tags        reservations
 
 *** Variables ***
 ${USER_TOKEN}         ${EMPTY}
@@ -17,7 +17,7 @@ ${RESERVATION_ID}     ${EMPTY}
 # US-RESERVE-001: Selecionar Assentos para Reserva
 Test Create Reservation Successfully
     [Documentation]    Testa criação de reserva com dados válidos
-    [Tags]    reservations    create    positive
+    [Tags]    US-RESERVE-001
     Skip If    '${USER_TOKEN}' == '${EMPTY}'    Token usuário não disponível
     
     # Tenta obter uma sessão real do banco
@@ -55,7 +55,7 @@ Test Create Reservation Successfully
 
 Test Create Reservation Without Authentication
     [Documentation]    Testa criação de reserva sem autenticação
-    [Tags]    reservations    create    negative
+    [Tags]    US-RESERVE-001
     Skip If    '${SESSION_ID}' == '${EMPTY}'    ID da sessão não disponível
     
     ${reservation_data}=    Generate Reservation Data    ${SESSION_ID}
@@ -67,7 +67,7 @@ Test Create Reservation Without Authentication
 
 Test Create Reservation With Invalid Session
     [Documentation]    Testa criação de reserva com sessão inválida
-    [Tags]    reservations    create    negative
+    [Tags]    US-RESERVE-001
     Skip If    '${USER_TOKEN}' == '${EMPTY}'    Token usuário não disponível
     
     ${reservation_data}=    Generate Reservation Data    507f1f77bcf86cd799439011
@@ -76,7 +76,7 @@ Test Create Reservation With Invalid Session
 
 Test Create Reservation With Invalid Seats
     [Documentation]    Testa criação de reserva com assentos inválidos
-    [Tags]    reservations    create    negative
+    [Tags]    US-RESERVE-001
     Skip If    '${USER_TOKEN}' == '${EMPTY}'    Token usuário não disponível
     
     @{invalid_seats}=    Create List
@@ -94,7 +94,7 @@ Test Create Reservation With Invalid Seats
 
 Test Create Reservation With Duplicate Seats
     [Documentation]    Testa criação de reserva com assentos já ocupados
-    [Tags]    reservations    create    negative
+    [Tags]    US-RESERVE-001
     Skip If    '${USER_TOKEN}' == '${EMPTY}'    Token usuário não disponível
     
     # Usa ID fictício - espera 404 pois sessão não existe

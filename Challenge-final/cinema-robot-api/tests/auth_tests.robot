@@ -4,7 +4,7 @@ Resource         ../resources/base.resource
 Resource         ../resources/keywords/auth_keywords.resource
 Suite Setup      Setup Test Session
 Suite Teardown   Teardown Test Session
-Test Tags        auth    authentication
+Test Tags        auth
 
 *** Variables ***
 ${USER_TOKEN}    ${EMPTY}
@@ -14,7 +14,7 @@ ${ADMIN_TOKEN}   ${EMPTY}
 # US-AUTH-001: Registro de Usuário
 Test User Registration With Valid Data
     [Documentation]    Testa registro de usuário com dados válidos
-    [Tags]    register    positive
+    [Tags]    US-AUTH-001
     ${user_data}=    Generate Random User Data
     ${response}=    Register User Successfully    ${user_data}
     
@@ -25,7 +25,7 @@ Test User Registration With Valid Data
 
 Test User Registration With Duplicate Email
     [Documentation]    Testa registro com email já existente
-    [Tags]    register    negative
+    [Tags]    US-AUTH-001
     ${user_data}=    Generate Random User Data
     
     # Primeiro registro
@@ -37,7 +37,7 @@ Test User Registration With Duplicate Email
 
 Test User Registration With Invalid Email
     [Documentation]    Testa registro com email inválido
-    [Tags]    register    negative
+    [Tags]    US-AUTH-001
     &{user_data}=    Create Dictionary
     ...    name=Teste User
     ...    email=email-invalido
@@ -48,7 +48,7 @@ Test User Registration With Invalid Email
 
 Test User Registration With Short Password
     [Documentation]    Testa registro com senha muito curta
-    [Tags]    register    negative
+    [Tags]    US-AUTH-001
     &{user_data}=    Create Dictionary
     ...    name=Teste User
     ...    email=teste@cinema.com
@@ -59,7 +59,7 @@ Test User Registration With Short Password
 
 Test User Registration With Missing Fields
     [Documentation]    Testa registro com campos obrigatórios faltando
-    [Tags]    register    negative
+    [Tags]    US-AUTH-001
     &{user_data}=    Create Dictionary
     ...    name=Teste User
     # email e password faltando
@@ -70,7 +70,7 @@ Test User Registration With Missing Fields
 # US-AUTH-002: Login de Usuário
 Test User Login With Valid Credentials
     [Documentation]    Testa login com credenciais válidas
-    [Tags]    login    positive
+    [Tags]    US-AUTH-002
     # Primeiro registra um usuário
     ${user_data}=    Generate Random User Data
     Register User Successfully    ${user_data}
@@ -82,13 +82,13 @@ Test User Login With Valid Credentials
 
 Test User Login With Invalid Email
     [Documentation]    Testa login com email inexistente
-    [Tags]    login    negative
+    [Tags]    US-AUTH-002
     ${response}=    Login User    inexistente@cinema.com    123456
     Validate Login Error    ${response}    401
 
 Test User Login With Invalid Password
     [Documentation]    Testa login com senha incorreta
-    [Tags]    login    negative
+    [Tags]    US-AUTH-002
     # Registra usuário primeiro
     ${user_data}=    Generate Random User Data
     Register User Successfully    ${user_data}
@@ -99,14 +99,14 @@ Test User Login With Invalid Password
 
 Test User Login With Empty Credentials
     [Documentation]    Testa login com credenciais vazias
-    [Tags]    login    negative
+    [Tags]    US-AUTH-002
     ${response}=    Login User    ${EMPTY}    ${EMPTY}
     Validate Login Error    ${response}    401
 
 # US-AUTH-003: Logout de Usuário (implícito - token JWT)
 Test Token Expiration Handling
     [Documentation]    Testa comportamento com token inválido
-    [Tags]    logout    negative
+    [Tags]    US-AUTH-003
     Set Authorization Header    token_invalido
     ${response}=    GET On Session    ${SESSION}    /auth/me
     ...    headers=${AUTH_HEADERS}
@@ -115,7 +115,7 @@ Test Token Expiration Handling
 
 Test Access Without Token
     [Documentation]    Testa acesso a rota protegida sem token
-    [Tags]    logout    negative
+    [Tags]    US-AUTH-003
     ${response}=    GET On Session    ${SESSION}    /auth/me
     ...    headers=${HEADERS}
     ...    expected_status=any
@@ -124,7 +124,7 @@ Test Access Without Token
 # US-AUTH-004: Visualizar e Gerenciar Perfil do Usuário
 Test Get User Profile Successfully
     [Documentation]    Testa obtenção do perfil do usuário
-    [Tags]    profile    positive
+    [Tags]    US-AUTH-004
     # Usa token criado no teste de login
     Skip If    '${USER_TOKEN}' == '${EMPTY}'    Token não disponível
     ${response}=    Get User Profile Successfully    ${USER_TOKEN}
@@ -136,7 +136,7 @@ Test Get User Profile Successfully
 
 Test Update User Profile Name
     [Documentation]    Testa atualização do nome do usuário
-    [Tags]    profile    positive
+    [Tags]    US-AUTH-004
     Skip If    '${USER_TOKEN}' == '${EMPTY}'    Token não disponível
     
     &{profile_data}=    Create Dictionary    name=Nome Atualizado
@@ -147,14 +147,14 @@ Test Update User Profile Name
 
 Test Update User Profile With Invalid Token
     [Documentation]    Testa atualização de perfil com token inválido
-    [Tags]    profile    negative
+    [Tags]    US-AUTH-004
     &{profile_data}=    Create Dictionary    name=Nome Teste
     ${response}=    Update User Profile    token_invalido    ${profile_data}
     Should Be Equal As Integers    ${response.status_code}    401
 
 Test Update User Profile Password
     [Documentation]    Testa atualização de senha do usuário
-    [Tags]    profile    positive
+    [Tags]    US-AUTH-004
     # Cria novo usuário para este teste
     ${user_data}=    Generate Random User Data
     Register User Successfully    ${user_data}
@@ -170,7 +170,7 @@ Test Update User Profile Password
 
 Test Update User Profile With Wrong Current Password
     [Documentation]    Testa atualização de senha com senha atual incorreta
-    [Tags]    profile    negative
+    [Tags]    US-AUTH-004
     Skip If    '${USER_TOKEN}' == '${EMPTY}'    Token não disponível
     
     &{profile_data}=    Create Dictionary
@@ -184,7 +184,7 @@ Test Update User Profile With Wrong Current Password
 # Testes de Admin
 Test Admin User Registration And Login
     [Documentation]    Testa registro e login de usuário admin
-    [Tags]    admin    positive
+    [Tags]    US-AUTH-002
     
     # Cria admin via setup endpoint
     &{admin_data}=    Create Dictionary

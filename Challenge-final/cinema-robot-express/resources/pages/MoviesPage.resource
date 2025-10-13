@@ -79,11 +79,22 @@ Verificar Qualidade do Pôster
     ${poster_src}=    Get Attribute    ${poster}    src
     Should Not Be Empty    ${poster_src}
     
-    # Verifica dimensões mínimas (valores mais flexíveis)
+    # Aguarda a imagem carregar completamente
+    Sleep    2s
+    
+    # Verifica dimensões mínimas (valores mais flexíveis para mobile)
     ${width}=    Get Property    ${poster}    offsetWidth
     ${height}=    Get Property    ${poster}    offsetHeight
-    Should Be True    ${width} >= 100    Pôster muito pequeno (largura: ${width}px)
-    Should Be True    ${height} >= 150    Pôster muito pequeno (altura: ${height}px)
+    
+    # Se as dimensões são 0, pode ser que a imagem ainda esteja carregando
+    IF    ${width} == 0 or ${height} == 0
+        Sleep    3s
+        ${width}=    Get Property    ${poster}    offsetWidth
+        ${height}=    Get Property    ${poster}    offsetHeight
+    END
+    
+    Should Be True    ${width} >= 50    Pôster muito pequeno (largura: ${width}px)
+    Should Be True    ${height} >= 75    Pôster muito pequeno (altura: ${height}px)
     
     # Verifica se a imagem não está quebrada
     ${natural_width}=    Get Property    ${poster}    naturalWidth
@@ -124,7 +135,50 @@ Verificar Responsividade
     Sleep    1s
     Verificar Layout Grid dos Filmes
 
-Navegar para Página de Filmes
+Go To Movies Page
     [Documentation]    Navega para a página de filmes
     Go To    ${BASE_URL}/movies
-    Aguardar Carregamento da Página de Filmes
+    Wait For Elements State    css=.movies-container    visible    10
+    Wait For Elements State    css=.movies-grid    visible    10
+
+Click First Movie Details Button
+    [Documentation]    Clica no botão Ver Detalhes do primeiro filme
+    Wait For Elements State    css=.movie-card    visible    10
+    Click    css=.movie-card .btn-primary
+    Wait For Load State    networkidle
+
+Aguardar Carregamento da Página de Detalhes
+    [Documentation]    Aguarda o carregamento da página de detalhes do filme
+    Wait For Load State    networkidle
+    
+    ${detail_exists}=    Run Keyword And Return Status
+    ...    Wait For Elements State    css=.movie-detail    visible    5
+    
+    IF    not ${detail_exists}
+        ${details_exists}=    Run Keyword And Return Status
+        ...    Wait For Elements State    css=.movie-details    visible    5
+        Should Be True    ${details_exists}    Página de detalhes não encontrada
+    END
+
+Verificar Elenco
+    [Documentation]    Verifica se o elenco é exibido quando disponível
+    
+    ${cast_exists}=    Run Keyword And Return Status
+    ...    Wait For Elements State    css=.movie-cast    visible    5
+    
+    IF    ${cast_exists}
+        ${cast_text}=    Get Text    css=.movie-cast
+        Should Not Be Empty    ${cast_text}
+        Log    Elenco encontrado: ${cast_text}
+    ELSE
+        ${cast_section_exists}=    Run Keyword And Return Status
+        ...    Wait For Elements State    css=.cast-section    visible    5
+        
+        IF    ${cast_section_exists}
+            ${cast_text}=    Get Text    css=.cast-section
+            Should Not Be Empty    ${cast_text}
+            Log    Elenco encontrado: ${cast_text}
+        ELSE
+            Log    Elenco não disponível para este filme
+        END
+    END

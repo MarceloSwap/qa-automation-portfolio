@@ -10,8 +10,7 @@ Test Teardown    Take Screenshot
 *** Test Cases ***
 CT-Auth-001 Deve permitir registro de novo usuário
     [Documentation]    Verifica se é possível registrar uma nova conta com dados válidos
-    [Tags]    auth    register    positive
-    
+
     ${user}    Create Dictionary
     ...    name=CT-Auth-001 Registro
     ...    email=ct-auth-001@mail.com
@@ -25,7 +24,6 @@ CT-Auth-001 Deve permitir registro de novo usuário
 
 CT-Auth-002 Não deve permitir registro com email duplicado
     [Documentation]    Verifica se sistema impede registros de emails duplicados
-    [Tags]    auth    register    negative
     
     ${user}    Create Dictionary
     ...    name=CT-Auth-002 Email Duplicado
@@ -40,7 +38,6 @@ CT-Auth-002 Não deve permitir registro com email duplicado
 
 CT-Auth-003 Não deve permitir registro com email inválido
     [Documentation]    Verifica validação de formato de email
-    [Tags]    auth    register    validation    negative
     
     ${user}         Create Dictionary
     ...             name=CT-Auth-003 Email Inválido
@@ -53,7 +50,6 @@ CT-Auth-003 Não deve permitir registro com email inválido
 
 CT-Auth-004 Deve validar formato de senha
     [Documentation]    Verifica se sistema valida formato da senha
-    [Tags]    auth    register    validation    negative
     
     ${user}    Create Dictionary
     ...    name=CT-Auth-004 Senha Inválida
@@ -66,7 +62,6 @@ CT-Auth-004 Deve validar formato de senha
 
 CT-Auth-005 Deve redirecionar após registro bem-sucedido
     [Documentation]    Verifica se usuário é redirecionado após registro
-    [Tags]    auth    register    redirect    positive
     
     ${user}    Create Dictionary
     ...    name=CT-Auth-005 Redirecionamento

@@ -1,0 +1,12 @@
+{
+  "valid_user": {
+    "name": "João Silva",
+    "email": "joao.silva@cinema.com",
+    "password": "123456"
+  },
+  "new_user": {
+    "name": "Maria Santos",
+    "email": "maria.santos@cinema.com",
+    "password": "123456"
+  }
+}

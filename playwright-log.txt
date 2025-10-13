@@ -1,0 +1,875 @@
+{"level":30,"time":"2025-10-13T10:42:49.230Z","pid":12968,"hostname":"MarceloNote","msg":"Listening on 127.0.0.1:51386"}
+(node:12968) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+{"level":30,"time":"2025-10-13T10:42:49.397Z","pid":12968,"hostname":"MarceloNote","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2025-10-13T10:42:50.291Z","pid":12968,"hostname":"MarceloNote","msg":"Adding browser to stack: chromium, version: 140.0.7339.16"}
+{"level":30,"time":"2025-10-13T10:42:50.293Z","pid":12968,"hostname":"MarceloNote","msg":"End of node method newBrowser"}
+{"level":30,"time":"2025-10-13T10:42:50.292Z","pid":12968,"hostname":"MarceloNote","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2025-10-13T10:42:50.332Z","pid":12968,"hostname":"MarceloNote","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-10-13T10:42:50.333Z","pid":12968,"hostname":"MarceloNote","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@c81ec03b79c15ba923372e7a31d9fdfa\"},\"headless\":false,\"_contextStack\":[],\"id\":\"browser=05b314d3-2053-4813-b509-9fb90101dbe2\"}"}
+{"level":30,"time":"2025-10-13T10:42:50.382Z","pid":12968,"hostname":"MarceloNote","msg":"Setting default timeout for context context=eca67233-caa6-4a20-9925-5d3ba6e52102 to 10000"}
+{"level":30,"time":"2025-10-13T10:42:50.382Z","pid":12968,"hostname":"MarceloNote","msg":"Changed active context: context=eca67233-caa6-4a20-9925-5d3ba6e52102"}
+{"level":30,"time":"2025-10-13T10:42:50.933Z","pid":12968,"hostname":"MarceloNote","msg":"Video path: undefined"}
+{"level":30,"time":"2025-10-13T10:42:50.933Z","pid":12968,"hostname":"MarceloNote","msg":"Changed active page"}
+{"level":30,"time":"2025-10-13T10:42:51.420Z","pid":12968,"hostname":"MarceloNote","msg":"End of node method newPage"}
+{"level":30,"time":"2025-10-13T10:42:51.489Z","pid":12968,"hostname":"MarceloNote","msg":"Start of node method goTo"}
+{"level":30,"time":"2025-10-13T10:42:51.736Z","pid":12968,"hostname":"MarceloNote","msg":"End of node method goTo"}
+{"level":30,"time":"2025-10-13T10:42:51.755Z","pid":12968,"hostname":"MarceloNote","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-10-13T10:42:51.756Z","pid":12968,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=#root > main > div > div > p in page."}
+{"level":30,"time":"2025-10-13T10:42:51.854Z","pid":12968,"hostname":"MarceloNote","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-10-13T10:42:51.878Z","pid":12968,"hostname":"MarceloNote","msg":"Start of node method getText"}
+{"level":30,"time":"2025-10-13T10:42:51.879Z","pid":12968,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=#root > main > div > div > p in page."}
+{"level":30,"time":"2025-10-13T10:42:51.932Z","pid":12968,"hostname":"MarceloNote","msg":"Retrieved text for element css=#root > main > div > div > p containing Crie sua conta para reservar ingressos"}
+{"level":30,"time":"2025-10-13T10:42:51.932Z","pid":12968,"hostname":"MarceloNote","msg":"End of node method getText"}
+{"level":30,"time":"2025-10-13T10:42:51.960Z","pid":12968,"hostname":"MarceloNote","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-10-13T10:42:51.961Z","pid":12968,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=#name in page."}
+{"level":30,"time":"2025-10-13T10:42:51.988Z","pid":12968,"hostname":"MarceloNote","msg":"End of node method fillText"}
+{"level":30,"time":"2025-10-13T10:42:52.005Z","pid":12968,"hostname":"MarceloNote","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-10-13T10:42:52.005Z","pid":12968,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=#email in page."}
+{"level":30,"time":"2025-10-13T10:42:52.031Z","pid":12968,"hostname":"MarceloNote","msg":"End of node method fillText"}
+{"level":30,"time":"2025-10-13T10:42:52.054Z","pid":12968,"hostname":"MarceloNote","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-10-13T10:42:52.054Z","pid":12968,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=#password in page."}
+{"level":30,"time":"2025-10-13T10:42:52.071Z","pid":12968,"hostname":"MarceloNote","msg":"End of node method fillText"}
+{"level":30,"time":"2025-10-13T10:42:52.095Z","pid":12968,"hostname":"MarceloNote","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-10-13T10:42:52.095Z","pid":12968,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=#confirmPassword in page."}
+{"level":30,"time":"2025-10-13T10:42:52.116Z","pid":12968,"hostname":"MarceloNote","msg":"End of node method fillText"}
+{"level":30,"time":"2025-10-13T10:42:52.135Z","pid":12968,"hostname":"MarceloNote","msg":"Start of node method click"}
+{"level":30,"time":"2025-10-13T10:42:52.136Z","pid":12968,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=button[type=submit] >> text=Cadastrar in page."}
+{"level":30,"time":"2025-10-13T10:42:52.215Z","pid":12968,"hostname":"MarceloNote","msg":"End of node method click"}
+{"level":30,"time":"2025-10-13T10:42:52.247Z","pid":12968,"hostname":"MarceloNote","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-10-13T10:42:52.247Z","pid":12968,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=.alert-success in page."}
+{"level":30,"time":"2025-10-13T10:42:52.511Z","pid":12968,"hostname":"MarceloNote","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-10-13T10:42:52.529Z","pid":12968,"hostname":"MarceloNote","msg":"Start of node method getText"}
+{"level":30,"time":"2025-10-13T10:42:52.529Z","pid":12968,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=.alert-success in page."}
+{"level":30,"time":"2025-10-13T10:42:52.557Z","pid":12968,"hostname":"MarceloNote","msg":"Retrieved text for element css=.alert-success containing Conta criada com sucesso!"}
+{"level":30,"time":"2025-10-13T10:42:52.557Z","pid":12968,"hostname":"MarceloNote","msg":"End of node method getText"}
+{"level":30,"time":"2025-10-13T10:42:52.577Z","pid":12968,"hostname":"MarceloNote","msg":"Start of node method getText"}
+{"level":30,"time":"2025-10-13T10:42:52.577Z","pid":12968,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=.alert-success in page."}
+{"level":30,"time":"2025-10-13T10:42:52.602Z","pid":12968,"hostname":"MarceloNote","msg":"Retrieved text for element css=.alert-success containing Conta criada com sucesso!"}
+{"level":30,"time":"2025-10-13T10:42:52.602Z","pid":12968,"hostname":"MarceloNote","msg":"End of node method getText"}
+{"level":30,"time":"2025-10-13T10:42:52.621Z","pid":12968,"hostname":"MarceloNote","msg":"Start of node method getText"}
+{"level":30,"time":"2025-10-13T10:42:52.621Z","pid":12968,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=.alert-success in page."}
+{"level":30,"time":"2025-10-13T10:42:52.645Z","pid":12968,"hostname":"MarceloNote","msg":"Retrieved text for element css=.alert-success containing Conta criada com sucesso!"}
+{"level":30,"time":"2025-10-13T10:42:52.646Z","pid":12968,"hostname":"MarceloNote","msg":"End of node method getText"}
+{"level":30,"time":"2025-10-13T10:42:52.665Z","pid":12968,"hostname":"MarceloNote","msg":"Start of node method getText"}
+{"level":30,"time":"2025-10-13T10:42:52.665Z","pid":12968,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=.alert-success in page."}
+{"level":30,"time":"2025-10-13T10:42:52.688Z","pid":12968,"hostname":"MarceloNote","msg":"Retrieved text for element css=.alert-success containing Conta criada com sucesso!"}
+{"level":30,"time":"2025-10-13T10:42:52.688Z","pid":12968,"hostname":"MarceloNote","msg":"End of node method getText"}
+{"level":30,"time":"2025-10-13T10:42:52.708Z","pid":12968,"hostname":"MarceloNote","msg":"Start of node method getText"}
+{"level":30,"time":"2025-10-13T10:42:52.708Z","pid":12968,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=.alert-success in page."}
+{"level":30,"time":"2025-10-13T10:42:52.730Z","pid":12968,"hostname":"MarceloNote","msg":"Retrieved text for element css=.alert-success containing Conta criada com sucesso!"}
+{"level":30,"time":"2025-10-13T10:42:52.731Z","pid":12968,"hostname":"MarceloNote","msg":"End of node method getText"}
+{"level":30,"time":"2025-10-13T10:42:52.750Z","pid":12968,"hostname":"MarceloNote","msg":"Start of node method getText"}
+{"level":30,"time":"2025-10-13T10:42:52.750Z","pid":12968,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=.alert-success in page."}
+{"level":30,"time":"2025-10-13T10:42:52.772Z","pid":12968,"hostname":"MarceloNote","msg":"Retrieved text for element css=.alert-success containing Conta criada com sucesso!"}
+{"level":30,"time":"2025-10-13T10:42:52.772Z","pid":12968,"hostname":"MarceloNote","msg":"End of node method getText"}
+{"level":30,"time":"2025-10-13T10:42:52.792Z","pid":12968,"hostname":"MarceloNote","msg":"Start of node method getText"}
+{"level":30,"time":"2025-10-13T10:42:52.793Z","pid":12968,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=.alert-success in page."}
+{"level":30,"time":"2025-10-13T10:42:52.819Z","pid":12968,"hostname":"MarceloNote","msg":"Retrieved text for element css=.alert-success containing Conta criada com sucesso!"}
+{"level":30,"time":"2025-10-13T10:42:52.819Z","pid":12968,"hostname":"MarceloNote","msg":"End of node method getText"}
+{"level":30,"time":"2025-10-13T10:42:52.838Z","pid":12968,"hostname":"MarceloNote","msg":"Start of node method getText"}
+{"level":30,"time":"2025-10-13T10:42:52.838Z","pid":12968,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=.alert-success in page."}
+{"level":30,"time":"2025-10-13T10:42:52.861Z","pid":12968,"hostname":"MarceloNote","msg":"Retrieved text for element css=.alert-success containing Conta criada com sucesso!"}
+{"level":30,"time":"2025-10-13T10:42:52.862Z","pid":12968,"hostname":"MarceloNote","msg":"End of node method getText"}
+{"level":30,"time":"2025-10-13T10:42:52.882Z","pid":12968,"hostname":"MarceloNote","msg":"Start of node method getText"}
+{"level":30,"time":"2025-10-13T10:42:52.882Z","pid":12968,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=.alert-success in page."}
+{"level":30,"time":"2025-10-13T10:42:52.905Z","pid":12968,"hostname":"MarceloNote","msg":"Retrieved text for element css=.alert-success containing Conta criada com sucesso!"}
+{"level":30,"time":"2025-10-13T10:42:52.905Z","pid":12968,"hostname":"MarceloNote","msg":"End of node method getText"}
+{"level":30,"time":"2025-10-13T10:42:52.926Z","pid":12968,"hostname":"MarceloNote","msg":"Start of node method getText"}
+{"level":30,"time":"2025-10-13T10:42:52.926Z","pid":12968,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=.alert-success in page."}
+{"level":30,"time":"2025-10-13T10:42:52.948Z","pid":12968,"hostname":"MarceloNote","msg":"Retrieved text for element css=.alert-success containing Conta criada com sucesso!"}
+{"level":30,"time":"2025-10-13T10:42:52.948Z","pid":12968,"hostname":"MarceloNote","msg":"End of node method getText"}
+{"level":30,"time":"2025-10-13T10:42:52.967Z","pid":12968,"hostname":"MarceloNote","msg":"Start of node method getText"}
+{"level":30,"time":"2025-10-13T10:42:52.967Z","pid":12968,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=.alert-success in page."}
+{"level":30,"time":"2025-10-13T10:42:52.989Z","pid":12968,"hostname":"MarceloNote","msg":"Retrieved text for element css=.alert-success containing Conta criada com sucesso!"}
+{"level":30,"time":"2025-10-13T10:42:52.990Z","pid":12968,"hostname":"MarceloNote","msg":"End of node method getText"}
+{"level":30,"time":"2025-10-13T10:42:53.009Z","pid":12968,"hostname":"MarceloNote","msg":"Start of node method getText"}
+{"level":30,"time":"2025-10-13T10:42:53.009Z","pid":12968,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=.alert-success in page."}
+{"level":30,"time":"2025-10-13T10:42:53.032Z","pid":12968,"hostname":"MarceloNote","msg":"Retrieved text for element css=.alert-success containing Conta criada com sucesso!"}
+{"level":30,"time":"2025-10-13T10:42:53.032Z","pid":12968,"hostname":"MarceloNote","msg":"End of node method getText"}
+{"level":30,"time":"2025-10-13T10:42:53.052Z","pid":12968,"hostname":"MarceloNote","msg":"Start of node method getText"}
+{"level":30,"time":"2025-10-13T10:42:53.052Z","pid":12968,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=.alert-success in page."}
+{"level":30,"time":"2025-10-13T10:42:53.074Z","pid":12968,"hostname":"MarceloNote","msg":"Retrieved text for element css=.alert-success containing Conta criada com sucesso!"}
+{"level":30,"time":"2025-10-13T10:42:53.074Z","pid":12968,"hostname":"MarceloNote","msg":"End of node method getText"}
+{"level":30,"time":"2025-10-13T10:42:53.095Z","pid":12968,"hostname":"MarceloNote","msg":"Start of node method getText"}
+{"level":30,"time":"2025-10-13T10:42:53.095Z","pid":12968,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=.alert-success in page."}
+{"level":30,"time":"2025-10-13T10:42:53.117Z","pid":12968,"hostname":"MarceloNote","msg":"Retrieved text for element css=.alert-success containing Conta criada com sucesso!"}
+{"level":30,"time":"2025-10-13T10:42:53.117Z","pid":12968,"hostname":"MarceloNote","msg":"End of node method getText"}
+{"level":30,"time":"2025-10-13T10:42:53.136Z","pid":12968,"hostname":"MarceloNote","msg":"Start of node method getText"}
+{"level":30,"time":"2025-10-13T10:42:53.136Z","pid":12968,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=.alert-success in page."}
+{"level":30,"time":"2025-10-13T10:42:53.162Z","pid":12968,"hostname":"MarceloNote","msg":"Retrieved text for element css=.alert-success containing Conta criada com sucesso!"}
+{"level":30,"time":"2025-10-13T10:42:53.162Z","pid":12968,"hostname":"MarceloNote","msg":"End of node method getText"}
+{"level":30,"time":"2025-10-13T10:42:53.181Z","pid":12968,"hostname":"MarceloNote","msg":"Start of node method getText"}
+{"level":30,"time":"2025-10-13T10:42:53.181Z","pid":12968,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=.alert-success in page."}
+{"level":30,"time":"2025-10-13T10:42:53.203Z","pid":12968,"hostname":"MarceloNote","msg":"Retrieved text for element css=.alert-success containing Conta criada com sucesso!"}
+{"level":30,"time":"2025-10-13T10:42:53.203Z","pid":12968,"hostname":"MarceloNote","msg":"End of node method getText"}
+{"level":30,"time":"2025-10-13T10:42:53.225Z","pid":12968,"hostname":"MarceloNote","msg":"Start of node method getText"}
+{"level":30,"time":"2025-10-13T10:42:53.225Z","pid":12968,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=.alert-success in page."}
+{"level":30,"time":"2025-10-13T10:42:53.245Z","pid":12968,"hostname":"MarceloNote","msg":"Retrieved text for element css=.alert-success containing Conta criada com sucesso!"}
+{"level":30,"time":"2025-10-13T10:42:53.246Z","pid":12968,"hostname":"MarceloNote","msg":"End of node method getText"}
+{"level":30,"time":"2025-10-13T10:42:53.265Z","pid":12968,"hostname":"MarceloNote","msg":"Start of node method getText"}
+{"level":30,"time":"2025-10-13T10:42:53.265Z","pid":12968,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=.alert-success in page."}
+{"level":30,"time":"2025-10-13T10:42:53.288Z","pid":12968,"hostname":"MarceloNote","msg":"Retrieved text for element css=.alert-success containing Conta criada com sucesso!"}
+{"level":30,"time":"2025-10-13T10:42:53.288Z","pid":12968,"hostname":"MarceloNote","msg":"End of node method getText"}
+{"level":30,"time":"2025-10-13T10:42:53.308Z","pid":12968,"hostname":"MarceloNote","msg":"Start of node method getText"}
+{"level":30,"time":"2025-10-13T10:42:53.308Z","pid":12968,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=.alert-success in page."}
+{"level":30,"time":"2025-10-13T10:42:53.328Z","pid":12968,"hostname":"MarceloNote","msg":"Retrieved text for element css=.alert-success containing Conta criada com sucesso!"}
+{"level":30,"time":"2025-10-13T10:42:53.328Z","pid":12968,"hostname":"MarceloNote","msg":"End of node method getText"}
+{"level":30,"time":"2025-10-13T10:42:53.349Z","pid":12968,"hostname":"MarceloNote","msg":"Start of node method getText"}
+{"level":30,"time":"2025-10-13T10:42:53.349Z","pid":12968,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=.alert-success in page."}
+{"level":30,"time":"2025-10-13T10:42:53.369Z","pid":12968,"hostname":"MarceloNote","msg":"Retrieved text for element css=.alert-success containing Conta criada com sucesso!"}
+{"level":30,"time":"2025-10-13T10:42:53.369Z","pid":12968,"hostname":"MarceloNote","msg":"End of node method getText"}
+{"level":30,"time":"2025-10-13T10:42:53.388Z","pid":12968,"hostname":"MarceloNote","msg":"Start of node method getText"}
+{"level":30,"time":"2025-10-13T10:42:53.388Z","pid":12968,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=.alert-success in page."}
+{"level":30,"time":"2025-10-13T10:42:53.411Z","pid":12968,"hostname":"MarceloNote","msg":"Retrieved text for element css=.alert-success containing Conta criada com sucesso!"}
+{"level":30,"time":"2025-10-13T10:42:53.412Z","pid":12968,"hostname":"MarceloNote","msg":"End of node method getText"}
+{"level":30,"time":"2025-10-13T10:42:53.434Z","pid":12968,"hostname":"MarceloNote","msg":"Start of node method getText"}
+{"level":30,"time":"2025-10-13T10:42:53.434Z","pid":12968,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=.alert-success in page."}
+{"level":30,"time":"2025-10-13T10:42:53.457Z","pid":12968,"hostname":"MarceloNote","msg":"Retrieved text for element css=.alert-success containing Conta criada com sucesso!"}
+{"level":30,"time":"2025-10-13T10:42:53.458Z","pid":12968,"hostname":"MarceloNote","msg":"End of node method getText"}
+{"level":30,"time":"2025-10-13T10:42:53.479Z","pid":12968,"hostname":"MarceloNote","msg":"Start of node method getText"}
+{"level":30,"time":"2025-10-13T10:42:53.479Z","pid":12968,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=.alert-success in page."}
+{"level":30,"time":"2025-10-13T10:42:53.499Z","pid":12968,"hostname":"MarceloNote","msg":"Retrieved text for element css=.alert-success containing Conta criada com sucesso!"}
+{"level":30,"time":"2025-10-13T10:42:53.499Z","pid":12968,"hostname":"MarceloNote","msg":"End of node method getText"}
+{"level":30,"time":"2025-10-13T10:42:53.518Z","pid":12968,"hostname":"MarceloNote","msg":"Start of node method getText"}
+{"level":30,"time":"2025-10-13T10:42:53.519Z","pid":12968,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=.alert-success in page."}
+{"level":30,"time":"2025-10-13T10:42:53.539Z","pid":12968,"hostname":"MarceloNote","msg":"Retrieved text for element css=.alert-success containing Conta criada com sucesso!"}
+{"level":30,"time":"2025-10-13T10:42:53.539Z","pid":12968,"hostname":"MarceloNote","msg":"End of node method getText"}
+{"level":30,"time":"2025-10-13T10:42:53.559Z","pid":12968,"hostname":"MarceloNote","msg":"Start of node method getText"}
+{"level":30,"time":"2025-10-13T10:42:53.559Z","pid":12968,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=.alert-success in page."}
+{"level":30,"time":"2025-10-13T10:42:53.579Z","pid":12968,"hostname":"MarceloNote","msg":"Retrieved text for element css=.alert-success containing Conta criada com sucesso!"}
+{"level":30,"time":"2025-10-13T10:42:53.579Z","pid":12968,"hostname":"MarceloNote","msg":"End of node method getText"}
+{"level":30,"time":"2025-10-13T10:42:53.612Z","pid":12968,"hostname":"MarceloNote","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2025-10-13T10:42:53.612Z","pid":12968,"hostname":"MarceloNote","Take screenshot with options: ":{"path":"C:\\Users\\marce\\OneDrive\\Documentos\\PROJETOS\\pb-compass\\browser\\screenshot\\fail-screenshot-1.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2025-10-13T10:42:53.904Z","pid":12968,"hostname":"MarceloNote","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2025-10-13T10:42:54.105Z","pid":12968,"hostname":"MarceloNote","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-10-13T10:42:54.106Z","pid":12968,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=.alert-info in page."}
+{"level":30,"time":"2025-10-13T10:42:56.124Z","pid":12968,"hostname":"MarceloNote","msg":"Error of node method  waitForElementState"}
+================= Original suppressed error =================
+locator.waitFor: Timeout 2000ms exceeded.
+Call log:
+[2m  - waiting for locator('.alert-info') to be visible[22m
+
+    at waitForElementState (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11283:19)
+    at async PlaywrightServer.waitForElementsState (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13137:28) {
+  name: 'TimeoutError'
+}
+=============================================================
+{"level":30,"time":"2025-10-13T10:42:56.153Z","pid":12968,"hostname":"MarceloNote","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2025-10-13T10:42:56.153Z","pid":12968,"hostname":"MarceloNote","Take screenshot with options: ":{"path":"C:\\Users\\marce\\OneDrive\\Documentos\\PROJETOS\\pb-compass\\browser\\screenshot\\fail-screenshot-2.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2025-10-13T10:42:56.353Z","pid":12968,"hostname":"MarceloNote","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2025-10-13T10:42:56.466Z","pid":12968,"hostname":"MarceloNote","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-10-13T10:42:56.466Z","pid":12968,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=.alert in page."}
+{"level":30,"time":"2025-10-13T10:42:56.473Z","pid":12968,"hostname":"MarceloNote","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-10-13T10:42:56.489Z","pid":12968,"hostname":"MarceloNote","msg":"Start of node method getText"}
+{"level":30,"time":"2025-10-13T10:42:56.489Z","pid":12968,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=.alert in page."}
+{"level":30,"time":"2025-10-13T10:42:56.547Z","pid":12968,"hostname":"MarceloNote","msg":"Retrieved text for element css=.alert containing Conta criada com sucesso!"}
+{"level":30,"time":"2025-10-13T10:42:56.548Z","pid":12968,"hostname":"MarceloNote","msg":"End of node method getText"}
+{"level":30,"time":"2025-10-13T10:42:56.571Z","pid":12968,"hostname":"MarceloNote","msg":"Start of node method getText"}
+{"level":30,"time":"2025-10-13T10:42:56.572Z","pid":12968,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=.alert in page."}
+{"level":30,"time":"2025-10-13T10:42:56.593Z","pid":12968,"hostname":"MarceloNote","msg":"Retrieved text for element css=.alert containing Conta criada com sucesso!"}
+{"level":30,"time":"2025-10-13T10:42:56.593Z","pid":12968,"hostname":"MarceloNote","msg":"End of node method getText"}
+{"level":30,"time":"2025-10-13T10:42:56.613Z","pid":12968,"hostname":"MarceloNote","msg":"Start of node method getText"}
+{"level":30,"time":"2025-10-13T10:42:56.613Z","pid":12968,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=.alert in page."}
+{"level":30,"time":"2025-10-13T10:42:56.633Z","pid":12968,"hostname":"MarceloNote","msg":"Retrieved text for element css=.alert containing Conta criada com sucesso!"}
+{"level":30,"time":"2025-10-13T10:42:56.633Z","pid":12968,"hostname":"MarceloNote","msg":"End of node method getText"}
+{"level":30,"time":"2025-10-13T10:42:56.653Z","pid":12968,"hostname":"MarceloNote","msg":"Start of node method getText"}
+{"level":30,"time":"2025-10-13T10:42:56.653Z","pid":12968,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=.alert in page."}
+{"level":30,"time":"2025-10-13T10:42:56.675Z","pid":12968,"hostname":"MarceloNote","msg":"Retrieved text for element css=.alert containing Conta criada com sucesso!"}
+{"level":30,"time":"2025-10-13T10:42:56.675Z","pid":12968,"hostname":"MarceloNote","msg":"End of node method getText"}
+{"level":30,"time":"2025-10-13T10:42:56.694Z","pid":12968,"hostname":"MarceloNote","msg":"Start of node method getText"}
+{"level":30,"time":"2025-10-13T10:42:56.695Z","pid":12968,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=.alert in page."}
+{"level":30,"time":"2025-10-13T10:42:56.715Z","pid":12968,"hostname":"MarceloNote","msg":"Retrieved text for element css=.alert containing Conta criada com sucesso!"}
+{"level":30,"time":"2025-10-13T10:42:56.715Z","pid":12968,"hostname":"MarceloNote","msg":"End of node method getText"}
+{"level":30,"time":"2025-10-13T10:42:56.735Z","pid":12968,"hostname":"MarceloNote","msg":"Start of node method getText"}
+{"level":30,"time":"2025-10-13T10:42:56.735Z","pid":12968,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=.alert in page."}
+{"level":30,"time":"2025-10-13T10:42:56.756Z","pid":12968,"hostname":"MarceloNote","msg":"Retrieved text for element css=.alert containing Conta criada com sucesso!"}
+{"level":30,"time":"2025-10-13T10:42:56.756Z","pid":12968,"hostname":"MarceloNote","msg":"End of node method getText"}
+{"level":30,"time":"2025-10-13T10:42:56.775Z","pid":12968,"hostname":"MarceloNote","msg":"Start of node method getText"}
+{"level":30,"time":"2025-10-13T10:42:56.775Z","pid":12968,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=.alert in page."}
+{"level":30,"time":"2025-10-13T10:42:56.795Z","pid":12968,"hostname":"MarceloNote","msg":"Retrieved text for element css=.alert containing Conta criada com sucesso!"}
+{"level":30,"time":"2025-10-13T10:42:56.795Z","pid":12968,"hostname":"MarceloNote","msg":"End of node method getText"}
+{"level":30,"time":"2025-10-13T10:42:56.815Z","pid":12968,"hostname":"MarceloNote","msg":"Start of node method getText"}
+{"level":30,"time":"2025-10-13T10:42:56.815Z","pid":12968,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=.alert in page."}
+{"level":30,"time":"2025-10-13T10:42:56.834Z","pid":12968,"hostname":"MarceloNote","msg":"Retrieved text for element css=.alert containing Conta criada com sucesso!"}
+{"level":30,"time":"2025-10-13T10:42:56.834Z","pid":12968,"hostname":"MarceloNote","msg":"End of node method getText"}
+{"level":30,"time":"2025-10-13T10:42:56.853Z","pid":12968,"hostname":"MarceloNote","msg":"Start of node method getText"}
+{"level":30,"time":"2025-10-13T10:42:56.853Z","pid":12968,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=.alert in page."}
+{"level":30,"time":"2025-10-13T10:42:56.873Z","pid":12968,"hostname":"MarceloNote","msg":"Retrieved text for element css=.alert containing Conta criada com sucesso!"}
+{"level":30,"time":"2025-10-13T10:42:56.873Z","pid":12968,"hostname":"MarceloNote","msg":"End of node method getText"}
+{"level":30,"time":"2025-10-13T10:42:56.892Z","pid":12968,"hostname":"MarceloNote","msg":"Start of node method getText"}
+{"level":30,"time":"2025-10-13T10:42:56.892Z","pid":12968,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=.alert in page."}
+{"level":30,"time":"2025-10-13T10:42:56.912Z","pid":12968,"hostname":"MarceloNote","msg":"Retrieved text for element css=.alert containing Conta criada com sucesso!"}
+{"level":30,"time":"2025-10-13T10:42:56.912Z","pid":12968,"hostname":"MarceloNote","msg":"End of node method getText"}
+{"level":30,"time":"2025-10-13T10:42:56.932Z","pid":12968,"hostname":"MarceloNote","msg":"Start of node method getText"}
+{"level":30,"time":"2025-10-13T10:42:56.932Z","pid":12968,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=.alert in page."}
+{"level":30,"time":"2025-10-13T10:42:56.953Z","pid":12968,"hostname":"MarceloNote","msg":"Retrieved text for element css=.alert containing Conta criada com sucesso!"}
+{"level":30,"time":"2025-10-13T10:42:56.954Z","pid":12968,"hostname":"MarceloNote","msg":"End of node method getText"}
+{"level":30,"time":"2025-10-13T10:42:56.974Z","pid":12968,"hostname":"MarceloNote","msg":"Start of node method getText"}
+{"level":30,"time":"2025-10-13T10:42:56.974Z","pid":12968,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=.alert in page."}
+{"level":30,"time":"2025-10-13T10:42:56.997Z","pid":12968,"hostname":"MarceloNote","msg":"Retrieved text for element css=.alert containing Conta criada com sucesso!"}
+{"level":30,"time":"2025-10-13T10:42:56.997Z","pid":12968,"hostname":"MarceloNote","msg":"End of node method getText"}
+{"level":30,"time":"2025-10-13T10:42:57.017Z","pid":12968,"hostname":"MarceloNote","msg":"Start of node method getText"}
+{"level":30,"time":"2025-10-13T10:42:57.017Z","pid":12968,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=.alert in page."}
+{"level":30,"time":"2025-10-13T10:42:57.042Z","pid":12968,"hostname":"MarceloNote","msg":"Retrieved text for element css=.alert containing Conta criada com sucesso!"}
+{"level":30,"time":"2025-10-13T10:42:57.042Z","pid":12968,"hostname":"MarceloNote","msg":"End of node method getText"}
+{"level":30,"time":"2025-10-13T10:42:57.063Z","pid":12968,"hostname":"MarceloNote","msg":"Start of node method getText"}
+{"level":30,"time":"2025-10-13T10:42:57.063Z","pid":12968,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=.alert in page."}
+{"level":30,"time":"2025-10-13T10:42:57.085Z","pid":12968,"hostname":"MarceloNote","msg":"Retrieved text for element css=.alert containing Conta criada com sucesso!"}
+{"level":30,"time":"2025-10-13T10:42:57.085Z","pid":12968,"hostname":"MarceloNote","msg":"End of node method getText"}
+{"level":30,"time":"2025-10-13T10:42:57.105Z","pid":12968,"hostname":"MarceloNote","msg":"Start of node method getText"}
+{"level":30,"time":"2025-10-13T10:42:57.106Z","pid":12968,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=.alert in page."}
+{"level":30,"time":"2025-10-13T10:42:57.131Z","pid":12968,"hostname":"MarceloNote","msg":"Retrieved text for element css=.alert containing Conta criada com sucesso!"}
+{"level":30,"time":"2025-10-13T10:42:57.131Z","pid":12968,"hostname":"MarceloNote","msg":"End of node method getText"}
+{"level":30,"time":"2025-10-13T10:42:57.150Z","pid":12968,"hostname":"MarceloNote","msg":"Start of node method getText"}
+{"level":30,"time":"2025-10-13T10:42:57.150Z","pid":12968,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=.alert in page."}
+{"level":30,"time":"2025-10-13T10:42:57.171Z","pid":12968,"hostname":"MarceloNote","msg":"Retrieved text for element css=.alert containing Conta criada com sucesso!"}
+{"level":30,"time":"2025-10-13T10:42:57.171Z","pid":12968,"hostname":"MarceloNote","msg":"End of node method getText"}
+{"level":30,"time":"2025-10-13T10:42:57.193Z","pid":12968,"hostname":"MarceloNote","msg":"Start of node method getText"}
+{"level":30,"time":"2025-10-13T10:42:57.193Z","pid":12968,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=.alert in page."}
+{"level":30,"time":"2025-10-13T10:42:57.213Z","pid":12968,"hostname":"MarceloNote","msg":"Retrieved text for element css=.alert containing Conta criada com sucesso!"}
+{"level":30,"time":"2025-10-13T10:42:57.213Z","pid":12968,"hostname":"MarceloNote","msg":"End of node method getText"}
+{"level":30,"time":"2025-10-13T10:42:57.232Z","pid":12968,"hostname":"MarceloNote","msg":"Start of node method getText"}
+{"level":30,"time":"2025-10-13T10:42:57.232Z","pid":12968,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=.alert in page."}
+{"level":30,"time":"2025-10-13T10:42:57.253Z","pid":12968,"hostname":"MarceloNote","msg":"Retrieved text for element css=.alert containing Conta criada com sucesso!"}
+{"level":30,"time":"2025-10-13T10:42:57.254Z","pid":12968,"hostname":"MarceloNote","msg":"End of node method getText"}
+{"level":30,"time":"2025-10-13T10:42:57.273Z","pid":12968,"hostname":"MarceloNote","msg":"Start of node method getText"}
+{"level":30,"time":"2025-10-13T10:42:57.273Z","pid":12968,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=.alert in page."}
+{"level":30,"time":"2025-10-13T10:42:57.315Z","pid":12968,"hostname":"MarceloNote","msg":"Retrieved text for element css=.alert containing Conta criada com sucesso!"}
+{"level":30,"time":"2025-10-13T10:42:57.315Z","pid":12968,"hostname":"MarceloNote","msg":"End of node method getText"}
+{"level":30,"time":"2025-10-13T10:42:57.334Z","pid":12968,"hostname":"MarceloNote","msg":"Start of node method getText"}
+{"level":30,"time":"2025-10-13T10:42:57.335Z","pid":12968,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=.alert in page."}
+{"level":30,"time":"2025-10-13T10:42:57.357Z","pid":12968,"hostname":"MarceloNote","msg":"Retrieved text for element css=.alert containing Conta criada com sucesso!"}
+{"level":30,"time":"2025-10-13T10:42:57.357Z","pid":12968,"hostname":"MarceloNote","msg":"End of node method getText"}
+{"level":30,"time":"2025-10-13T10:42:57.380Z","pid":12968,"hostname":"MarceloNote","msg":"Start of node method getText"}
+{"level":30,"time":"2025-10-13T10:42:57.380Z","pid":12968,"hostname":"MarceloNote","msg":"Strict mode is enabled, find Locator with css=.alert in page."}
+{"level":30,"time":"2025-10-13T10:42:58.034Z","pid":12968,"hostname":"MarceloNote","msg":"Removed page=de5c5572-b2d4-4edd-81c5-906ab525c1cc from context=eca67233-caa6-4a20-9925-5d3ba6e52102 page stack"}
+{"level":50,"time":"2025-10-13T10:42:58.036Z","pid":12968,"hostname":"MarceloNote","err":{"type":"TargetClosedError","message":"locator.elementHandle: Target page, context or browser has been closed\nCall log:\n\u001b[2m  - waiting for locator('.alert')\u001b[22m\n","stack":"locator.elementHandle: Target page, context or browser has been closed\nCall log:\n\u001b[2m  - waiting for locator('.alert')\u001b[22m\n\n    at getTextContent (C:\\Users\\marce\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\Browser\\wrapper\\index.js:11580:33)\n    at getText (C:\\Users\\marce\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\Browser\\wrapper\\index.js:11594:21)\n    at async PlaywrightServer.getText (C:\\Users\\marce\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\Browser\\wrapper\\index.js:13137:28)"},"msg":"locator.elementHandle: Target page, context or browser has been closed\nCall log:\n\u001b[2m  - waiting for locator('.alert')\u001b[22m\n"}
+{"level":30,"time":"2025-10-13T10:42:58.037Z","pid":12968,"hostname":"MarceloNote","msg":"Error of node method  getText"}
+================= Original suppressed error =================
+locator.elementHandle: Target page, context or browser has been closed
+Call log:
+[2m  - waiting for locator('.alert')[22m
+
+    at getTextContent (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11580:33)
+    at getText (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11594:21)
+    at async PlaywrightServer.getText (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13137:28)
+=============================================================
+{"level":30,"time":"2025-10-13T10:42:58.080Z","pid":12968,"hostname":"MarceloNote","msg":"Start of node method takeScreenshot"}
+================= Original suppressed error =================
+Error: Tried to take screenshot, but no page was open.
+    at exists (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:10725:11)
+    at takeScreenshot (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:10769:3)
+    at PlaywrightServer.takeScreenshot (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13137:34)
+    at Object.onReceiveHalfClose (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:531:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+{"level":30,"time":"2025-10-13T10:42:58.081Z","pid":12968,"hostname":"MarceloNote","msg":"Error of node method  takeScreenshot"}
+================= Original suppressed error =================
+Error: No page open.
+    at PlaywrightServer.getActivePage (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13128:24)
+    at PlaywrightServer.getUrl (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13388:42)
+    at Object.onReceiveHalfClose (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:531:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+================= Original suppressed error =================
+Error: No page open.
+    at PlaywrightServer.getActivePage (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13128:24)
+    at PlaywrightServer.getUrl (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13388:42)
+    at Object.onReceiveHalfClose (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:531:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+================= Original suppressed error =================
+Error: No page open.
+    at PlaywrightServer.getActivePage (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13128:24)
+    at PlaywrightServer.getUrl (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13388:42)
+    at Object.onReceiveHalfClose (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:531:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+================= Original suppressed error =================
+Error: No page open.
+    at PlaywrightServer.getActivePage (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13128:24)
+    at PlaywrightServer.getUrl (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13388:42)
+    at Object.onReceiveHalfClose (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:531:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+================= Original suppressed error =================
+Error: No page open.
+    at PlaywrightServer.getActivePage (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13128:24)
+    at PlaywrightServer.getUrl (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13388:42)
+    at Object.onReceiveHalfClose (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:531:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+================= Original suppressed error =================
+Error: No page open.
+    at PlaywrightServer.getActivePage (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13128:24)
+    at PlaywrightServer.getUrl (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13388:42)
+    at Object.onReceiveHalfClose (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:531:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+================= Original suppressed error =================
+Error: No page open.
+    at PlaywrightServer.getActivePage (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13128:24)
+    at PlaywrightServer.getUrl (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13388:42)
+    at Object.onReceiveHalfClose (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:531:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+================= Original suppressed error =================
+Error: No page open.
+    at PlaywrightServer.getActivePage (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13128:24)
+    at PlaywrightServer.getUrl (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13388:42)
+    at Object.onReceiveHalfClose (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:531:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+================= Original suppressed error =================
+Error: No page open.
+    at PlaywrightServer.getActivePage (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13128:24)
+    at PlaywrightServer.getUrl (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13388:42)
+    at Object.onReceiveHalfClose (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:531:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+================= Original suppressed error =================
+Error: No page open.
+    at PlaywrightServer.getActivePage (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13128:24)
+    at PlaywrightServer.getUrl (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13388:42)
+    at Object.onReceiveHalfClose (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:531:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+================= Original suppressed error =================
+Error: No page open.
+    at PlaywrightServer.getActivePage (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13128:24)
+    at PlaywrightServer.getUrl (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13388:42)
+    at Object.onReceiveHalfClose (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:531:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+================= Original suppressed error =================
+Error: No page open.
+    at PlaywrightServer.getActivePage (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13128:24)
+    at PlaywrightServer.getUrl (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13388:42)
+    at Object.onReceiveHalfClose (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:531:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+================= Original suppressed error =================
+Error: No page open.
+    at PlaywrightServer.getActivePage (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13128:24)
+    at PlaywrightServer.getUrl (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13388:42)
+    at Object.onReceiveHalfClose (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:531:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+================= Original suppressed error =================
+Error: No page open.
+    at PlaywrightServer.getActivePage (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13128:24)
+    at PlaywrightServer.getUrl (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13388:42)
+    at Object.onReceiveHalfClose (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:531:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+================= Original suppressed error =================
+Error: No page open.
+    at PlaywrightServer.getActivePage (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13128:24)
+    at PlaywrightServer.getUrl (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13388:42)
+    at Object.onReceiveHalfClose (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:531:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+================= Original suppressed error =================
+Error: No page open.
+    at PlaywrightServer.getActivePage (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13128:24)
+    at PlaywrightServer.getUrl (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13388:42)
+    at Object.onReceiveHalfClose (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:531:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+================= Original suppressed error =================
+Error: No page open.
+    at PlaywrightServer.getActivePage (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13128:24)
+    at PlaywrightServer.getUrl (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13388:42)
+    at Object.onReceiveHalfClose (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:531:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+================= Original suppressed error =================
+Error: No page open.
+    at PlaywrightServer.getActivePage (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13128:24)
+    at PlaywrightServer.getUrl (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13388:42)
+    at Object.onReceiveHalfClose (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:531:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+================= Original suppressed error =================
+Error: No page open.
+    at PlaywrightServer.getActivePage (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13128:24)
+    at PlaywrightServer.getUrl (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13388:42)
+    at Object.onReceiveHalfClose (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:531:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+================= Original suppressed error =================
+Error: No page open.
+    at PlaywrightServer.getActivePage (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13128:24)
+    at PlaywrightServer.getUrl (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13388:42)
+    at Object.onReceiveHalfClose (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:531:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+================= Original suppressed error =================
+Error: No page open.
+    at PlaywrightServer.getActivePage (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13128:24)
+    at PlaywrightServer.getUrl (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13388:42)
+    at Object.onReceiveHalfClose (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:531:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+================= Original suppressed error =================
+Error: No page open.
+    at PlaywrightServer.getActivePage (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13128:24)
+    at PlaywrightServer.getUrl (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13388:42)
+    at Object.onReceiveHalfClose (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:531:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+================= Original suppressed error =================
+Error: No page open.
+    at PlaywrightServer.getActivePage (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13128:24)
+    at PlaywrightServer.getUrl (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13388:42)
+    at Object.onReceiveHalfClose (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:531:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+================= Original suppressed error =================
+Error: No page open.
+    at PlaywrightServer.getActivePage (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13128:24)
+    at PlaywrightServer.getUrl (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13388:42)
+    at Object.onReceiveHalfClose (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:531:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+================= Original suppressed error =================
+Error: No page open.
+    at PlaywrightServer.getActivePage (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13128:24)
+    at PlaywrightServer.getUrl (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13388:42)
+    at Object.onReceiveHalfClose (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:531:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+================= Original suppressed error =================
+Error: No page open.
+    at PlaywrightServer.getActivePage (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13128:24)
+    at PlaywrightServer.getUrl (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13388:42)
+    at Object.onReceiveHalfClose (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:531:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+================= Original suppressed error =================
+Error: No page open.
+    at PlaywrightServer.getActivePage (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13128:24)
+    at PlaywrightServer.getUrl (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13388:42)
+    at Object.onReceiveHalfClose (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:531:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+================= Original suppressed error =================
+Error: No page open.
+    at PlaywrightServer.getActivePage (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13128:24)
+    at PlaywrightServer.getUrl (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13388:42)
+    at Object.onReceiveHalfClose (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:531:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+================= Original suppressed error =================
+Error: No page open.
+    at PlaywrightServer.getActivePage (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13128:24)
+    at PlaywrightServer.getUrl (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13388:42)
+    at Object.onReceiveHalfClose (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:531:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+================= Original suppressed error =================
+Error: No page open.
+    at PlaywrightServer.getActivePage (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13128:24)
+    at PlaywrightServer.getUrl (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13388:42)
+    at Object.onReceiveHalfClose (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:531:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+================= Original suppressed error =================
+Error: No page open.
+    at PlaywrightServer.getActivePage (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13128:24)
+    at PlaywrightServer.getUrl (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13388:42)
+    at Object.onReceiveHalfClose (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:531:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+================= Original suppressed error =================
+Error: No page open.
+    at PlaywrightServer.getActivePage (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13128:24)
+    at PlaywrightServer.getUrl (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13388:42)
+    at Object.onReceiveHalfClose (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:531:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+================= Original suppressed error =================
+Error: No page open.
+    at PlaywrightServer.getActivePage (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13128:24)
+    at PlaywrightServer.getUrl (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13388:42)
+    at Object.onReceiveHalfClose (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:531:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+================= Original suppressed error =================
+Error: No page open.
+    at PlaywrightServer.getActivePage (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13128:24)
+    at PlaywrightServer.getUrl (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13388:42)
+    at Object.onReceiveHalfClose (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:531:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+================= Original suppressed error =================
+Error: No page open.
+    at PlaywrightServer.getActivePage (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13128:24)
+    at PlaywrightServer.getUrl (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13388:42)
+    at Object.onReceiveHalfClose (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:531:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+================= Original suppressed error =================
+Error: No page open.
+    at PlaywrightServer.getActivePage (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13128:24)
+    at PlaywrightServer.getUrl (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13388:42)
+    at Object.onReceiveHalfClose (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:531:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+================= Original suppressed error =================
+Error: No page open.
+    at PlaywrightServer.getActivePage (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13128:24)
+    at PlaywrightServer.getUrl (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13388:42)
+    at Object.onReceiveHalfClose (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:531:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+================= Original suppressed error =================
+Error: No page open.
+    at PlaywrightServer.getActivePage (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13128:24)
+    at PlaywrightServer.getUrl (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13388:42)
+    at Object.onReceiveHalfClose (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:531:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+================= Original suppressed error =================
+Error: No page open.
+    at PlaywrightServer.getActivePage (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13128:24)
+    at PlaywrightServer.getUrl (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13388:42)
+    at Object.onReceiveHalfClose (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:531:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+================= Original suppressed error =================
+Error: No page open.
+    at PlaywrightServer.getActivePage (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13128:24)
+    at PlaywrightServer.getUrl (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13388:42)
+    at Object.onReceiveHalfClose (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:531:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+================= Original suppressed error =================
+Error: No page open.
+    at PlaywrightServer.getActivePage (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13128:24)
+    at PlaywrightServer.getUrl (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13388:42)
+    at Object.onReceiveHalfClose (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:531:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+================= Original suppressed error =================
+Error: No page open.
+    at PlaywrightServer.getActivePage (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13128:24)
+    at PlaywrightServer.getUrl (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13388:42)
+    at Object.onReceiveHalfClose (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:531:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+================= Original suppressed error =================
+Error: No page open.
+    at PlaywrightServer.getActivePage (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13128:24)
+    at PlaywrightServer.getUrl (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13388:42)
+    at Object.onReceiveHalfClose (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:531:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+================= Original suppressed error =================
+Error: No page open.
+    at PlaywrightServer.getActivePage (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13128:24)
+    at PlaywrightServer.getUrl (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13388:42)
+    at Object.onReceiveHalfClose (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:531:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+================= Original suppressed error =================
+Error: No page open.
+    at PlaywrightServer.getActivePage (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13128:24)
+    at PlaywrightServer.getUrl (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13388:42)
+    at Object.onReceiveHalfClose (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:531:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+================= Original suppressed error =================
+Error: No page open.
+    at PlaywrightServer.getActivePage (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13128:24)
+    at PlaywrightServer.getUrl (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13388:42)
+    at Object.onReceiveHalfClose (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:531:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+================= Original suppressed error =================
+Error: No page open.
+    at PlaywrightServer.getActivePage (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13128:24)
+    at PlaywrightServer.getUrl (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13388:42)
+    at Object.onReceiveHalfClose (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:531:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+================= Original suppressed error =================
+Error: No page open.
+    at PlaywrightServer.getActivePage (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13128:24)
+    at PlaywrightServer.getUrl (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13388:42)
+    at Object.onReceiveHalfClose (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:531:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+================= Original suppressed error =================
+Error: No page open.
+    at PlaywrightServer.getActivePage (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13128:24)
+    at PlaywrightServer.getUrl (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13388:42)
+    at Object.onReceiveHalfClose (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:531:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+{"level":30,"time":"2025-10-13T10:42:59.173Z","pid":12968,"hostname":"MarceloNote","msg":"Start of node method takeScreenshot"}
+================= Original suppressed error =================
+Error: Tried to take screenshot, but no page was open.
+    at exists (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:10725:11)
+    at takeScreenshot (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:10769:3)
+    at PlaywrightServer.takeScreenshot (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13137:34)
+    at Object.onReceiveHalfClose (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\marce\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:531:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+{"level":30,"time":"2025-10-13T10:42:59.174Z","pid":12968,"hostname":"MarceloNote","msg":"Error of node method  takeScreenshot"}

@@ -5,7 +5,7 @@ Resource         ../resources/keywords/auth_keywords.resource
 Resource         ../resources/keywords/movie_keywords.resource
 Suite Setup      Setup Movie Tests
 Suite Teardown   Teardown Test Session
-Test Tags        movies    films
+Test Tags        movies
 
 *** Variables ***
 ${ADMIN_TOKEN}    ${EMPTY}
@@ -16,7 +16,7 @@ ${MOVIE_ID}       ${EMPTY}
 # US-HOME-001 & US-MOVIE-001: Navegar na Lista de Filmes
 Test Get All Movies Without Authentication
     [Documentation]    Testa obtenção de filmes sem autenticação (público)
-    [Tags]    movies    public    positive
+    [Tags]    US-MOVIE-001
     ${response}=    Get All Movies Successfully
     
     ${json_response}=    Set Variable    ${response.json()}
@@ -25,7 +25,7 @@ Test Get All Movies Without Authentication
 
 Test Get All Movies With Pagination
     [Documentation]    Testa paginação da lista de filmes
-    [Tags]    movies    pagination    positive
+    [Tags]    US-MOVIE-001
     &{params}=    Create Dictionary    page=1    limit=5
     ${response}=    Get All Movies Successfully    ${params}
     
@@ -36,7 +36,7 @@ Test Get All Movies With Pagination
 
 Test Search Movies By Title
     [Documentation]    Testa busca de filmes por título
-    [Tags]    movies    search    positive
+    [Tags]    US-MOVIE-001
     Skip If    '${ADMIN_TOKEN}' == '${EMPTY}'    Token admin não disponível
     
     # Busca por título genérico
@@ -44,20 +44,20 @@ Test Search Movies By Title
 
 Test Search Movies By Genre
     [Documentation]    Testa busca de filmes por gênero
-    [Tags]    movies    search    positive
+    [Tags]    US-MOVIE-001
     &{params}=    Create Dictionary    genre=Ação
     ${response}=    Get All Movies Successfully    ${params}
 
 Test Sort Movies By Release Date
     [Documentation]    Testa ordenação de filmes por data de lançamento
-    [Tags]    movies    sort    positive
+    [Tags]    US-MOVIE-001
     &{params}=    Create Dictionary    sort=releaseDate
     ${response}=    Get All Movies Successfully    ${params}
 
 # US-MOVIE-002: Visualizar Detalhes do Filme
 Test Get Movie By Valid ID
     [Documentation]    Testa obtenção de filme por ID válido
-    [Tags]    movies    details    positive
+    [Tags]    US-MOVIE-002
     Skip If    '${MOVIE_ID}' == '${EMPTY}'    ID do filme não disponível
     ${response}=    Get Movie By ID Successfully    ${MOVIE_ID}
     
@@ -72,20 +72,20 @@ Test Get Movie By Valid ID
 
 Test Get Movie By Invalid ID
     [Documentation]    Testa obtenção de filme com ID inválido
-    [Tags]    movies    details    negative
+    [Tags]    US-MOVIE-002
     ${response}=    Get Movie By ID    id_invalido
     Should Be Equal As Integers    ${response.status_code}    404
 
 Test Get Movie By Nonexistent ID
     [Documentation]    Testa obtenção de filme com ID inexistente
-    [Tags]    movies    details    negative
+    [Tags]    US-MOVIE-002
     ${response}=    Get Movie By ID    507f1f77bcf86cd799439011
     Validate Movie Not Found    ${response}
 
 # Testes de acesso negado para funcionalidades de admin
 Test Create Movie Without Admin Token
     [Documentation]    Testa criação de filme sem token admin
-    [Tags]    movies    admin    create    negative
+    [Tags]    US-ADMIN-001
     Skip If    '${USER_TOKEN}' == '${EMPTY}'    Token usuário não disponível
     
     ${movie_data}=    Generate Random Movie Data
@@ -94,7 +94,7 @@ Test Create Movie Without Admin Token
 
 Test Create Movie Without Authentication
     [Documentation]    Testa criação de filme sem autenticação
-    [Tags]    movies    admin    create    negative
+    [Tags]    US-ADMIN-001
     ${movie_data}=    Generate Random Movie Data
     ${response}=    POST On Session    ${SESSION}    /movies
     ...    json=${movie_data}
@@ -105,7 +105,7 @@ Test Create Movie Without Authentication
 # Testes de Performance e Limites
 Test Get Movies With Large Limit
     [Documentation]    Testa obtenção de filmes com limite alto
-    [Tags]    movies    performance    positive
+    [Tags]    US-MOVIE-001
     &{params}=    Create Dictionary    limit=100
     ${response}=    Get All Movies Successfully    ${params}
     
@@ -115,7 +115,7 @@ Test Get Movies With Large Limit
 
 Test Movie Data Validation
     [Documentation]    Testa validação completa dos dados do filme
-    [Tags]    movies    validation    positive
+    [Tags]    US-MOVIE-002
     Skip If    '${MOVIE_ID}' == '${EMPTY}'    ID do filme não disponível
     
     ${response}=    Get Movie By ID Successfully    ${MOVIE_ID}

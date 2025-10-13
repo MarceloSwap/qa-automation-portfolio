@@ -10,7 +10,6 @@ Test Teardown     Take Screenshot
 *** Test Cases ***
 CT-Auth-006 Deve permitir login com credenciais válidas
     [Documentation]    Verifica se usuário pode fazer login com email e senha corretos
-    [Tags]    auth    login    positive
     
     ${user}    Create Dictionary
     ...    name=CT-Auth-006 Login Válido
@@ -26,7 +25,6 @@ CT-Auth-006 Deve permitir login com credenciais válidas
 
 CT-Auth-007 Não deve permitir login com credenciais inválidas
     [Documentation]    Verifica se sistema rejeita credenciais incorretas
-    [Tags]    auth    login    negative
     
     ${user}    Create Dictionary
     ...    name=CT-Auth-007 Login Inválido
@@ -47,11 +45,8 @@ CT-Auth-007 Não deve permitir login com credenciais inválidas
     Should Contain    ${current_url}    /login
    
 
-
-
 CT-Auth-008 Deve manter sessão através de token JWT
     [Documentation]    Verifica se sistema mantém sessão do usuário
-    [Tags]    auth    login    session    positive
     
     ${user}    Create Dictionary
     ...    name=CT-Auth-008 Sessão JWT
@@ -76,7 +71,6 @@ CT-Auth-008 Deve manter sessão através de token JWT
 
 CT-Auth-010 Não deve permitir login com email não cadastrado
     [Documentation]    Verifica se sistema rejeita email não existente
-    [Tags]    auth    login    negative
     
     ${user}    Create Dictionary
     ...    name=CT-Auth-010 Email Inexistente

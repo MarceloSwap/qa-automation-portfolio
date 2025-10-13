@@ -1,5 +1,10 @@
 # Cinema App Robot Framework - Testes E2E
 
+Plano de Teste FrontEnd Cinema
+https://marcelofs.atlassian.net/wiki/external/YmE5OGY3YjMzZmUwNGZkOGI1Y2QyZTMzYTQ2MTNiNWM
+
+
+
 ## 📋 Descrição
 
 Testes automatizados E2E para o Sistema de Cinema utilizando Robot Framework com Browser Library (Playwright) para automação de interface web.
