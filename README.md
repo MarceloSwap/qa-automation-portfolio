@@ -1,298 +1,131 @@
-# Repositório PB – Compass
+# QA Portfolio – Marcelo F. S.
 
-Projeto final - Plano de teste Backend
-https://marcelofs.atlassian.net/wiki/external/ZTUwN2UxYmUwMWJhNDUwNTlkZmYxNGIwNGJmMGU3MTI
-
-Projeto final - plano de teste Frontend
-https://marcelofs.atlassian.net/wiki/external/YmE5OGY3YjMzZmUwNGZkOGI1Y2QyZTMzYTQ2MTNiNWM
-
-
-
-## 📋 Descrição
-
-Este repositório centraliza todos os arquivos importantes produzidos ao longo das Sprints do programa PB Compass, incluindo planejamentos de testes, automações, documentações e entregas de qualidade.
-
-## 🗂️ Estrutura do Projeto
-
-```
-pb-compass/
-├── Challenge-final/                # Desafio Final - Sistema de Cinema
-│   ├── cinema-challenge-back/      # API Backend do Cinema
-│   ├── cinema-challenge-front/     # Frontend React do Cinema
-│   ├── cinema-robot-express/       # Testes E2E Robot Framework
-│   └── cinema-robot-api/           # Testes API Robot Framework
-├── Documentos/
-│   ├── AtividadesDiversas/          # Apresentações e documentos gerais
-│   ├── MapasMentaisServeRest/       # Mapas mentais dos testes
-│   ├── Postman/                    # Collections e documentação Postman
-│   ├── Prints/                     # Screenshots dos testes
-│   ├── Sprint_03/                  # Jira e Planos de Teste
-│   ├── Sprint_05/                  # Automação Robot Framework - API
-│   │   ├── Reqres/                 # Testes API Reqres
-│   │   ├── ServeRest/              # Testes API ServeRest
-│   │   └── ExemplosEstruturas/     # Exemplos e tutoriais
-│   ├── Sprint_06/                  # Testes Avançados
-│   │   ├── Semana 01/              # Continuação API ServeRest
-│   │   └── Semana 02/              # Testes com EC2
-│   └── Sprint_07/                  # Aplicação Mark85
-│       ├── QAx/
-│       │   ├── apps/
-│       │   │   └── mark85/         # Aplicação Mark85 (API + Web)
-│       │   └── projects/
-│       │       └── mark85-robot-express/ # Testes E2E Robot Framework
-│       └── Semana_01/
-│           └── Atividade-01/       # Mapeamento de Elementos HTML
-├── .gitignore
-└── README.md
-```
-
-## 🚀 Tecnologias Utilizadas
-
-### Automação de Testes
-- **Robot Framework** - Automação de testes API e Web
-- **RequestsLibrary** - Testes de API REST
-- **Browser Library** - Automação web com Playwright
-
-### Desenvolvimento
-- **Node.js + Express** - API REST
-- **MongoDB** - Banco de dados NoSQL
-- **React** - Interface web
-
-### Ferramentas de Gestão
-- **Postman** - Testes manuais e documentação
-- **Jira** - Gestão de issues e planejamento
-- **Confluence** - Documentação de planos de teste
-
-### Infraestrutura
-- **AWS EC2** - Hospedagem de aplicações
-- **MongoDB Atlas** - Banco de dados na nuvem
-
-## 📚 Conteúdo do Repositório
-
-### 🧪 Testes Automatizados
-
-#### Challenge Final - Sistema de Cinema
-- **Cinema API**: Backend completo para sistema de cinema
-- **Cinema Web**: Interface React para gerenciamento de filmes e sessões
-- **Testes API Cinema**: Automação de API com Robot Framework + RequestsLibrary
-- **Testes E2E Cinema**: Automação web com Robot Framework + Browser Library
-- **Funcionalidades**: Autenticação, Filmes, Usuários, Reservas, Navegação
-
-#### Sprint 05 - Testes de API
-- **API Reqres**: Testes automatizados da API https://reqres.in/
-- **API ServeRest**: Testes automatizados da API https://serverest.dev/
-- **Collections Postman**: Testes manuais e documentação
-
-#### Sprint 06 - Testes Avançados
-- **ServeRest EC2**: Testes em ambiente AWS
-- **Keywords Customizadas**: Carrinho, Login, Produtos, Usuários
-
-#### Sprint 07 - Aplicação Mark85
-- **Mark85 API**: API REST completa com autenticação
-- **Mark85 Web**: Interface React para gerenciamento de tarefas
-- **Testes E2E**: Automação com Robot Framework + Browser Library
-- **Mapeamento HTML**: Estratégias de localização de elementos
-
-### 📊 Documentação
-- **Mapas Mentais**: Estratégias de teste visualizadas
-- **Planos de Teste**: Documentação completa no Confluence
-- **Screenshots**: Evidências dos testes executados
-- **Relatórios**: Resultados das execuções
-- **READMEs**: Instruções específicas por projeto
-
-## 🔧 Como Executar os Testes
-
-### Pré-requisitos Gerais
-```bash
-pip install robotframework
-pip install robotframework-requests
-pip install robotframework-browser
-pip install robotframework-jsonlibrary
-pip install robotframework-faker
-pip install pymongo
-pip install bcrypt
-
-# Inicializar Playwright (necessário para Browser Library)
-rfbrowser init
-```
-
-### Challenge Final - Sistema de Cinema
-
-
-
-
-Plano de Teste BackEnd
-
-```bash
-# Iniciar API do Cinema
-cd "Challenge-final/cinema-challenge-back"
-npm install
-npm run dev
-
-# Iniciar Frontend do Cinema (novo terminal)
-cd "Challenge-final/cinema-challenge-front"
-npm install
-npm run dev
-
-# Executar Testes de API (novo terminal)
-cd "Challenge-final/cinema-robot-api"
-
-# Todos os testes de API
-robot -d ./logs tests/
-
-# Testes específicos de API
-robot -d ./logs tests/auth_tests.robot          # Autenticação
-robot -d ./logs tests/movie_tests.robot         # Filmes
-robot -d ./logs tests/user_management_tests.robot # Usuários
-robot -d ./logs tests/reservation_tests.robot   # Reservas
-robot -d ./logs tests/api_integration_tests.robot # Integração
-
-# Executar por tags de API
-robot -d ./logs -i auth tests/                  # Testes de autenticação
-robot -d ./logs -i movies tests/                # Testes de filmes
-robot -d ./logs -i admin tests/                 # Testes administrativos
-robot -d ./logs -i positive tests/              # Testes positivos
-robot -d ./logs -i negative tests/              # Testes negativos
-
-# Script facilitador (Windows)
-run_tests.bat
-
-# Executar Testes E2E Web (novo terminal)
-cd "Challenge-final/cinema-robot-express"
-
-# Todos os testes E2E
-robot -d ./logs tests/
-
-# Teste específico E2E
-robot -d ./logs tests/online.robot
-robot -d ./logs tests/register.robot
-robot -d ./logs tests/login.robot
-robot -d ./logs tests/logout.robot
-robot -d ./logs tests/profile.robot
-
-# Executar por tags E2E
-robot -d ./logs -i online tests/                # Verifica se o site testado está online
-robot -d ./logs -i registerUser tests/          # Cria usuário, verifica se o email já foi utilizado
-robot -d ./logs -i login tests/                 # Login com user pré cadastrado 
-robot -d ./logs -i logout tests/                # Logout de Usuário
-robot -d ./logs -i profile tests/               # Visualizar perfil do usuário após o login, Editar perfil do usuário
-```
-
-### Sprint 05 - Testes de API
-```bash
-# Testes Reqres
-cd "Documentos/Sprint_05/Reqres"
-robot -d reports tests/
-
-# Testes ServeRest
-cd "Documentos/Sprint_05/ServeRest"
-robot -d reports *.robot
-```
-
-### Sprint 06 - Testes com EC2
-```bash
-cd "Documentos/Sprint_06/Semana 02/ServeRest"
-# Ajustar IP no arquivo serveres_variaveis.robot
-robot -d reports tests/
-```
-
-### Sprint 07 - Aplicação Mark85
-```bash
-# Iniciar API
-cd "Documentos/Sprint_07/QAx/apps/mark85/api"
-npm install
-npm run dev
-
-# Iniciar Web (novo terminal)
-cd "Documentos/Sprint_07/QAx/apps/mark85/web"
-npm install
-npm start
-
-# Executar Testes E2E (novo terminal)
-cd "Documentos/Sprint_07/QAx/projects/mark85-robot-express"
-robot -d ./logs tests/
-```
-
-## 📖 Links Importantes
-
-- **[Plano de Teste - Confluence](https://marcelofs.atlassian.net/wiki/external/MzQ4OTg3NGE1YzkzNDdhZGJjNTY4M2UxYjMxNzZkMjA)**
-- **[Documentação Postman](https://documenter.getpostman.com/view/26925285/2sB3BKFTZy)**
-- **[API ServeRest](https://serverest.dev/)**
-- **[API Reqres](https://reqres.in/)**
-
-## 📈 Métricas de Qualidade
-
-### 🎯 **Resultados dos Testes E2E - Sistema de Cinema**
-- **Taxa de Sucesso:** 75.9% (66/87 testes)
-- **Módulos 100% Funcionais:** 5 de 7
-- **Redução de Falhas:** 44% (correções implementadas)
-
-| Módulo | Testes | Passou | Taxa |
-|--------|--------|--------|----- |
-| **Autenticação** | 20 | 20 | 100% ✅ |
-| **Filmes** | 7 | 7 | 100% ✅ |
-| **Navegação** | 10 | 10 | 100% ✅ |
-| **Sistema Online** | 8 | 8 | 100% ✅ |
-| **Home** | 10 | 10 | 100% ✅ |
-| **Reservas** | 32 | 11 | 34% ⚠️ |
-
-### Cobertura de Testes
-- ✅ **API Testing** - Reqres, ServeRest e Cinema API
-- ✅ **E2E Testing** - Mark85 e Sistema de Cinema
-- ✅ **Cross-browser** - Chromium, Firefox, Safari
-- ✅ **Ambientes** - Local, EC2, MongoDB Atlas
-- ✅ **Funcionalidades** - Autenticação, Filmes, Usuários, Navegação, CRUD
-- ⚠️ **Reservas** - Funcionalidade parcialmente implementada
-- ✅ **Papéis de Usuário** - Visitante, Usuário, Administrador
-- ✅ **Responsividade** - Desktop, Tablet, Mobile
-
-### Automação
-- ✅ **Robot Framework** - API e Web
-- ✅ **Browser Library** - Playwright integration
-- ✅ **CI/CD Ready** - Estrutura preparada
-- ✅ **Keywords Reutilizáveis** - Modularização avançada
-- ✅ **Relatórios Visuais** - HTML reports com screenshots
-- ✅ **Tratamento de Erros** - Verificações condicionais
-
-### Documentação
-- ✅ **READMEs Específicos** - Por projeto
-- ✅ **Configurações** - Ambientes e dependências
-- ✅ **Evidências** - Screenshots e logs
-- ✅ **Planos de Teste** - Confluence integrado
-- ✅ **Relatórios Detalhados** - Análise completa de resultados
-
-## ⚠️ Problemas Conhecidos
-
-### **Sistema de Reservas (34% de sucesso)**
-- **Seleção de Assentos:** Funcionalidade não implementada no frontend
-- **Processo de Checkout:** Interface de pagamento ausente
-- **Strict Mode Violations:** Seletores CSS precisam de ajustes
-
-### **Elementos de Interface Ausentes:**
-- `.subtotal`, `.continue-btn` (página de assentos)
-- `input[value="credit_card"]` (checkout)
-- `.reservations-grid` (minhas reservas)
-
-## 🚀 Melhorias Implementadas
-
-### **Correções Realizadas:**
-- ✅ **Keywords de Viewport:** Corrigido `Set Viewport Size` em todos os testes
-- ✅ **Seletores CSS:** Substituído `:first-child` por `>> nth=0`
-- ✅ **Validação de Pôster:** Ajustado dimensões mínimas (100x150px)
-- ✅ **Keywords Ausentes:** Criado `ReservationsPage.resource` com 40+ keywords
-- ✅ **Fluxo de Navegação:** Melhorado navegação entre páginas
-- ✅ **Tratamento de Erros:** Adicionado verificações condicionais
-
-### **Próximos Passos:**
-1. Implementar páginas de seleção de assentos no frontend
-2. Desenvolver fluxo completo de checkout
-3. Criar interface de gerenciamento de reservas
-4. Corrigir seletores CSS restantes
-
-## 👥 Contribuição
-
-Este repositório faz parte do programa de estágio PB Compass e contém as entregas e evoluções das atividades de Quality Assurance.
+> Portfólio de Quality Assurance desenvolvido durante o Programa de Bolsas Compass UOL.
+> Cobre automação de testes API e E2E, planejamento de testes, documentação e infraestrutura em nuvem.
 
 ---
 
-**Desenvolvido durante o Programa PB Compass** 🧭
+## 🧪 Habilidades Demonstradas
+
+| Área | Tecnologias |
+|------|-------------|
+| **Automação API** | Robot Framework + RequestsLibrary |
+| **Automação E2E** | Robot Framework + Browser Library (Playwright) |
+| **Testes Manuais** | Postman, Jira, Confluence |
+| **Linguagens** | Python (libs customizadas), Robot Framework DSL |
+| **Banco de Dados** | MongoDB (validação direta via PyMongo) |
+| **Infraestrutura** | AWS EC2, MongoDB Atlas |
+| **Padrões** | Page Object Model, Keywords reutilizáveis, Data-Driven Testing |
+
+---
+
+## 📁 Estrutura do Repositório
+
+```
+pb-compass/
+├── Challenge-final/                # ⭐ Projeto Principal – Sistema de Cinema
+│   ├── cinema-challenge-back/      # API REST (Node.js + Express + MongoDB)
+│   ├── cinema-challenge-front/     # Frontend (React)
+│   ├── cinema-robot-api/           # Testes de API (Robot Framework)
+│   └── cinema-robot-express/       # Testes E2E (Robot Framework + Playwright)
+├── Documentos/
+│   ├── Sprint_05/                  # Automação API – Reqres e ServeRest
+│   ├── Sprint_06/                  # Testes em ambiente AWS EC2
+│   ├── Sprint_07/                  # Aplicação Mark85 – E2E completo
+│   └── Postman/                    # Collections e evidências de testes manuais
+└── README.md
+```
+
+---
+
+## ⭐ Challenge Final – Sistema de Cinema
+
+Projeto completo de QA sobre uma aplicação de cinema com API REST e frontend React.
+Inclui planejamento, automação de API, automação E2E e documentação.
+
+> ⚠️ **Aplicação sob teste:** Este repositório contém **apenas os testes**.
+> O backend e frontend testados são de terceiros:
+> - [cinema-challenge-back](https://github.com/juniorschmitz/cinema-challenge-back)
+> - [cinema-challenge-front](https://github.com/juniorschmitz/cinema-challenge-front)
+
+- 📄 [Plano de Teste – Backend](https://marcelofs.atlassian.net/wiki/external/ZTUwN2UxYmUwMWJhNDUwNTlkZmYxNGIwNGJmMGU3MTI)
+- 📄 [Plano de Teste – Frontend](https://marcelofs.atlassian.net/wiki/external/YmE5OGY3YjMzZmUwNGZkOGI1Y2QyZTMzYTQ2MTNiNWM)
+
+### Resultados dos Testes E2E
+
+| Módulo | Testes | Passou | Taxa |
+|--------|--------|--------|------|
+| Autenticação | 20 | 20 | 100% ✅ |
+| Filmes | 7 | 7 | 100% ✅ |
+| Navegação | 10 | 10 | 100% ✅ |
+| Sistema Online | 8 | 8 | 100% ✅ |
+| Home | 10 | 10 | 100% ✅ |
+| Reservas | 32 | 11 | 34% ⚠️ |
+| **Total** | **87** | **66** | **75.9%** |
+
+> ⚠️ Reservas: funcionalidade de seleção de assentos e checkout não implementada no frontend.
+
+### Cobertura de Testes de API
+
+- ✅ Autenticação (registro, login, JWT, perfil)
+- ✅ Filmes (CRUD admin, listagem pública, filtros)
+- ✅ Usuários (gerenciamento admin, RBAC)
+- ✅ Reservas (criação, validação de assentos, histórico)
+- ✅ Integração (fluxos completos, controle de acesso)
+
+### Como Executar
+
+```bash
+# 1. Clonar e subir a API
+git clone https://github.com/juniorschmitz/cinema-challenge-back
+cd cinema-challenge-back
+npm install && npm run dev
+
+# 2. Clonar e subir o Frontend
+git clone https://github.com/juniorschmitz/cinema-challenge-front
+cd cinema-challenge-front
+npm install && npm run dev
+
+# 3. Instalar dependências de teste
+pip install robotframework robotframework-requests robotframework-browser robotframework-jsonlibrary robotframework-faker pymongo bcrypt
+rfbrowser init
+
+# 4. Rodar testes de API
+cd Challenge-final/cinema-robot-api
+robot -d ./logs tests/
+
+# 5. Rodar testes E2E
+cd Challenge-final/cinema-robot-express
+robot -d ./logs tests/
+```
+
+---
+
+## 📚 Sprints Anteriores
+
+### Sprint 05 – Automação de API
+- Testes automatizados das APIs [Reqres](https://reqres.in/) e [ServeRest](https://serverest.dev/)
+- Keywords customizadas para Login, Usuários, Produtos e Carrinho
+- Collections Postman com evidências
+
+### Sprint 06 – Testes em Nuvem (AWS EC2)
+- Execução de testes em instância EC2
+- Configuração de ambiente remoto
+- Plano de teste refinado com rastreabilidade no Jira
+
+### Sprint 07 – Aplicação Mark85
+- API REST + Frontend React (gerenciamento de tarefas)
+- Testes E2E com Robot Framework + Browser Library
+- Mapeamento de elementos HTML e estratégias de localização
+
+---
+
+## 🔗 Links
+
+- [Documentação Postman](https://documenter.getpostman.com/view/26925285/2sB3BKFTZy)
+- [API ServeRest](https://serverest.dev/)
+- [API Reqres](https://reqres.in/)
+
+---
+
+*Desenvolvido durante o Programa de Bolsas Compass UOL – Trilha QA* 🧭
